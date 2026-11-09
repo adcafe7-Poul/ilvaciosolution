@@ -1,0 +1,50 @@
+/* ILVACIO SOLUTION 웹페이지 공용 꾸밈 — 오늘의 비트 S 앱과 같은 남색 · 금빛 · 청록 결 */
+:root{--bg:#080d21;--panel:#111a3d;--line:#26325f;--ink:#eef3ff;--muted:#aab8db;--gold:#ffd33d;--cyan:#00dcff;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:radial-gradient(1200px 700px at 70% -10%,#1b2a6b 0,transparent 60%),var(--bg);color:var(--ink);font:16px/1.7 "Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif}
+a{color:var(--cyan)}
+img{max-width:100%;display:block}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0}
+.brand{font-weight:800;letter-spacing:.14em;font-size:14px;color:var(--ink);text-decoration:none}
+.lang a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:12px}
+.lang a[aria-current]{color:var(--gold);font-weight:700}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:40px 0 56px}
+.app-id{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.app-id img{width:72px;height:72px;border-radius:18px}
+.app-id small{display:block;color:var(--cyan);letter-spacing:.12em;font-size:12px;font-weight:700}
+h1{font-size:clamp(36px,6vw,60px);line-height:1.1;margin:0 0 6px;font-weight:900;letter-spacing:-.04em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ffdb25,#ff7842,#ff399c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:#ffc46b;font-weight:700;margin:0 0 18px}
+.lead{font-size:clamp(18px,2.4vw,22px);margin:0 0 10px;font-weight:700}
+.hero p{color:var(--muted);margin:0 0 24px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;background:linear-gradient(180deg,#ffe066,#f5b400);color:#2a1a00;font-weight:800;text-decoration:none;box-shadow:0 8px 28px #f5b40044}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--line);box-shadow:none;font-weight:700}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.hero .shot{justify-self:center;width:min(320px,80vw);border-radius:28px;border:1px solid var(--line);box-shadow:0 30px 80px #000a}
+section{padding:48px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(24px,3.4vw,32px);margin:0 0 24px;letter-spacing:-.02em}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.shots{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.shots figure{margin:0}
+.shots img{border-radius:16px;border:1px solid var(--line)}
+.shots figcaption{text-align:center;color:var(--muted);font-size:14px;margin-top:8px}
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.plans ul{margin:10px 0 0;padding-left:20px;color:var(--muted)}
+.plans .pro{border-color:#7a6420;background:linear-gradient(180deg,#2a2410,var(--panel))}
+.plans .pro h3{color:var(--gold)}
+.links{display:flex;flex-wrap:wrap;gap:12px}
+footer{padding:32px 0 48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+footer a{color:var(--muted)}
+@media(max-width:860px){
+  .hero{grid-template-columns:1fr;padding-top:16px}
+  .grid{grid-template-columns:1fr 1fr}
+  .shots{grid-template-columns:1fr 1fr}
+  .plans{grid-template-columns:1fr}
+}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}

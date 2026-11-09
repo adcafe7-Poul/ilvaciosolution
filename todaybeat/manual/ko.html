@@ -1,0 +1,341 @@
+<!doctype html>
+<!-- 오늘의 비트 S 사용 설명서 — 한국어 -->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d21">
+<meta name="description" content="오늘의 비트 S (Korean Version) 사용 설명서 — 골드버튼 · 카운트인 · 박자와 장르 · 영감 터뜨리기 · FX 소리 · 키트 · 흔들기 · 마디로 놀자 · 레코드 · 무료와 프로">
+<title>오늘의 비트 S · 사용 설명서</title>
+<style>
+:root{--bg:#080d21;--ink:#eef3ff;--muted:#aab8db;--gold:#ffd33d;--cyan:#00dcff;--pink:#ff3c91;--purple:#a36cff;--card:#111a3acc;--line:#4b8aff55;--font:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:15px/1.75 var(--font);background:radial-gradient(circle at 7% 2%,#1140a743,transparent 34rem),radial-gradient(circle at 92% 18%,#ad166f22,transparent 32rem),var(--bg);overflow-wrap:anywhere;word-break:keep-all}
+.wrap{max-width:760px;margin:0 auto;padding:16px 16px 48px}
+.top{display:flex;flex-direction:column;gap:8px;margin-bottom:10px}.back{align-self:flex-start;color:#ffe36b;text-decoration:none;font-weight:800;font-size:14px;border:1px solid #ffd33d77;border-radius:999px;padding:6px 14px;background:#ffd33d14}.langs{display:flex;flex-wrap:wrap;gap:5px}.langs a{color:#c8d8ff;text-decoration:none;border:1px solid #4e70a8;border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:700;background:#132449cc;white-space:nowrap}
+
+.langs a[aria-current]{background:linear-gradient(90deg,#ff3d9d,#ffbd1c);border-color:#ffe36b;color:#fff}
+header.hero{text-align:center;padding:18px 0 8px}
+.brand{font-size:12px;letter-spacing:.14em;color:var(--cyan);font-weight:800}
+h1{font-size:clamp(30px,9vw,46px);line-height:1.15;margin:6px 0 4px;letter-spacing:-.04em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ffdb25,#ff7842,#ff399c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ver{margin:0 0 6px;font-size:13px;font-weight:800;letter-spacing:.12em;color:var(--muted)}
+.lead{color:var(--muted);margin:0}
+nav.toc{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px 16px;margin:18px 0}
+nav.toc b{color:var(--gold);font-size:13px;letter-spacing:.08em}
+nav.toc ol{margin:6px 0 0;padding-left:22px;columns:2;column-gap:20px}
+nav.toc a{color:#bfeaff;text-decoration:none}
+nav.toc a:hover{text-decoration:underline}
+section{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px 18px 10px;margin:14px 0;box-shadow:0 10px 30px #0004}
+h2{font-size:20px;margin:2px 0 8px;color:var(--gold);letter-spacing:-.02em}
+h3{font-size:16px;margin:14px 0 4px;color:var(--cyan)}
+p{margin:6px 0 10px}
+ul,ol{margin:4px 0 10px;padding-left:22px}
+li{margin:3px 0}
+strong{color:#ffe272}
+.k{display:inline-block;border:1px solid #6fa8ff88;border-radius:999px;padding:0 8px;font-size:13px;font-weight:800;background:#18305e;color:#d8e6ff;white-space:nowrap}
+.note{border-left:3px solid var(--pink);padding:4px 10px;background:#ff3c9112;border-radius:0 10px 10px 0;color:#ffd6e8;font-size:14px}
+.tbl{overflow-x:auto;margin:6px 0 12px}
+table{border-collapse:collapse;width:100%;min-width:300px;font-size:14px}
+th,td{border:1px solid #33528f;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#172a5b;color:#e6efff}
+td.c{text-align:center}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
+footer{color:#6b8abb;font-size:12px;text-align:center;margin-top:24px;line-height:1.7}
+a{color:#bfeaff}
+@media(max-width:480px){nav.toc ol{columns:1}body{font-size:14.5px}section{padding:12px 14px 8px}}
+@media(prefers-color-scheme:light){:root{--bg:#f4f6fb;--ink:#17203a;--muted:#3b4a6b;--card:#ffffffd9;--line:#4a5a8a33;color-scheme:light}strong{color:#a35a00}h2{color:#b36b00}h3{color:#0a6f9a}nav.toc a,a{color:#0a5f8a}.k{background:#e6eefc;color:#17203a}th{background:#e6eefc;color:#17203a}th,td{border-color:#c5d0e6}.note{color:#7a1f48}.back{color:#7a4a00;background:#ffd33d22}footer{color:#5a6b8b}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top"><a class="back" href="../index.html">← 앱으로 돌아가기</a><nav class="langs" aria-label="언어"><a href="ko.html" hreflang="ko" aria-current="page">한국어</a><a href="en.html" hreflang="en">English</a><a href="ja.html" hreflang="ja">日本語</a><a href="zh.html" hreflang="zh-Hans">中文</a><a href="mn.html" hreflang="mn">Монгол</a><a href="es-mx.html" hreflang="es-MX">Español (MX)</a><a href="es-cl.html" hreflang="es-CL">Español (CL)</a><a href="pt-br.html" hreflang="pt-BR">Português (BR)</a></nav></div>
+<header class="hero">
+<div class="brand">TODAY’S BEAT S · MANUAL</div>
+<h1>오늘의 <em>비트</em> S</h1>
+<p class="ver">Korean Version</p>
+<p class="lead">사용 설명서 — 누르고, 굴리고, 신나게!</p>
+</header>
+
+<nav class="toc" aria-label="차례"><b>차례</b>
+<ol>
+<li><a href="#about">오늘의 비트 S는?</a></li>
+<li><a href="#screen">첫 화면 둘러보기</a></li>
+<li><a href="#shake">흔들기</a></li>
+<li><a href="#song">곡의 짜임 · 필 · 물결</a></li>
+<li><a href="#genres">엔진과 장르</a></li>
+<li><a href="#meter">박자와 장르</a></li>
+<li><a href="#drop">영감 터뜨리기 · 협연 곡</a></li>
+<li><a href="#fx">FX 소리</a></li>
+<li><a href="#editor">마디로 놀자</a></li>
+<li><a href="#party">내 비트가 쭉~!</a></li>
+<li><a href="#record">레코드 · 열기 · 미디저장</a></li>
+<li><a href="#dancers">춤꾼과 비주얼라이저</a></li>
+<li><a href="#free">무료와 프로</a></li>
+<li><a href="#tips">알아 두면 좋아요</a></li>
+<li><a href="#credits">소리 출처</a></li>
+</ol>
+</nav>
+
+<section id="about">
+<h2>1. 오늘의 비트 S는?</h2>
+<p>주사위로 굴리는 <strong>4마디 드럼 비트</strong> 놀이터예요. 골드버튼 한 번이면 새 곡이 만들어지고 바로 연주돼요. 4/4 비트에 더해 3/4 · 2/4 · 6/8 · 12/8 · 5/4 · 7/8 박자까지, 키트를 바꾸고, 폰을 흔들고, 주사위를 굴리며 나만의 비트를 만들어요.</p>
+<ul>
+<li>이름의 <strong>S</strong>는 시작(Start)과 특별한(Special)이라는 뜻이에요. 한국어 화면에서는 제목 «비트» 아래에 작은 <strong>Korean Version</strong> 글이 보여요.</li>
+<li><strong>앱은 무료로 내려받아요.</strong> 일부 기능은 앱 안에서 사는 프로 평생 이용권(한 번 결제)으로 열려요(13장).</li>
+<li>모든 것이 이 기기 안에서만 돌아요. 서버로 아무것도 보내지 않아요.</li>
+<li>인터넷 없이도 잘 놀아요(오프라인). 프로를 살 때만 Google Play에 연결해요.</li>
+</ul>
+</section>
+
+<section id="screen">
+<h2>2. 첫 화면 둘러보기</h2>
+<h3>골드버튼</h3>
+<ul>
+<li>처음엔 <span class="k">ENGINE</span> 이라고 적혀 있어요. 누를 때마다 <strong>새 곡</strong>을 만들어 바로 연주하고, 버튼에는 «기쁨» «희망» 같은 <strong>긍정의 낱말</strong>이 하나씩 떠요.</li>
+<li><strong>카운트인</strong> — 멈춘 상태에서 골드버튼 · 재생 · 비트 게임을 시작하면 화면에 <strong>3 · 2 · 1</strong> 숫자가 먼저 세어지고, 첫 박에서 소리가 시작돼요. 누르는 순간에는 아무 소리도 나지 않아요.</li>
+<li>어떤 박자 · 장르로 만들지는 설정 판의 박자 · 장르 고르개가 정해요(6장).</li>
+<li>누를 때마다 비주얼라이저 모드도 무작위로 바뀌어요.</li>
+<li>전에 들은 비트와 똑같은 곡이 나오면 «전에 들은 적 있는 비트예요!» 하고 다시 누를지 물어봐요(프로). 무료판은 들은 비트를 기록하지 않아서 이 안내가 나오지 않아요.</li>
+<li>멈춤을 누르면 버튼은 다시 <span class="k">ENGINE</span> 으로 돌아가요.</li>
+</ul>
+<h3>드럼 키트 단추(3 · 4 · 3)</h3>
+<p>골드버튼 아래 둥근 단추 열 개예요. 표준 · 룸 · 파워 / 일렉트로닉 · 88 · 재즈 · 브러시 / 오케스트라 · 한국 타악 · 합성(원래 소리).</p>
+<ul>
+<li><strong>짧게 누르기</strong> — 연주 중에도 누르는 순간 바로 그 키트로 바뀌어요.</li>
+<li><strong>길게 누르기(0.5초)</strong> — 📌 <strong>고정</strong>. 고정한 키트는 지금 키트와 함께 겹쳐 울려요. 고정 넷 + 지금 키트 = 최대 다섯 겹. 한 번 더 길게 누르면 고정이 풀려요.</li>
+<li>키트 옆 작은 단추 — <strong>흔들기</strong> 켜기·끄기, <strong>춤꾼</strong> 보이기·감추기, 별 모양 <strong>영감 터뜨리기</strong>(7장), 그 위의 <strong>FX</strong>(8장)예요.</li>
+</ul>
+<h3>조종 줄</h3>
+<p><span class="k">레코드</span> <span class="k">열기</span> <span class="k">재생/일시정지</span> <span class="k">멈춤</span> <span class="k">연속</span> <span class="k">미디저장</span> — 연속을 켜면 곡이 끝나도 처음부터 계속 돌아요. 🔒 레코드 · 열기 · 미디저장은 프로 기능이에요(11장).</p>
+<h3>빠르기(BPM) 판</h3>
+<ul>
+<li><strong>우연</strong> — 4마디 묶음마다 그 묶음 엔진의 BPM으로 연주해요. 위 칸에 지금 BPM이 보여요. 박자 고르개도 «우연»이면 4마디 묶음마다 박자 · 장르까지 바뀌어요(6장).</li>
+<li><strong>정하기</strong> — 새 곡의 첫 4마디 BPM을 곡 끝까지 써요. 숫자나 막대로 BPM을 바꾸면 그 곡이 끝날 때까지 그 값이에요.</li>
+<li>우연 · 정하기 칸 <strong>오른쪽 위의 작은 글</strong>은 박자예요. 우연 칸은 지금 마디의 박자, 정하기 칸은 곡의 박자를 보여 줘요.</li>
+<li>우연 · 정하기 단추는 <strong>고르기만</strong> 해요. 연주를 시작하는 건 골드버튼과 재생뿐이에요(연주 중이면 그 자리에서 새 방식으로 이어 가요).</li>
+<li>BPM 막대 밑의 🔊 막대는 볼륨이에요.</li>
+</ul>
+<h3>몇 마디로 놀까요? · 몇 곡 중의 하나?</h3>
+<p>4 · 8 · 16 · 32 · 64마디 중에서 다음 곡의 길이를 골라요. 그 아래 카드는 다음 곡이 «몇 곡 중의 하나»인지 <strong>10의 거듭제곱</strong>(예 4.42 × 10<sup>109</sup>)으로 보여 줘요. 그 밑에는 박자 · 장르 고르개가 있어요(6장).</p>
+<h3>비주얼라이저</h3>
+<p>골드버튼 둘레의 빈 자리를 누르면 다음 모드로 바뀌어요. 열두 가지 — 스피커 울림 · 무지개 구름 · 파형 · 은하 · 불꽃놀이 · 햇살 · 수평선 · 물결 띠 · 레이저 십자 · 가시 고리 · 물결 고리 · 눈금 고리.</p>
+<h3>오른쪽 위 둥근 단추 넷 · 언어 단추</h3>
+<ul>
+<li><strong>전체화면</strong> — 처음 한 번은 «앱으로 설치할까요?» 하고 물을 수 있어요.</li>
+<li><strong>닫기</strong> — 무료판은 곡을 저장하지 않아서 닫으면 지금 곡은 사라져요(설정은 남아요). 프로는 곡이 기기에 남아 다음에 그대로 이어져요.</li>
+<li><strong>☀ 낮</strong> — 밝은 바탕 여덟 가지를 차례로(아이보리 · 순백 · 연하늘 · 연녹 · 복숭아 · 라벤더 · 레몬 · 민트).</li>
+<li><strong>🌙 밤</strong> — 어두운 바탕 여덟 가지를 차례로(우주 · 순흑 · 짙은 남색 · 짙은 녹색 · 다크 세피아 · 칠판 · 밝은 밤색 · 보랏빛 밤).</li>
+<li>그 밑 알약 단추 <strong>언어</strong> — 한국어 · English · 日本語 · 中文 · Монгол · Español (MX) · Español (CL) · Português (BR) 중에서 골라요. 고른 언어는 기억하고, 처음엔 기기 언어를 따라요.</li>
+</ul>
+</section>
+
+<section id="shake">
+<h2>3. 흔들기</h2>
+<p>폰을 흔들면 드럼 키트가 바뀌어요. 흔드는 <strong>세기</strong>가 곧 겹 수예요.</p>
+<div class="tbl"><table>
+<tr><th>세기(중력을 뺀 가속도)</th><th>일어나는 일</th></tr>
+<tr><td>9 m/s² 아래</td><td>아무 일도 없어요</td></tr>
+<tr><td>9 m/s² 이상</td><td>다른 키트 하나로 바뀌어요</td></tr>
+<tr><td>13 m/s² 이상</td><td>키트 둘이 겹쳐 울려요</td></tr>
+<tr><td>18 m/s² 이상</td><td>키트 셋이 겹쳐 울려요</td></tr>
+</table></div>
+<ul>
+<li>고정(📌)한 키트는 그대로 함께 울려요.</li>
+<li>한 번 툭에 한 번만 바뀌고, 다음 툭까지 0.11초 쉬어요.</li>
+<li>아이폰 · 아이패드는 처음 골드버튼을 누를 때 «동작» 허락을 물어요.</li>
+<li>바뀌는 게 싫으면 키트 옆 흔들기 단추로 꺼요.</li>
+</ul>
+</section>
+
+<section id="song">
+<h2>4. 곡의 짜임 · 필 · 물결</h2>
+<ul>
+<li>곡은 <strong>4마디 묶음</strong>으로 이어져요. 묶음마다 엔진 하나와 BPM 하나를 뽑아 네 마디 내내 지키고, 주사위 넷은 마디마다 따로 굴러요.</li>
+<li>묶음 끝 마디에는 <strong>필</strong>이 들어가요 — 탐 내림 · 스네어 롤 · 멈춤 · 스톱 + 히트 · 빌드업 · 탐 올림, 여섯 가지예요.</li>
+<li>12마디 이상인 곡에는 가끔 <strong>브레이크다운</strong> 묶음이 와요. 킥과 퍼커션이 빠졌다가 다음 묶음 첫 박에 크래시와 함께 다시 터져요.</li>
+<li>한국 타악 키트로 들으면 곡 시작에 나발 «뿌우~», 사이사이 추임새가 들어가요.</li>
+</ul>
+<p class="note">필 · 브레이크다운은 재생할 때만 더해져요. 프로의 작업 파일과 MIDI에는 원래 패턴 그대로 담겨요.</p>
+</section>
+
+<section id="genres">
+<h2>5. 엔진과 장르</h2>
+<p>박자 고르개에서 <strong>4/4</strong>를 고르면(또는 우연이 4/4를 뽑으면) 오늘의 비트 본래의 4/4 곡을 지어요. 무료판은 4마디마다 엔진을 굴릴 때 네온 · 클래식 · 소울 · 테크노 네 엔진이 섞여요. 🔒 표시가 붙은 하우스 · 유로댄스 · 케이팝은 프로에서 열리고, 일곱 엔진이 모두 섞여요.</p>
+<div class="tbl"><table>
+<tr><th>엔진</th><th>BPM</th></tr>
+<tr><td><i class="dot" style="background:#32ffc1"></i>네온</td><td>68 · 90 · 105 · 116 · 120 · 132</td></tr>
+<tr><td><i class="dot" style="background:#549fff"></i>클래식</td><td>68 · 90 · 105 · 116 · 120 · 132</td></tr>
+<tr><td><i class="dot" style="background:#ff7e49"></i>소울</td><td>68 · 90 · 105 · 116 · 120 · 132</td></tr>
+<tr><td><i class="dot" style="background:#c86bff"></i>테크노</td><td>124 ~ 135</td></tr>
+<tr><td><i class="dot" style="background:#ffc14d"></i>🔒 하우스</td><td>118 ~ 128</td></tr>
+<tr><td><i class="dot" style="background:#ff5fa8"></i>🔒 유로댄스</td><td>134 ~ 145</td></tr>
+<tr><td><i class="dot" style="background:#ff3d55"></i>🔒 케이팝</td><td>120 ~ 134</td></tr>
+</table></div>
+</section>
+
+<section id="meter">
+<h2>6. 박자와 장르</h2>
+<p>설정 판의 «몇 곡 중의 하나» 카드 밑에 고르개 둘이 있어요 — <span class="k">박자</span>와 <span class="k">장르</span>. 누르면 어두운 목록 판이 펼쳐지고, 판 밖을 누르면 닫혀요. 고른 값은 다음 골드버튼부터 써요.</p>
+<h3>박자 고르개</h3>
+<ul>
+<li><strong>우연</strong>(처음 값) — 골드버튼을 누를 때마다 여덟 가지(4/4 오늘의 비트 + 박자 일곱) 중 하나를 골라요. 장르도 우연이에요.</li>
+<li><strong>4/4</strong> — 오늘의 비트 본래의 4/4 곡이에요(5장의 엔진).</li>
+<li><strong>4/4 장르 · 3/4 · 2/4 · 6/8 · 12/8 · 5/4 · 7/8</strong> — 그 박자로만 지어요. 박자마다 대표 장르가 있어요.</li>
+</ul>
+<h3>장르 고르개</h3>
+<p>박자를 하나 고르면 그 박자의 대표 장르 중에서 골라요. «장르 우연»이면 장르를 우연으로 골라요. 박자가 «우연»이나 «4/4»일 때는 장르 고르개가 쉬어요.</p>
+<div class="tbl"><table>
+<tr><th>박자</th><th>대표 장르</th></tr>
+<tr><td>4/4 장르</td><td>디스코 / 댄스 · 16비트 펑크 · 하프타임 트랩 · 드라이빙 록앤롤 · 라틴 팝 / 보사 · 카오스 셔플</td></tr>
+<tr><td>3/4</td><td>정통 왈츠 · 팝 3/4 발라드 · 재즈 스윙 왈츠 · 헤미올라 록 (3:2) · 3박 스네어 서정 · 카오스 셔플</td></tr>
+<tr><td>2/4</td><td>브라질리언 삼바 · 밀리터리 마칭 · 폴카 / 트로트 쿵짝 · 고속 펑크 갤럽 · 라틴 트레실로 · 카오스 셔플</td></tr>
+<tr><td>6/8</td><td>슬로우 록 발라드 · 켈틱 지그 · 빈티지 6/8 소울 · 아프로 헤미올라 · 블루스 셔플 6/8 · 카오스 셔플</td></tr>
+<tr><td>12/8</td><td>텍사스 블루스 셔플 · 슬로우 소울 발라드 · 시카고 블루스 런 · 빈티지 탬버린 그루브 · 12/8 하프타임 덥 · 카오스 셔플</td></tr>
+<tr><td>5/4</td><td>쿨 재즈 5/4 · 첩보 영화 리프 · 프로그레시브 퓨전 · 시네마틱 5/4 라운지 · 5/4 일렉트로 브레이크 · 카오스 셔플</td></tr>
+<tr><td>7/8</td><td>프로그 메탈 7/8 · 발칸 민속 오스티나토 · 7/8 재즈 퓨전 슬랩 · 역발상 [3+2+2] 그루브 · 7/8 매스록 턴어라운드 · 칼라마티아노스 3+2+2 · 카오스 셔플</td></tr>
+</table></div>
+<h3>우연 · 정하기와 박자</h3>
+<ul>
+<li>빠르기 <strong>우연</strong> + 박자 <strong>우연</strong>이면 한 곡 안에서 <strong>4마디 묶음마다</strong> 박자 · 장르 · 비트 · 엔진 · BPM이 모두 우연으로 바뀌어요. 이렇게 섞인 곡에는 협연 곡 대신 앱의 코드 · 베이스가 함께 울려요.</li>
+<li>섞인 곡을 연주하다 <strong>정하기</strong>를 누르면 첫 4마디는 그대로 두고, 나머지를 <strong>첫 마디의 박자 · 장르</strong>로 다시 지어 이어 연주해요. BPM은 첫 마디의 값(막대로 정했으면 그 값)이에요.</li>
+<li>박자와 장르 이름은 마디 카드의 묶음 이름 옆에도 보여요. 프로의 미디저장에는 박자표가 그대로 들어가요.</li>
+<li>비트 게임은 4/4 비트에서 열려요.</li>
+</ul>
+</section>
+
+<section id="drop">
+<h2>7. 영감 터뜨리기 · 협연 곡</h2>
+<p>키트 옆 별 모양 <strong>영감 터뜨리기</strong> 단추를 누르면 곡 판이 열려요. 곡은 모두 <strong>80곡</strong>이고 <span class="k">오리지널</span> <span class="k">명곡</span> <span class="k">민요/가곡</span> 세 탭에 나뉘어 있어요.</p>
+<p class="note">무료판에서 연주할 수 있는 곡은 80곡 중 <strong>6곡</strong>(탭마다 2곡)이에요. 80곡 모두 목록에 보이지만 나머지 곡에는 🔒가 붙어 있고, 누르면 안내 창이 떠요. 프로를 사면 80곡이 모두 열려요(13장).</p>
+<ul>
+<li><span class="k">오리지널</span> — 01 네온 러시 · 13 팝핑 웨이브</li>
+<li><span class="k">명곡</span> — 18 월광 · 31 터키 행진곡</li>
+<li><span class="k">민요/가곡</span> — 53 옹헤야 · 54 쾌지나칭칭나네</li>
+</ul>
+<ul>
+<li>곡을 고르고 큰 원을 눌러 시작해요. 빌드업 끝에서 흔들거나 원을 누르면 터져요.</li>
+<li><strong>비트 더하기</strong>를 켜면 곡의 북 대신 우연 비트가 울리고, <strong>연속 듣기</strong>로 고른 곡을 차례로 들어요.</li>
+<li><strong>협연</strong> — 골드버튼 비트에 협연 곡의 가락과 반주가 함께 울려요. 비트의 박자에 맞는 곡만 협연 후보가 되고, 비트마다 한 곡을 골라 처음부터 연주해요. 무료판의 협연 곡은 위 6곡에 17 디스코 볼(4/4) · 52 마왕의 궁전(4/4) · 69 봄처녀(3/4) · 79 사미오티사(7/8)를 더한 열 곡이에요. 더한 네 곡은 협연에서만 울리고, 곡 목록에서는 틀 수 없어요. 곡 줄의 <span class="k">후보</span> 칸으로 협연 후보를 직접 고를 수도 있어요(들을 수 있는 곡만). 곡 줄 끝의 박자 글(예 3/4)이 그 곡이 어울리는 비트의 박자예요.</li>
+<li>박자 협연 곡 여덟 곡 — 무료판에서는 79 사미오티사만 협연에 쓰이고, 나머지는 프로에서 열려요.
+<ul>
+<li><strong>3/4</strong> — 73 아름답고 푸른 도나우 · 74 꽃의 왈츠 · 75 강아지 왈츠 · 76 어메이징 그레이스 · 77 밀양아리랑 · 78 진도아리랑</li>
+<li><strong>7/8</strong> — 79 사미오티사 · 80 요바노, 요반케</li>
+</ul></li>
+<li>5/4는 아직 협연 곡이 없어 비트 · 코드 · 베이스로 연주해요.</li>
+</ul>
+</section>
+
+<section id="fx">
+<h2>8. FX 소리</h2>
+<p>영감 터뜨리기 단추 위의 둥근 <span class="k">FX</span> 단추를 누르면 위쪽으로 소리 판이 펼쳐져요. 비트 밑에 깔아 두는 배경 소리 열한 가지예요.</p>
+<p>⛈ 천둥 빗소리 · 🌧 창가 빗소리 · 🌊 파도 · 🫧 얕은 물 · 🐋 깊은 물 · 💧 시냇물 · 🌲 숲 · 🌬 바람 · 🔥 모닥불 · 🛣 고속도로 · 🌌 우주 · ✕ 끄기</p>
+<ul>
+<li>소리마다 이음새 없이 도는 <strong>5분 고리</strong>예요. 다른 소리를 고르면 부드럽게 겹쳐 바뀌어요.</li>
+<li>FX가 울리는 동안 비트와 연주는 살짝 작아져요.</li>
+<li>소리가 켜져 있을 때만 FX 옆에 <strong>세로 음량 핸들</strong>(0 ~ 2배)이 나와요. 마지막 값은 기억해요.</li>
+<li>«끄기»를 누르면 멈춰요.</li>
+<li>FX 소리는 모두 freesound.org의 CC0 소리로 만들었어요.</li>
+</ul>
+</section>
+
+<section id="editor">
+<h2>9. 마디로 놀자</h2>
+<p>첫 화면 아래의 주사위 놀이터예요. 고른 마디를 주사위로 바꿔요. 무료판에서는 <strong>1마디만 편집</strong>할 수 있고, 2마디부터는 보기와 듣기만 돼요. 프로에서는 모든 마디를 편집해요.</p>
+<ul>
+<li><strong>마디 고르기</strong> — 제목 옆 ‹ › 단추, 또는 아래 마디 카드를 눌러요.</li>
+<li><span class="k">▶ 이 마디 듣기</span> — 고른 마디만 들어요. <span class="k">🎲 네 주사위 모두 굴려!</span> — 고정 안 한 줄을 모두 새로 굴려요.</li>
+<li>줄(하이햇 · 스네어 · 킥 · 퍼커션)마다
+<ul>
+<li>큰 주사위 — 그 줄만 우연!</li>
+<li>🔒 고정 — 주사위를 굴리거나 골드버튼을 눌러도 그 줄을 지켜요.</li>
+<li>🔇 음소거 — 잠깐 쉬게 해요. 옆 칸에서 음색도 골라요.</li>
+<li>1~6번 색깔 단추 — 리듬을 직접 골라요.</li>
+<li>16칸 — 누를 때마다 <strong>쉼 → 보통 → 약 → 강</strong>. 박자 곡은 칸 수 · 눈금 · 패턴 이름이 그 박자에 맞게 바뀌어요.</li>
+</ul></li>
+<li><strong>비트 번호</strong> — 1~6으로 된 네 자리. 1613은 하이햇 1 · 스네어 6 · 킥 1 · 퍼커션 3번이에요. <span class="k">쏙 넣기</span>로 넣어요.</li>
+<li><strong>묶음 BPM</strong> — 숫자를 넣고 <span class="k">적용</span>, 또는 🎲 로 그 4마디 묶음의 BPM을 바꿔요.</li>
+<li><strong>엔진 단추</strong> — 그 4마디 묶음 전체의 엔진을 바꿔요. 고정한 줄과 직접 바꾼 칸은 간직해요. 🔒 하우스 · 유로댄스 · 케이팝은 프로 기능이에요.</li>
+</ul>
+<p class="note">🔒 무료판에서는 2마디부터 편집 칸이 흐려지고 잠겨요. 마디 고르기와 ▶ 이 마디 듣기는 돼요. 그 자리에 나오는 줄의 <span class="k">프로 알아보기</span>를 누르면 안내 창이 떠요(13장). 모든 마디 편집은 프로에서 열려요.</p>
+</section>
+
+<section id="party">
+<h2>10. 내 비트가 쭉~!</h2>
+<ul>
+<li>곡 전체가 마디 카드로 쭉 이어져요. 카드를 누르면 위 놀이터로 쏙 가요.</li>
+<li>전체 연주 · ■ 정지 · ↻ 반복 · ↶ 되돌리기(한 번 전 작업으로).</li>
+<li>파일 단추 — 💾 작업 저장(JSON) · 📂 불러오기 · 🎹 MIDI 저장 · 🎁 곡을 담은 HTML. 🔒 모두 프로 기능이에요(11장).</li>
+</ul>
+</section>
+
+<section id="record">
+<h2>11. 레코드 · 열기 · 미디저장</h2>
+<p class="note">🔒 레코드 · 열기 · 미디저장은 프로 기능이에요. 무료판에서 누르면 안내 창이 떠요(13장). 아래는 프로에서 쓰는 방법이에요.</p>
+<ul>
+<li><strong>레코드</strong> — 연주하면서 누르고 키트를 바꿔 보세요. 바꾼 자리가 그대로 적혀요. 다시 누르면 <strong>.mid 파일</strong>로 저장하고, 녹음은 «열기»에도 담겨요.</li>
+<li><strong>열기</strong> — «🎧 들은 비트» · «⏺ 녹음» 두 칸과 «📁 파일에서». 들은 비트를 누르면 그 곡이 그대로 다시 연주돼요.</li>
+<li><strong>미디저장</strong> — 지금 곡을 MIDI 파일로. 4마디 묶음의 템포 · 음색 · 박자표가 그대로 들어가요.</li>
+</ul>
+</section>
+
+<section id="dancers">
+<h2>12. 춤꾼과 비주얼라이저</h2>
+<ul>
+<li>키트 왼쪽 작은 무대에서 빛줄 댄서 셋이 비트에 맞춰 춰요.</li>
+<li>대형은 묶음마다 — 함께 · 파도(한 박씩 늦게) · 거울. 브레이크다운에선 혼자 추고, 스톱에선 같은 포즈로 굳어요.</li>
+<li>무대 깊이로 물러났다 다가와요 — 브레이크다운엔 뒤로, 빌드업에 다가와 터질 때 맨 앞으로.</li>
+<li>옷은 키트에 따라 바뀌어요. 한국 타악 키트면 셋 다 갓 · 마고자 차림이에요.</li>
+<li>키트 옆 춤 단추로 보이거나 감춰요.</li>
+</ul>
+</section>
+
+<section id="free">
+<h2>13. 무료와 프로</h2>
+<div class="tbl"><table>
+<tr><th>기능</th><th>무료</th><th>프로</th></tr>
+<tr><td>골드버튼 비트 무한 듣기 · 카운트인 · 키트 열 · 고정 · 흔들기 · 춤꾼 · 비주얼라이저 · 테마 · 언어</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>박자 일곱 · 박자 고르개 · 장르 고르개</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>FX 소리 열한 가지 · 비트 게임 · 화면 꺼도 듣기</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>엔진 네온 · 클래식 · 소울 · 테크노</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>하우스 · 유로댄스 · 케이팝</td><td class="c">—</td><td class="c">✓</td></tr>
+<tr><td>영감 터뜨리기 연주</td><td class="c">6곡</td><td class="c">80곡</td></tr>
+<tr><td>협연 곡(7장)</td><td class="c">6곡 + 17 · 52 · 69 · 79</td><td class="c">모두</td></tr>
+<tr><td>마디로 놀자 보기와 듣기</td><td class="c">모든 마디</td><td class="c">모든 마디</td></tr>
+<tr><td>마디로 놀자 편집</td><td class="c">1마디</td><td class="c">모든 마디</td></tr>
+<tr><td>레코드 · 열기 · 미디저장</td><td class="c">—</td><td class="c">✓</td></tr>
+<tr><td>작업 저장 · 불러오기 · MIDI 저장 · 곡을 담은 HTML</td><td class="c">—</td><td class="c">✓</td></tr>
+<tr><td>자동 저장(다음에 열면 이어서) · 들은 비트 기록</td><td class="c">—</td><td class="c">✓</td></tr>
+</table></div>
+<p>앱은 무료로 내려받아요. 프로는 <strong>한 번 결제하면 평생</strong> 쓰는 이용권(프로 평생 이용권)이고, 앱 안에서 Google Play로 사요.</p>
+<ul>
+<li>무료판에서 잠긴 단추와 곡에는 작은 🔒 이 붙어 있고, 누르면 안내 창이 떠요. <span class="k">프로 사기</span>를 누르면 Google Play 결제로 이어지고, <span class="k">닫기</span>를 누르면 그냥 닫혀요.</li>
+<li>구매가 끝나면 앱이 한 번 다시 열리면서 프로로 바뀌어요.</li>
+<li>기기를 바꿨다면 ⓘ 앱 정보의 <span class="k">구매 되살리기</span>로 되찾아요.</li>
+<li>Google Play는 사거나 되살릴 때만 필요해요. 그 밖의 것은 모두 인터넷 없이 돼요.</li>
+<li><strong>저장</strong> — 무료판은 아무것도 저장하지 않아요. 앱을 닫으면 곡이 사라지고 설정만 남아요. 프로에서는 작업이 이 기기에 저장돼요.</li>
+</ul>
+</section>
+
+<section id="tips">
+<h2>14. 알아 두면 좋아요</h2>
+<ul>
+<li>아이폰은 무음 스위치가 켜져 있으면 소리가 안 날 수 있어요.</li>
+<li>PC에서는 스페이스 키로 전체 연주를 재생 · 일시정지해요.</li>
+<li>화면을 떠나면 연주를 잠시 멈춰요.</li>
+<li>프로에서 저장한 MIDI의 소리는 여는 프로그램(악기)에 따라 달라질 수 있어요.</li>
+<li>무료판은 아무것도 저장하지 않아요. 앱을 닫으면 지금 곡은 사라지고 설정만 남아요. 프로에서는 작업이 이 기기에 저장돼요.</li>
+<li>서버로 보내는 것은 없어요. 기록은 이 기기 안에만 있어요. 프로 구매는 Google Play가 처리하고, 이 앱은 결제 정보를 받지 않아요.</li>
+</ul>
+</section>
+
+<section id="credits">
+<h2>15. 소리 출처</h2>
+<p>드럼 키트 소리는 MIDI CLOVIS 음원에서 구웠어요 — MuseScore General(S. Christian Collins · MIT) · MuldjordKit(Lars Muldjord · CC BY 4.0) · FreePats(CC0). 한국 타악은 국립국악원의 국악기 디지털 음원을 이용했으며, 공공누리 제1유형 조건에 따라 출처를 표시해요. FX 소리 열한 가지는 freesound.org의 CC0(퍼블릭 도메인) 소리예요. 전문은 앱 맨 아래 «소리 출처와 라이선스»에 있어요.</p>
+</section>
+
+<footer>TODAY’S BEAT S · Korean Version · 오늘의 리듬은, 내 손으로 신나게!</footer>
+</div>
+</body>
+</html>

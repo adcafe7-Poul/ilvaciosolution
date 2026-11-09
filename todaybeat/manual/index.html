@@ -1,0 +1,64 @@
+<!doctype html>
+<!-- 오늘의 비트 S 사용 설명서 — 언어 고르기(여덟 언어) -->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d21">
+<title>오늘의 비트 S · Today's Beat S · Manual</title>
+<style>
+:root{--bg:#080d21;--ink:#eef3ff;--muted:#aab8db;--gold:#ffd33d;--cyan:#00dcff;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;min-height:100vh;color:var(--ink);font:15px/1.6 "Pretendard","Apple SD Gothic Neo","Malgun Gothic","Hiragino Sans","Yu Gothic","PingFang SC","Microsoft YaHei",system-ui,"Segoe UI",Roboto,"Noto Sans",sans-serif;background:radial-gradient(circle at 7% 2%,#1140a743,transparent 34rem),radial-gradient(circle at 92% 18%,#ad166f22,transparent 32rem),var(--bg)}
+.wrap{width:100%;max-width:520px;margin:0 auto;padding:16px 16px 32px}
+.back{display:inline-block;color:#ffe36b;text-decoration:none;font-weight:800;font-size:14px;border:1px solid #ffd33d77;border-radius:999px;padding:6px 14px;background:#ffd33d14;margin-bottom:14px}
+.brand{text-align:center;font-size:12px;letter-spacing:.14em;color:var(--cyan);font-weight:800}
+h1{text-align:center;font-size:clamp(28px,8vw,40px);line-height:1.2;margin:8px 0 4px;letter-spacing:-.03em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ffdb25,#ff7842,#ff399c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{text-align:center;color:var(--muted);margin:0 0 20px;font-size:13px;overflow-wrap:anywhere}
+.list{display:grid;gap:9px}
+.list a{display:flex;align-items:center;justify-content:space-between;gap:10px;text-decoration:none;color:#e6efff;border:1px solid #4b8aff77;border-radius:18px;padding:12px 16px;background:linear-gradient(140deg,#172a5bcc,#111837dd);box-shadow:0 10px 26px #0004}
+.list a:hover,.list a:focus-visible{border-color:var(--gold);outline:none}
+.list b{font-size:17px}
+.list small{color:var(--muted);font-size:13px;text-align:right}
+.list a.match{border-color:#ffe36b;box-shadow:0 0 0 2px #ffd33d55,0 10px 26px #0004}
+.list a.match small::after{content:" ✦";color:var(--gold)}
+@media(prefers-color-scheme:light){:root{--bg:#f4f6fb;--ink:#17203a;--muted:#3b4a6b;color-scheme:light}.list a{background:#fff;color:#17203a;border-color:#4a5a8a44}.back{color:#7a4a00;background:#ffd33d22}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<a class="back" href="../index.html">← 앱 · App</a>
+<div class="brand">TODAY’S BEAT S · MANUAL</div>
+<h1>오늘의 <em>비트</em> S</h1>
+<p class="sub">Korean Version<br>Today’s Beat S · 今日のビート S · 今日节拍 S · Өнөөдрийн бит S · El ritmo de hoy S · O Ritmo de Hoje S</p>
+<nav class="list" aria-label="Language">
+<a href="ko.html" hreflang="ko" data-lang="ko"><b>한국어</b><small>사용 설명서</small></a>
+<a href="en.html" hreflang="en" data-lang="en"><b>English</b><small>User manual</small></a>
+<a href="ja.html" hreflang="ja" data-lang="ja"><b>日本語</b><small>使い方</small></a>
+<a href="zh.html" hreflang="zh-Hans" data-lang="zh"><b>中文(简体)</b><small>使用说明</small></a>
+<a href="mn.html" hreflang="mn" data-lang="mn"><b>Монгол</b><small>Хэрэглэх заавар</small></a>
+<a href="es-mx.html" hreflang="es-MX" data-lang="es-mx"><b>Español (México)</b><small>Manual de uso</small></a>
+<a href="es-cl.html" hreflang="es-CL" data-lang="es-cl"><b>Español (Chile)</b><small>Manual de uso</small></a>
+<a href="pt-br.html" hreflang="pt-BR" data-lang="pt-br"><b>Português (Brasil)</b><small>Manual de uso</small></a>
+</nav>
+</main>
+<script>
+// 기기 언어와 맞는 칸을 빛나게만 한다(저절로 넘어가지 않는다) — es-CL → 칠레 · 다른 es → 멕시코 · pt → 브라질
+(function () {
+  var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+  for (var i = 0; i < langs.length; i++) {
+    var tag = String(langs[i]).toLowerCase(),
+      base = tag.slice(0, 2),
+      key = base === 'es' ? (/^es-cl\b/.test(tag) ? 'es-cl' : 'es-mx') : base === 'pt' ? 'pt-br' : base;
+    var a = document.querySelector('[data-lang="' + key + '"]');
+    if (a) {
+      a.classList.add('match');
+      return;
+    }
+  }
+})();
+</script>
+</body>
+</html>

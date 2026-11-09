@@ -1,0 +1,342 @@
+<!doctype html>
+<!-- 오늘의 비트 S 사용 설명서 — 중국어(간체) -->
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d21">
+<meta name="description" content="今日节拍 S(Korean Version)使用说明 — 金色按钮、预备拍、拍子与风格、灵感引爆、FX 音效、鼓组、摇一摇、小节游乐场、录制、免费版与专业版">
+<title>今日节拍 S · 使用说明</title>
+<style>
+:root{--bg:#080d21;--ink:#eef3ff;--muted:#aab8db;--gold:#ffd33d;--cyan:#00dcff;--pink:#ff3c91;--purple:#a36cff;--card:#111a3acc;--line:#4b8aff55;--font:"PingFang SC","Microsoft YaHei","Noto Sans SC","Source Han Sans SC",system-ui,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:15px/1.75 var(--font);background:radial-gradient(circle at 7% 2%,#1140a743,transparent 34rem),radial-gradient(circle at 92% 18%,#ad166f22,transparent 32rem),var(--bg);overflow-wrap:anywhere;word-break:normal}
+.wrap{max-width:760px;margin:0 auto;padding:16px 16px 48px}
+.top{display:flex;flex-direction:column;gap:8px;margin-bottom:10px}.back{align-self:flex-start;color:#ffe36b;text-decoration:none;font-weight:800;font-size:14px;border:1px solid #ffd33d77;border-radius:999px;padding:6px 14px;background:#ffd33d14}.langs{display:flex;flex-wrap:wrap;gap:5px}.langs a{color:#c8d8ff;text-decoration:none;border:1px solid #4e70a8;border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:700;background:#132449cc;white-space:nowrap}
+
+.langs a[aria-current]{background:linear-gradient(90deg,#ff3d9d,#ffbd1c);border-color:#ffe36b;color:#fff}
+header.hero{text-align:center;padding:18px 0 8px}
+.brand{font-size:12px;letter-spacing:.14em;color:var(--cyan);font-weight:800}
+h1{font-size:clamp(30px,9vw,46px);line-height:1.15;margin:6px 0 4px;letter-spacing:-.04em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ffdb25,#ff7842,#ff399c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ver{margin:0 0 6px;font-size:13px;font-weight:800;letter-spacing:.12em;color:var(--muted)}
+.lead{color:var(--muted);margin:0}
+nav.toc{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px 16px;margin:18px 0}
+nav.toc b{color:var(--gold);font-size:13px}
+nav.toc ol{margin:6px 0 0;padding-left:22px;columns:2;column-gap:20px}
+nav.toc a{color:#bfeaff;text-decoration:none}
+nav.toc a:hover{text-decoration:underline}
+section{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px 18px 10px;margin:14px 0;box-shadow:0 10px 30px #0004}
+h2{font-size:20px;margin:2px 0 8px;color:var(--gold);letter-spacing:-.02em}
+h3{font-size:16px;margin:14px 0 4px;color:var(--cyan)}
+p{margin:6px 0 10px}
+ul,ol{margin:4px 0 10px;padding-left:22px}
+li{margin:3px 0}
+strong{color:#ffe272}
+.k{display:inline-block;border:1px solid #6fa8ff88;border-radius:999px;padding:0 8px;font-size:13px;font-weight:800;background:#18305e;color:#d8e6ff;white-space:nowrap}
+.note{border-left:3px solid var(--pink);padding:4px 10px;background:#ff3c9112;border-radius:0 10px 10px 0;color:#ffd6e8;font-size:14px}
+.tbl{overflow-x:auto;margin:6px 0 12px}
+table{border-collapse:collapse;width:100%;min-width:300px;font-size:14px}
+th,td{border:1px solid #33528f;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#172a5b;color:#e6efff}
+td.c{text-align:center}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
+footer{color:#6b8abb;font-size:12px;text-align:center;margin-top:24px;line-height:1.7}
+a{color:#bfeaff}
+@media(max-width:480px){nav.toc ol{columns:1}body{font-size:14.5px}section{padding:12px 14px 8px}}
+@media(prefers-color-scheme:light){:root{--bg:#f4f6fb;--ink:#17203a;--muted:#3b4a6b;--card:#ffffffd9;--line:#4a5a8a33;color-scheme:light}strong{color:#a35a00}h2{color:#b36b00}h3{color:#0a6f9a}nav.toc a,a{color:#0a5f8a}.k{background:#e6eefc;color:#17203a}th{background:#e6eefc;color:#17203a}th,td{border-color:#c5d0e6}.note{color:#7a1f48}.back{color:#7a4a00;background:#ffd33d22}footer{color:#5a6b8b}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top"><a class="back" href="../index.html">← 返回应用</a><nav class="langs" aria-label="语言"><a href="ko.html" hreflang="ko">한국어</a><a href="en.html" hreflang="en">English</a><a href="ja.html" hreflang="ja">日本語</a><a href="zh.html" hreflang="zh-Hans" aria-current="page">中文</a><a href="mn.html" hreflang="mn">Монгол</a><a href="es-mx.html" hreflang="es-MX">Español (MX)</a><a href="es-cl.html" hreflang="es-CL">Español (CL)</a><a href="pt-br.html" hreflang="pt-BR">Português (BR)</a></nav></div>
+<header class="hero">
+<div class="brand">TODAY’S BEAT S · MANUAL</div>
+<h1>今日<em>节拍</em> S</h1>
+<p class="ver">Korean Version</p>
+<p class="lead">使用说明 — 按一按、掷一掷、尽情玩!</p>
+</header>
+
+<nav class="toc" aria-label="目录"><b>目录</b>
+<ol>
+<li><a href="#about">今日节拍 S 是什么?</a></li>
+<li><a href="#screen">首屏导览</a></li>
+<li><a href="#shake">摇一摇</a></li>
+<li><a href="#song">乐曲结构 · 加花 · 起伏</a></li>
+<li><a href="#genres">引擎与曲风</a></li>
+<li><a href="#meter">拍子与风格</a></li>
+<li><a href="#drop">灵感引爆 · 合奏曲</a></li>
+<li><a href="#fx">FX 音效</a></li>
+<li><a href="#editor">小节游乐场</a></li>
+<li><a href="#party">我的节拍一字排开!</a></li>
+<li><a href="#record">录制 · 打开 · 存MIDI</a></li>
+<li><a href="#dancers">舞者与可视化</a></li>
+<li><a href="#free">免费版与专业版</a></li>
+<li><a href="#tips">小贴士</a></li>
+<li><a href="#credits">声音来源</a></li>
+</ol>
+</nav>
+
+<section id="about">
+<h2>1. 今日节拍 S 是什么?</h2>
+<p>用骰子掷出<strong>4 小节鼓点</strong>的游乐场。按一下金色按钮就会生成一首新曲并立刻播放。除了 4/4,还能掷出 3/4 · 2/4 · 6/8 · 12/8 · 5/4 · 7/8 拍。换鼓组、摇手机、掷骰子,做出属于你自己的节拍。</p>
+<ul>
+<li>名字里的 <strong>S</strong> 代表 Start(开始)和 Special(特别)。在韩语界面中,标题“비트”下方会显示小字 <strong>Korean Version</strong>。</li>
+<li><strong>应用可免费下载。</strong>部分功能可通过在应用内购买的专业版终身权(一次性购买)解锁(第 13 节)。</li>
+<li>一切只在这台设备上运行,不会向服务器发送任何内容。</li>
+<li>没有网络也能玩(离线)。只有购买专业版时才会连接 Google Play。</li>
+</ul>
+</section>
+
+<section id="screen">
+<h2>2. 首屏导览</h2>
+<h3>金色按钮</h3>
+<ul>
+<li>一开始显示 <span class="k">ENGINE</span>。每按一次就生成一首<strong>新曲</strong>并立即播放,按钮上会出现一个<strong>积极的词</strong>,比如“喜悦”“希望”。</li>
+<li><strong>预备拍</strong> — 在停止状态下用金色按钮、播放键或节拍游戏开始时,屏幕会先数 <strong>3 · 2 · 1</strong>,从第一拍开始出声。按下的瞬间不会发出任何声音。</li>
+<li>新曲用哪种拍子和风格,由设置面板里的拍子 · 风格选择决定(第 6 节)。</li>
+<li>每次按下,可视化模式也会随机切换。</li>
+<li>如果新曲和以前听过的节拍完全相同,会提示“这段节拍以前听过!”,并询问是否重新掷一次(专业版)。免费版不记录听过的节拍,因此不会出现这个提示。</li>
+<li>按下停止后,按钮会回到 <span class="k">ENGINE</span>。</li>
+</ul>
+<h3>鼓组按钮(3 · 4 · 3)</h3>
+<p>金色按钮下方的十个圆形按钮:标准 · 房间 · 力量 / 电子 · 88 · 爵士 · 刷子 / 管弦乐 · 韩国打击乐 · 合成(原始音色)。</p>
+<ul>
+<li><strong>轻点</strong> — 即使正在播放,也会在按下的瞬间切换到该鼓组。</li>
+<li><strong>长按(0.5 秒)</strong> — 📌 <strong>固定</strong>。固定的鼓组会和当前鼓组叠在一起发声。最多固定 4 个 + 当前鼓组 = 5 层。再长按一次即可取消固定。</li>
+<li>鼓组旁边的小按钮 — 开关<strong>摇一摇</strong>、显示/隐藏<strong>舞者</strong>、星形的<strong>灵感引爆</strong>(第 7 节),以及它上方的 <strong>FX</strong>(第 8 节)。</li>
+</ul>
+<h3>控制栏</h3>
+<p><span class="k">录制</span> <span class="k">打开</span> <span class="k">播放/暂停</span> <span class="k">停止</span> <span class="k">循环</span> <span class="k">存MIDI</span> — 打开“循环”后,乐曲结束会从头继续播放。 🔒 录制、打开、存MIDI 是专业版功能(第 11 节)。</p>
+<h3>速度(BPM)面板</h3>
+<ul>
+<li><strong>随机</strong> — 每个 4 小节段落都用该段引擎的 BPM 演奏,上方方框显示当前 BPM。如果拍子选择也是“随机”,每个 4 小节段落连拍子和风格也会改变(第 6 节)。</li>
+<li><strong>自定义</strong> — 新曲前 4 小节的 BPM 会一直用到曲末。用数字或滑块改变 BPM 后,这首曲子结束前都保持该值。</li>
+<li>随机/自定义方框<strong>右上角的小字</strong>是拍子:随机框显示当前小节的拍子,自定义框显示整首曲子的拍子。</li>
+<li>随机/自定义按钮<strong>只负责选择</strong>。开始播放只能用金色按钮或播放键(播放中则从当前位置以新方式继续)。</li>
+<li>BPM 滑块下方的 🔊 滑块是音量。</li>
+</ul>
+<h3>玩几小节? · 这次是几首中的一首?</h3>
+<p>从 4 · 8 · 16 · 32 · 64 小节中选择下一首曲子的长度。下方的卡片用 <strong>10 的幂</strong>(例如 4.42 × 10<sup>109</sup>)显示下一首曲子是“多少首中的一首”。再下方是拍子 · 风格选择(第 6 节)。</p>
+<h3>可视化</h3>
+<p>点击金色按钮周围的空白处即可切换到下一个模式。共十二种 — 音箱律动 · 彩虹云 · 波形 · 银河 · 烟花 · 阳光 · 地平线 · 波浪丝带 · 激光十字 · 尖刺环 · 液态环 · 刻度环。</p>
+<h3>右上角四个圆形按钮与语言按钮</h3>
+<ul>
+<li><strong>全屏</strong> — 第一次可能会询问是否安装为应用。</li>
+<li><strong>关闭</strong> — 免费版不保存歌曲,关闭后当前歌曲将消失(设置会保留)。专业版的乐曲会保存在设备上,下次打开继续。</li>
+<li><strong>☀ 日间主题</strong> — 依次切换八种浅色背景(象牙白 · 纯白 · 浅天蓝 · 浅绿 · 蜜桃 · 薰衣草 · 柠檬 · 薄荷)。</li>
+<li><strong>🌙 夜间主题</strong> — 依次切换八种深色背景(宇宙(原版) · 纯黑 · 深藏青 · 深绿 · 深棕褐 · 黑板 · 浅栗色 · 紫夜)。</li>
+<li>下方的胶囊形<strong>语言</strong>按钮 — 可选择 한국어 · English · 日本語 · 中文 · Монгол · Español (MX) · Español (CL) · Português (BR)。所选语言会被记住,初次使用时跟随设备语言。</li>
+</ul>
+</section>
+
+<section id="shake">
+<h2>3. 摇一摇</h2>
+<p>摇动手机就会更换鼓组。摇动的<strong>力度</strong>决定叠加几个鼓组。</p>
+<div class="tbl"><table>
+<tr><th>力度(去除重力的加速度)</th><th>效果</th></tr>
+<tr><td>低于 9 m/s²</td><td>没有变化</td></tr>
+<tr><td>9 m/s² 以上</td><td>换成另一个鼓组</td></tr>
+<tr><td>13 m/s² 以上</td><td>两个鼓组叠加发声</td></tr>
+<tr><td>18 m/s² 以上</td><td>三个鼓组叠加发声</td></tr>
+</table></div>
+<ul>
+<li>已固定(📌)的鼓组会继续一起发声。</li>
+<li>每摇一下只换一次,下一次之前会间隔 0.11 秒。</li>
+<li>iPhone 和 iPad 会在第一次按金色按钮时请求“动作”权限。</li>
+<li>不想被切换时,可用鼓组旁的摇一摇按钮关闭。</li>
+</ul>
+</section>
+
+<section id="song">
+<h2>4. 乐曲结构 · 加花 · 起伏</h2>
+<ul>
+<li>乐曲由<strong>4 小节段落</strong>串成。每段抽取一个引擎和一个 BPM,四个小节内保持不变;四颗骰子在每个小节各自掷出。</li>
+<li>段落最后一小节会加入<strong>加花</strong>,共六种:通鼓下行 · 军鼓滚奏 · 停顿 · 停顿 + 重击 · 渐强铺垫 · 通鼓上行。</li>
+<li>12 小节以上的乐曲偶尔会出现<strong>抽离段(breakdown)</strong>:底鼓和打击乐退出,下一段第一拍伴随镲片重新爆发。</li>
+<li>使用韩国打击乐鼓组时,乐曲开头会响起喇叭(나발)的长音,中间还会穿插助兴的喊声(추임새)。</li>
+</ul>
+<p class="note">加花和抽离段 只在播放时加入。专业版的作品文件和 MIDI 中保存的是原始节奏型。</p>
+</section>
+
+<section id="genres">
+<h2>5. 引擎与曲风</h2>
+<p>在拍子选择中选 <strong>4/4</strong>(或随机抽到 4/4)时,会生成今日节拍原本的 4/4 乐曲。在免费版中,每 4 小节抽取引擎时,霓虹、经典、灵魂、科技舞曲四个引擎会混合出现。标有 🔒 的浩室、欧陆舞曲、K-POP 在专业版中开放,七个引擎会全部混合出现。</p>
+<div class="tbl"><table>
+<tr><th>引擎</th><th>BPM</th></tr>
+<tr><td><i class="dot" style="background:#32ffc1"></i>霓虹</td><td>68 · 90 · 105 · 116 · 120 · 132</td></tr>
+<tr><td><i class="dot" style="background:#549fff"></i>经典</td><td>68 · 90 · 105 · 116 · 120 · 132</td></tr>
+<tr><td><i class="dot" style="background:#ff7e49"></i>灵魂</td><td>68 · 90 · 105 · 116 · 120 · 132</td></tr>
+<tr><td><i class="dot" style="background:#c86bff"></i>科技舞曲</td><td>124–135</td></tr>
+<tr><td><i class="dot" style="background:#ffc14d"></i>🔒 浩室</td><td>118–128</td></tr>
+<tr><td><i class="dot" style="background:#ff5fa8"></i>🔒 欧陆舞曲</td><td>134–145</td></tr>
+<tr><td><i class="dot" style="background:#ff3d55"></i>🔒 K-pop</td><td>120–134</td></tr>
+</table></div>
+</section>
+
+<section id="meter">
+<h2>6. 拍子与风格</h2>
+<p>设置面板“多少首中的一首”卡片下方有两个选择 — <span class="k">拍子</span>和<span class="k">风格</span>。点一下会展开深色列表,点列表外即可关闭。所选的值从下一次按金色按钮开始生效。</p>
+<h3>拍子选择</h3>
+<ul>
+<li><strong>随机</strong>(默认)— 每次按金色按钮,从八种(4/4 今日节拍 + 七种拍子)中选一种。风格也随机。</li>
+<li><strong>4/4</strong> — 今日节拍原本的 4/4 乐曲(第 5 节的引擎)。</li>
+<li><strong>4/4 风格 · 3/4 · 2/4 · 6/8 · 12/8 · 5/4 · 7/8</strong> — 只用该拍子生成。每种拍子都有代表风格。</li>
+</ul>
+<h3>风格选择</h3>
+<p>选定一种拍子后,可以从它的代表风格中挑选。选“随机风格”则由骰子决定风格。拍子为“随机”或“4/4”时,风格选择暂不可用。</p>
+<div class="tbl"><table>
+<tr><th>拍子</th><th>代表风格</th></tr>
+<tr><td>4/4 风格</td><td>迪斯科 / 舞曲 · 16 拍放克 · 半速陷阱 · 驱动摇滚 · 拉丁流行 / 波萨 · 混沌随机</td></tr>
+<tr><td>3/4</td><td>经典华尔兹 · 流行 3/4 抒情曲 · 爵士摇摆华尔兹 · 赫米奥拉摇滚 (3:2) · 第三拍军鼓抒情 · 混沌随机</td></tr>
+<tr><td>2/4</td><td>巴西桑巴 · 军队进行曲 · 波尔卡 / 韩国演歌 · 快速朋克疾驰 · 拉丁三连音型 · 混沌随机</td></tr>
+<tr><td>6/8</td><td>慢摇滚抒情 · 凯尔特吉格舞 · 复古 6/8 灵魂乐 · 非洲赫米奥拉 · 布鲁斯律动 6/8 · 混沌随机</td></tr>
+<tr><td>12/8</td><td>德州布鲁斯律动 · 慢灵魂抒情 · 芝加哥布鲁斯跑动 · 复古铃鼓律动 · 12/8 半速 Dub · 混沌随机</td></tr>
+<tr><td>5/4</td><td>酷爵士 5/4 · 间谍电影即兴段 · 前卫融合 · 电影感 5/4 酒廊 · 5/4 电子碎拍 · 混沌随机</td></tr>
+<tr><td>7/8</td><td>前卫金属 7/8 · 巴尔干民间固定音型 · 7/8 爵士融合拍弦 · 反转 [3+2+2] 律动 · 7/8 数学摇滚回转 · 卡拉马蒂亚诺斯 3+2+2 · 混沌随机</td></tr>
+</table></div>
+<h3>随机 · 自定义与拍子</h3>
+<ul>
+<li>速度<strong>随机</strong> + 拍子<strong>随机</strong>时,一首曲子里<strong>每个 4 小节段落</strong>的拍子、风格、节拍、引擎、BPM 都会随机变化。这样混合的乐曲不配合奏曲,而由应用自己的和弦与贝斯伴奏。</li>
+<li>播放混合乐曲时按<strong>自定义</strong>,前 4 小节保持不变,其余部分会按<strong>第一小节的拍子和风格</strong>重新生成并继续播放。BPM 取第一小节的值(若用滑块设定过,则取该值)。</li>
+<li>拍子和风格名称也会显示在小节卡片的段落名旁边。专业版的存MIDI 会写入拍号。</li>
+<li>节拍游戏只在 4/4 节拍中开放。</li>
+</ul>
+</section>
+
+<section id="drop">
+<h2>7. 灵感引爆 · 合奏曲</h2>
+<p>点鼓组旁的星形<strong>灵感引爆</strong>按钮,即可打开乐曲面板。共有 <strong>80 首</strong>,分在 <span class="k">原创</span> <span class="k">名曲</span> <span class="k">民谣/艺术歌曲</span> 三个标签中。</p>
+<p class="note">在免费版中,80 首里可以演奏的是 <strong>6 首</strong>(每个标签 2 首)。80 首都会显示在列表中,但其他乐曲带有 🔒,点击会弹出说明。购买专业版后 80 首全部开放(第 13 节)。</p>
+<ul>
+<li><span class="k">原创</span> — 01 네온 러시(霓虹冲刺) · 13 팝핑 웨이브(Popping Wave)</li>
+<li><span class="k">名曲</span> — 18 월광(月光) · 31 터키 행진곡(土耳其进行曲)</li>
+<li><span class="k">民谣/艺术歌曲</span> — 53 옹헤야(Ongheya) · 54 쾌지나칭칭나네(Kwaejina Chingching Nane)</li>
+</ul>
+<p>列表中的曲名以韩语显示。</p>
+<ul>
+<li>选好乐曲,点大圆圈开始。在铺垫结束时摇一摇或点圆圈即可引爆。</li>
+<li>打开<strong>加入节拍</strong>后,随机节拍会代替歌曲的鼓;用<strong>连续播放</strong>可依次播放选中的乐曲。</li>
+<li><strong>合奏</strong> — 合奏曲的旋律和伴奏会和金色按钮的节拍一起响起。只有符合节拍拍子的乐曲才会成为合奏候选,每个节拍选一首从头演奏。免费版的合奏曲共十首,即上面 6 首,再加上 17 디스코 볼(迪斯科球,4/4)、52 마왕의 궁전(在山魔王的宫殿里,4/4)、69 봄처녀(春之少女,3/4)和 79 사미오티사(萨米奥蒂萨,7/8)。这四首只在合奏中响起,不能从乐曲列表播放。也可以用乐曲行的<span class="k">候选</span>栏自己挑选合奏候选(仅限可播放的乐曲)。乐曲行末尾的拍子(例如 3/4)就是适合它的节拍拍子。</li>
+<li>八首拍子合奏曲 — 免费版只有 79 萨米奥蒂萨用于合奏,其余在专业版中开放。
+<ul>
+<li><strong>3/4</strong> — 73 蓝色多瑙河 · 74 花之圆舞曲 · 75 小狗圆舞曲 · 76 奇异恩典 · 77 密阳阿里郎 · 78 珍岛阿里郎</li>
+<li><strong>7/8</strong> — 79 萨米奥蒂萨(Samiotissa) · 80 约瓦诺,约万卡(Jovano, Jovanke)</li>
+</ul></li>
+<li>5/4 暂时还没有合奏曲,会以节拍、和弦与贝斯演奏。</li>
+</ul>
+</section>
+
+<section id="fx">
+<h2>8. FX 音效</h2>
+<p>点灵感引爆按钮上方的圆形 <span class="k">FX</span> 按钮,音效面板会向上展开。共有十一种可以垫在节拍下面的环境声。</p>
+<p>⛈ 雷雨 · 🌧 窗边雨声 · 🌊 海浪 · 🫧 浅水 · 🐋 深海 · 💧 溪流 · 🌲 森林 · 🌬 风 · 🔥 篝火 · 🛣 高速公路 · 🌌 太空 · ✕ 关闭</p>
+<ul>
+<li>每种声音都是无缝循环的 <strong>5 分钟</strong>音轨。换成别的声音时会平滑交叉淡入淡出。</li>
+<li>FX 播放时,节拍和演奏会稍微变小。</li>
+<li>只有在声音开启时,FX 旁边才会出现<strong>竖向音量滑块</strong>(0–2 倍),并记住上次的值。</li>
+<li>点“关闭”即可停止。</li>
+<li>所有 FX 声音都取自 freesound.org 的 CC0 素材。</li>
+</ul>
+</section>
+
+<section id="editor">
+<h2>9. 小节游乐场</h2>
+<p>首屏下方的骰子游乐场,可以用骰子修改选中的小节。免费版<strong>只能编辑第 1 小节</strong>,从第 2 小节起只能查看和收听。专业版可以编辑所有小节。</p>
+<ul>
+<li><strong>选择小节</strong> — 用标题旁的 ‹ › 按钮,或点击下方的小节卡片。</li>
+<li><span class="k">▶ 听这一小节</span> — 只听选中的小节。<span class="k">🎲 四颗骰子一起掷!</span> — 重新掷所有未锁定的行。</li>
+<li>每一行(踩镲 · 军鼓 · 底鼓 · 打击乐)
+<ul>
+<li>大骰子 — 只随机这一行!</li>
+<li>🔒 锁定 — 掷骰子或按金色按钮时保留这一行。</li>
+<li>🔇 已静音 — 让它休息一下。旁边的选框还能选择音色。</li>
+<li>1–6 彩色按钮 — 亲手挑选节奏。</li>
+<li>16 格 — 每点一次依次为<strong>休止 → 中 → 弱 → 强</strong>。其他拍子的乐曲中,格数、刻度和节奏型名称会随拍子改变。</li>
+</ul></li>
+<li><strong>节拍编号</strong> — 由 1–6 组成的四位数。1613 表示踩镲 1 · 军鼓 6 · 底鼓 1 · 打击乐 3 号。用<span class="k">填入</span>应用。</li>
+<li><strong>段落 BPM</strong> — 输入数字后按<span class="k">应用</span>,或按 🎲,改变这 4 小节段落的 BPM。</li>
+<li><strong>引擎按钮</strong> — 更换整个 4 小节段落的引擎。锁定的行和手动改过的格子会保留。 🔒 浩室、欧陆舞曲、K-POP 是专业版功能。</li>
+</ul>
+<p class="note">🔒 在免费版中,从第 2 小节起编辑区会变暗并锁定。仍可选择小节和使用 ▶ 听这一小节。点那里出现的<span class="k">了解专业版</span>会弹出说明(第 13 节)。编辑所有小节在专业版中开放。</p>
+</section>
+
+<section id="party">
+<h2>10. 我的节拍一字排开!</h2>
+<ul>
+<li>整首曲子以小节卡片排列。点击卡片即可跳到上方的游乐场。</li>
+<li>全部播放 · ■ 停止 · ↻ 循环 · ↶ 撤销(回到上一步)。</li>
+<li>文件按钮 — 💾 保存作品(JSON) · 📂 载入 · 🎹 保存MIDI · 🎁 含歌曲的HTML。 🔒 都是专业版功能(第 11 节)。</li>
+</ul>
+</section>
+
+<section id="record">
+<h2>11. 录制 · 打开 · 存MIDI</h2>
+<p class="note">🔒 录制、打开、存MIDI 是专业版功能。在免费版中点击会弹出说明(第 13 节)。下面是专业版中的用法。</p>
+<ul>
+<li><strong>录制</strong> — 播放时按下,然后切换鼓组,切换的位置会原样记录下来。再按一次即保存为 <strong>.mid 文件</strong>,录音也会放进“打开”里。</li>
+<li><strong>打开</strong> — “🎧 听过的节拍”“⏺ 录音”两个标签,以及“📁 从文件”。点一下听过的节拍,就会原样重新播放那首曲子。</li>
+<li><strong>存MIDI</strong> — 把当前乐曲存为 MIDI 文件,每个 4 小节段落的速度、音色和拍号都会保留。</li>
+</ul>
+</section>
+
+<section id="dancers">
+<h2>12. 舞者与可视化</h2>
+<ul>
+<li>鼓组左侧的小舞台上,三位光线舞者随节拍起舞。</li>
+<li>队形每段变化 — 齐舞 · 波浪(依次慢一拍) · 镜像。抽离段时独舞,停顿时以同一姿势定格。</li>
+<li>他们会在舞台纵深中前后移动 — 抽离段时后退,铺垫时靠近,爆发的一刻站到最前面。</li>
+<li>服装随鼓组变化。使用韩国打击乐鼓组时,三人都戴笠帽(갓)、穿马褂(마고자)。</li>
+<li>用鼓组旁的舞蹈按钮显示或隐藏。</li>
+</ul>
+</section>
+
+<section id="free">
+<h2>13. 免费版与专业版</h2>
+<div class="tbl"><table>
+<tr><th>功能</th><th>免费</th><th>专业版</th></tr>
+<tr><td>金色按钮无限节拍 · 预备拍 · 十种鼓组 · 固定 · 摇一摇 · 舞者 · 可视化 · 主题 · 语言</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>七种拍子 · 拍子与风格选择</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>十一种 FX 音效 · 节拍游戏 · 熄屏也播放</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>引擎 霓虹 · 经典 · 灵魂 · 科技舞曲</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>浩室 · 欧陆舞曲 · K-POP</td><td class="c">—</td><td class="c">✓</td></tr>
+<tr><td>灵感引爆乐曲</td><td class="c">6 首</td><td class="c">80 首</td></tr>
+<tr><td>合奏曲(第 7 节)</td><td class="c">6 首 + 17 · 52 · 69 · 79</td><td class="c">全部</td></tr>
+<tr><td>小节游乐场查看和收听</td><td class="c">全部小节</td><td class="c">全部小节</td></tr>
+<tr><td>小节游乐场编辑</td><td class="c">第 1 小节</td><td class="c">全部小节</td></tr>
+<tr><td>录制 · 打开 · 存MIDI</td><td class="c">—</td><td class="c">✓</td></tr>
+<tr><td>保存作品 · 载入 · 保存MIDI · 含歌曲的HTML</td><td class="c">—</td><td class="c">✓</td></tr>
+<tr><td>自动保存(下次打开继续) · 听过的节拍记录</td><td class="c">—</td><td class="c">✓</td></tr>
+</table></div>
+<p>应用可免费下载。专业版是<strong>一次购买、永久使用</strong>的买断制(专业版终身权),在应用内通过 Google Play 购买。</p>
+<ul>
+<li>免费版中被锁定的按钮和乐曲带有小 🔒,点击会弹出说明。点<span class="k">购买专业版</span>会进入 Google Play 付款,点<span class="k">关闭</span>则直接关闭。</li>
+<li>购买完成后,应用会重新打开一次并变为专业版。</li>
+<li>更换设备时,可用 ⓘ 应用信息中的<span class="k">恢复购买</span>找回。</li>
+<li>只有购买和恢复时才需要 Google Play,其他功能都可以离线使用。</li>
+<li><strong>保存</strong> — 免费版不保存任何内容。关闭应用后歌曲会消失,只保留设置。专业版会把作品保存在这台设备上。</li>
+</ul>
+</section>
+
+<section id="tips">
+<h2>14. 小贴士</h2>
+<ul>
+<li>iPhone 打开静音开关时可能没有声音。</li>
+<li>在电脑上,空格键可播放/暂停全曲。</li>
+<li>离开画面时会暂停播放。</li>
+<li>在专业版中保存的 MIDI,声音会因打开它的软件(音源)而不同。</li>
+<li>免费版不保存任何内容。关闭应用后当前歌曲会消失,只保留设置。专业版会把作品保存在这台设备上。</li>
+<li>不会向服务器发送任何内容,记录只保存在这台设备上。专业版购买由 Google Play 处理,本应用不接收支付信息。</li>
+</ul>
+</section>
+
+<section id="credits">
+<h2>15. 声音来源</h2>
+<p>鼓组声音由 MIDI CLOVIS 音源制作 — MuseScore General(S. Christian Collins · MIT) · MuldjordKit(Lars Muldjord · CC BY 4.0) · FreePats(CC0)。韩国打击乐使用了韩国国立国乐院的国乐器数字音源,并依照韩国公共许可(KOGL)第 1 类条件标注出处。十一种 FX 音效来自 freesound.org 的 CC0(公有领域)素材。全文见应用最下方的“声音来源与许可”。</p>
+</section>
+
+<footer>TODAY’S BEAT S · Korean Version · 今天的节奏,亲手玩出来!</footer>
+</div>
+</body>
+</html>

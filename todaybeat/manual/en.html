@@ -1,0 +1,342 @@
+<!doctype html>
+<!-- 오늘의 비트 S 사용 설명서 — 영어 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d21">
+<meta name="description" content="Today's Beat S (Korean Version) manual — gold button, count-in, time signatures and genres, Inspiration Drop, FX sounds, kits, shake, Dice Playground, Record, Free and Pro">
+<title>Today's Beat S · Manual</title>
+<style>
+:root{--bg:#080d21;--ink:#eef3ff;--muted:#aab8db;--gold:#ffd33d;--cyan:#00dcff;--pink:#ff3c91;--purple:#a36cff;--card:#111a3acc;--line:#4b8aff55;--font:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:15px/1.75 var(--font);background:radial-gradient(circle at 7% 2%,#1140a743,transparent 34rem),radial-gradient(circle at 92% 18%,#ad166f22,transparent 32rem),var(--bg);overflow-wrap:anywhere;word-break:normal}
+.wrap{max-width:760px;margin:0 auto;padding:16px 16px 48px}
+.top{display:flex;flex-direction:column;gap:8px;margin-bottom:10px}.back{align-self:flex-start;color:#ffe36b;text-decoration:none;font-weight:800;font-size:14px;border:1px solid #ffd33d77;border-radius:999px;padding:6px 14px;background:#ffd33d14}.langs{display:flex;flex-wrap:wrap;gap:5px}.langs a{color:#c8d8ff;text-decoration:none;border:1px solid #4e70a8;border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:700;background:#132449cc;white-space:nowrap}
+
+.langs a[aria-current]{background:linear-gradient(90deg,#ff3d9d,#ffbd1c);border-color:#ffe36b;color:#fff}
+header.hero{text-align:center;padding:18px 0 8px}
+.brand{font-size:12px;letter-spacing:.14em;color:var(--cyan);font-weight:800}
+h1{font-size:clamp(30px,9vw,46px);line-height:1.15;margin:6px 0 4px;letter-spacing:-.04em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ffdb25,#ff7842,#ff399c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ver{margin:0 0 6px;font-size:13px;font-weight:800;letter-spacing:.12em;color:var(--muted)}
+.lead{color:var(--muted);margin:0}
+nav.toc{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px 16px;margin:18px 0}
+nav.toc b{color:var(--gold);font-size:13px;letter-spacing:.08em}
+nav.toc ol{margin:6px 0 0;padding-left:22px;columns:2;column-gap:20px}
+nav.toc a{color:#bfeaff;text-decoration:none}
+nav.toc a:hover{text-decoration:underline}
+section{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px 18px 10px;margin:14px 0;box-shadow:0 10px 30px #0004}
+h2{font-size:20px;margin:2px 0 8px;color:var(--gold);letter-spacing:-.02em}
+h3{font-size:16px;margin:14px 0 4px;color:var(--cyan)}
+p{margin:6px 0 10px}
+ul,ol{margin:4px 0 10px;padding-left:22px}
+li{margin:3px 0}
+strong{color:#ffe272}
+.k{display:inline-block;border:1px solid #6fa8ff88;border-radius:999px;padding:0 8px;font-size:13px;font-weight:800;background:#18305e;color:#d8e6ff;white-space:nowrap}
+.note{border-left:3px solid var(--pink);padding:4px 10px;background:#ff3c9112;border-radius:0 10px 10px 0;color:#ffd6e8;font-size:14px}
+.tbl{overflow-x:auto;margin:6px 0 12px}
+table{border-collapse:collapse;width:100%;min-width:300px;font-size:14px}
+th,td{border:1px solid #33528f;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#172a5b;color:#e6efff}
+td.c{text-align:center}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
+footer{color:#6b8abb;font-size:12px;text-align:center;margin-top:24px;line-height:1.7}
+a{color:#bfeaff}
+@media(max-width:480px){nav.toc ol{columns:1}body{font-size:14.5px}section{padding:12px 14px 8px}}
+@media(prefers-color-scheme:light){:root{--bg:#f4f6fb;--ink:#17203a;--muted:#3b4a6b;--card:#ffffffd9;--line:#4a5a8a33;color-scheme:light}strong{color:#a35a00}h2{color:#b36b00}h3{color:#0a6f9a}nav.toc a,a{color:#0a5f8a}.k{background:#e6eefc;color:#17203a}th{background:#e6eefc;color:#17203a}th,td{border-color:#c5d0e6}.note{color:#7a1f48}.back{color:#7a4a00;background:#ffd33d22}footer{color:#5a6b8b}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top"><a class="back" href="../index.html">← Back to the app</a><nav class="langs" aria-label="Language"><a href="ko.html" hreflang="ko">한국어</a><a href="en.html" hreflang="en" aria-current="page">English</a><a href="ja.html" hreflang="ja">日本語</a><a href="zh.html" hreflang="zh-Hans">中文</a><a href="mn.html" hreflang="mn">Монгол</a><a href="es-mx.html" hreflang="es-MX">Español (MX)</a><a href="es-cl.html" hreflang="es-CL">Español (CL)</a><a href="pt-br.html" hreflang="pt-BR">Português (BR)</a></nav></div>
+<header class="hero">
+<div class="brand">TODAY’S BEAT S · MANUAL</div>
+<h1>Today’s <em>Beat</em> S</h1>
+<p class="ver">Korean Version</p>
+<p class="lead">User manual — tap it, roll it, have fun!</p>
+</header>
+
+<nav class="toc" aria-label="Contents"><b>CONTENTS</b>
+<ol>
+<li><a href="#about">What is Today’s Beat S?</a></li>
+<li><a href="#screen">The first screen</a></li>
+<li><a href="#shake">Shake</a></li>
+<li><a href="#song">Song shape · fills · waves</a></li>
+<li><a href="#genres">Engines and genres</a></li>
+<li><a href="#meter">Time signatures and genres</a></li>
+<li><a href="#drop">Inspiration Drop · jam songs</a></li>
+<li><a href="#fx">FX sounds</a></li>
+<li><a href="#editor">Dice Playground</a></li>
+<li><a href="#party">My beats, all in a row!</a></li>
+<li><a href="#record">Record · Open · MIDI Save</a></li>
+<li><a href="#dancers">Dancers and visualizer</a></li>
+<li><a href="#free">Free and Pro</a></li>
+<li><a href="#tips">Good to know</a></li>
+<li><a href="#credits">Sound credits</a></li>
+</ol>
+</nav>
+
+<section id="about">
+<h2>1. What is Today’s Beat S?</h2>
+<p>A playground of <strong>4-bar drum beats</strong> rolled with dice. One press of the gold button makes a new song and plays it right away. Besides 4/4, it rolls 3/4 · 2/4 · 6/8 · 12/8 · 5/4 · 7/8 too. Switch kits, shake your phone and roll the dice to make your own beat.</p>
+<ul>
+<li>The <strong>S</strong> stands for Start and Special. On the Korean screen, a small <strong>Korean Version</strong> sits under the word “비트” in the title.</li>
+<li><strong>The app is free to download.</strong> Some features open with the Pro lifetime pass (one-time purchase), bought inside the app (section 13).</li>
+<li>Everything runs on your device only. Nothing is sent to a server.</li>
+<li>It works without the internet (offline). Only buying Pro connects to Google Play.</li>
+</ul>
+</section>
+
+<section id="screen">
+<h2>2. The first screen</h2>
+<h3>Gold button</h3>
+<ul>
+<li>At first it reads <span class="k">ENGINE</span>. Every press makes a <strong>new song</strong> and plays it, and a <strong>positive word</strong> such as “Joy” or “Hope” appears on the button.</li>
+<li><strong>Count-in</strong> — when you start from a stop (gold button, Play or the Beat Game), the screen first counts <strong>3 · 2 · 1</strong> and the sound starts on the first beat. Nothing sounds at the moment you press.</li>
+<li>The time signature and genre of the new song come from the pickers in the settings panel (section 6).</li>
+<li>Each press also picks a random visualizer mode.</li>
+<li>If the new song is exactly a beat you have heard before, the app says “You’ve heard this beat before!” and asks whether to roll again (Pro). The free edition keeps no history of heard beats, so this notice does not appear.</li>
+<li>Press Stop and the button goes back to <span class="k">ENGINE</span>.</li>
+</ul>
+<h3>Drum kit buttons (3 · 4 · 3)</h3>
+<p>Ten round buttons under the gold button: Standard · Room · Power / Electronic · 88 · Jazz · Brush / Orchestra · Korean Percussion · Synth (original sound).</p>
+<ul>
+<li><strong>Tap</strong> — switches to that kit the moment you touch it, even while playing.</li>
+<li><strong>Long-press (0.5 s)</strong> — 📌 <strong>pin</strong>. A pinned kit plays together with the current kit. Up to four pins + the current kit = five layers. Long-press again to unpin.</li>
+<li>Small buttons next to the kits — <strong>shake</strong> on/off, show/hide the <strong>dancers</strong>, the star-shaped <strong>Inspiration Drop</strong> (section 7) and <strong>FX</strong> above it (section 8).</li>
+</ul>
+<h3>Control row</h3>
+<p><span class="k">Record</span> <span class="k">Open</span> <span class="k">Play/Pause</span> <span class="k">Stop</span> <span class="k">Loop</span> <span class="k">MIDI Save</span> — with Loop on, the song starts over when it ends. 🔒 Record, Open and MIDI Save are Pro features (section 11).</p>
+<h3>Tempo (BPM) panel</h3>
+<ul>
+<li><strong>Random</strong> — each 4-bar phrase plays at its own engine’s BPM. The box above shows the current BPM. If the time-signature picker is also on Random, every 4-bar phrase changes time signature and genre too (section 6).</li>
+<li><strong>Custom</strong> — the BPM of the first 4 bars of the new song is used for the whole song. If you change the BPM with the number or the slider, that value stays until the song ends.</li>
+<li>The <strong>small label at the top right</strong> of the Random and Custom boxes is the time signature: the Random box shows the current bar’s, the Custom box shows the song’s.</li>
+<li>The Random and Custom buttons <strong>only choose</strong> the mode. Only the gold button and Play start playback (while playing, it carries on in the new mode from the same spot).</li>
+<li>The 🔊 slider under the BPM slider is the volume.</li>
+</ul>
+<h3>How many bars? · This song is one of how many?</h3>
+<p>Choose the length of the next song: 4 · 8 · 16 · 32 · 64 bars. The card below shows how rare the next song is — “one in how many songs” — as a <strong>power of ten</strong> (e.g. 4.42 × 10<sup>109</sup>). The time-signature and genre pickers sit under it (section 6).</p>
+<h3>Visualizer</h3>
+<p>Tap the empty area around the gold button to go to the next mode. Twelve modes — Speaker Pulse · Rainbow Cloud · Waveform · Galaxy · Fireworks · Sunburst · Horizon · Wave Ribbons · Laser Cross · Spike Ring · Liquid Ring · Gauge Ring.</p>
+<h3>The four round buttons and the Language button</h3>
+<ul>
+<li><strong>Fullscreen</strong> — the first time, it may offer to install the app.</li>
+<li><strong>Close</strong> — the free edition does not save songs, so the current song is gone when you close the app (settings stay). On Pro, your song stays on the device and continues next time.</li>
+<li><strong>☀ Light theme</strong> — cycles eight light backgrounds (Ivory · Pure White · Light Sky · Light Green · Peach · Lavender · Lemon · Mint).</li>
+<li><strong>🌙 Dark theme</strong> — cycles eight dark backgrounds (Space (original) · Pure Black · Deep Navy · Deep Green · Dark Sepia · Chalkboard · Light Brown · Violet Night).</li>
+<li>The capsule <strong>Language</strong> button below them — choose 한국어 · English · 日本語 · 中文 · Монгол · Español (MX) · Español (CL) · Português (BR). Your choice is remembered; at first the app follows your device language.</li>
+</ul>
+</section>
+
+<section id="shake">
+<h2>3. Shake</h2>
+<p>Shake your phone to change the drum kit. How <strong>hard</strong> you shake decides how many kits play.</p>
+<div class="tbl"><table>
+<tr><th>Strength (acceleration without gravity)</th><th>What happens</th></tr>
+<tr><td>below 9 m/s²</td><td>nothing</td></tr>
+<tr><td>9 m/s² or more</td><td>switches to one other kit</td></tr>
+<tr><td>13 m/s² or more</td><td>two kits play layered</td></tr>
+<tr><td>18 m/s² or more</td><td>three kits play layered</td></tr>
+</table></div>
+<ul>
+<li>Pinned (📌) kits keep playing along.</li>
+<li>One knock = one change, with a 0.11 s rest before the next one.</li>
+<li>On iPhone and iPad, motion permission is asked the first time you press the gold button.</li>
+<li>Don’t want changes? Turn it off with the shake button next to the kits.</li>
+</ul>
+</section>
+
+<section id="song">
+<h2>4. Song shape · fills · waves</h2>
+<ul>
+<li>A song is a chain of <strong>4-bar phrases</strong>. Each phrase draws one engine and one BPM and keeps them for all four bars; the four dice roll separately in every bar.</li>
+<li>The last bar of a phrase gets a <strong>fill</strong> — six kinds: tom descent · snare roll · stop · stop + hit · build-up · tom rise.</li>
+<li>Songs of 12 bars or more sometimes get a <strong>breakdown</strong> phrase: kick and percussion drop out, then come back with a crash on the first beat of the next phrase.</li>
+<li>With the Korean Percussion kit, a nabal horn opens the song and chuimsae calls (traditional shouts of encouragement) pop in between.</li>
+</ul>
+<p class="note">Fills and breakdowns are added only during playback. In Pro, work files and MIDI keep the original patterns.</p>
+</section>
+
+<section id="genres">
+<h2>5. Engines and genres</h2>
+<p>Choose <strong>4/4</strong> in the time-signature picker (or let Random land on it) and you get the original Today’s Beat 4/4 song. In the free edition, four engines mix when an engine is rolled for a 4-bar phrase — Neon · Classic · Soul · Techno. House, Eurodance and K-pop, marked 🔒, open in Pro, where all seven mix.</p>
+<div class="tbl"><table>
+<tr><th>Engine</th><th>BPM</th></tr>
+<tr><td><i class="dot" style="background:#32ffc1"></i>Neon</td><td>68 · 90 · 105 · 116 · 120 · 132</td></tr>
+<tr><td><i class="dot" style="background:#549fff"></i>Classic</td><td>68 · 90 · 105 · 116 · 120 · 132</td></tr>
+<tr><td><i class="dot" style="background:#ff7e49"></i>Soul</td><td>68 · 90 · 105 · 116 · 120 · 132</td></tr>
+<tr><td><i class="dot" style="background:#c86bff"></i>Techno</td><td>124 – 135</td></tr>
+<tr><td><i class="dot" style="background:#ffc14d"></i>🔒 House</td><td>118 – 128</td></tr>
+<tr><td><i class="dot" style="background:#ff5fa8"></i>🔒 Eurodance</td><td>134 – 145</td></tr>
+<tr><td><i class="dot" style="background:#ff3d55"></i>🔒 K-pop</td><td>120 – 134</td></tr>
+</table></div>
+</section>
+
+<section id="meter">
+<h2>6. Time signatures and genres</h2>
+<p>Under the “one of how many” card in the settings panel there are two pickers — <span class="k">time signature</span> and <span class="k">genre</span>. Tap one and a dark list board opens; tap outside the board to close it. Your choice is used from the next gold-button press.</p>
+<h3>Time-signature picker</h3>
+<ul>
+<li><strong>Random</strong> (default) — every gold-button press picks one of eight (4/4 Today’s Beat + seven time signatures). The genre is random too.</li>
+<li><strong>4/4</strong> — the original Today’s Beat 4/4 song (the engines of section 5).</li>
+<li><strong>4/4 genres · 3/4 · 2/4 · 6/8 · 12/8 · 5/4 · 7/8</strong> — builds songs in that time signature only. Each one has its own representative genres.</li>
+</ul>
+<h3>Genre picker</h3>
+<p>Once you pick a time signature, choose one of its representative genres. “Random genre” picks the genre by chance. When the time signature is Random or 4/4, the genre picker rests.</p>
+<div class="tbl"><table>
+<tr><th>Time signature</th><th>Representative genres</th></tr>
+<tr><td>4/4 genres</td><td>Disco / Dance · 16-beat Funk · Half-time Trap · Driving Rock 'n' Roll · Latin Pop / Bossa · Chaos Shuffle</td></tr>
+<tr><td>3/4</td><td>Classic Waltz · Pop 3/4 Ballad · Jazz Swing Waltz · Hemiola Rock (3:2) · Lyrical, Snare on 3 · Chaos Shuffle</td></tr>
+<tr><td>2/4</td><td>Brazilian Samba · Military March · Polka / Trot Oom-pah · Fast Punk Gallop · Latin Tresillo · Chaos Shuffle</td></tr>
+<tr><td>6/8</td><td>Slow Rock Ballad · Celtic Jig · Vintage 6/8 Soul · Afro Hemiola · Blues Shuffle 6/8 · Chaos Shuffle</td></tr>
+<tr><td>12/8</td><td>Texas Blues Shuffle · Slow Soul Ballad · Chicago Blues Run · Vintage Tambourine Groove · 12/8 Half-time Dub · Chaos Shuffle</td></tr>
+<tr><td>5/4</td><td>Cool Jazz 5/4 · Spy Movie Riff · Progressive Fusion · Cinematic 5/4 Lounge · 5/4 Electro Break · Chaos Shuffle</td></tr>
+<tr><td>7/8</td><td>Prog Metal 7/8 · Balkan Folk Ostinato · 7/8 Jazz Fusion Slap · Flipped [3+2+2] Groove · 7/8 Math Rock Turnaround · Kalamatianos 3+2+2 · Chaos Shuffle</td></tr>
+</table></div>
+<h3>Random · Custom and time signatures</h3>
+<ul>
+<li>With tempo <strong>Random</strong> + time signature <strong>Random</strong>, time signature, genre, beat, engine and BPM all change at random <strong>every 4-bar phrase</strong> within one song. A mixed song like this plays with the app’s own chords and bass instead of a jam song.</li>
+<li>Press <strong>Custom</strong> while a mixed song is playing: the first 4 bars stay, and the rest is rebuilt in the <strong>first bar’s time signature and genre</strong> and keeps playing. The BPM is the first bar’s (or the value you set with the slider).</li>
+<li>The time signature and genre name also appear next to each phrase name on the bar cards. In Pro, MIDI Save writes the time signatures into the file.</li>
+<li>The Beat Game opens on 4/4 beats.</li>
+</ul>
+</section>
+
+<section id="drop">
+<h2>7. Inspiration Drop · jam songs</h2>
+<p>Tap the star-shaped <strong>Inspiration Drop</strong> button next to the kits to open the song board. There are <strong>80 songs</strong> in three tabs: <span class="k">Originals</span> <span class="k">Classics</span> <span class="k">Folk &amp; Art Songs</span>.</p>
+<p class="note">In the free edition, <strong>6 of the 80 songs</strong> can be played (2 per tab). All 80 stay in the list, but the others show 🔒, and tapping one opens an info box. Buying Pro opens all 80 (section 13).</p>
+<ul>
+<li><span class="k">Originals</span> — 01 네온 러시 (Neon Rush) · 13 팝핑 웨이브 (Popping Wave)</li>
+<li><span class="k">Classics</span> — 18 월광 (Moonlight) · 31 터키 행진곡 (Turkish March)</li>
+<li><span class="k">Folk &amp; Art Songs</span> — 53 옹헤야 (Ongheya) · 54 쾌지나칭칭나네 (Kwaejina Chingching Nane)</li>
+</ul>
+<p>Song titles appear in Korean in the list.</p>
+<ul>
+<li>Pick a song and tap the big circle to start. Shake or tap the circle at the end of the build-up to drop.</li>
+<li>Turn on <strong>Add a beat</strong> and a random beat replaces the song’s drums; <strong>Play all</strong> plays your chosen songs one after another.</li>
+<li><strong>Jam</strong> — the melody and backing of jam songs play along with your gold-button beats. Only songs that fit the beat’s time signature become jam picks, and each beat takes one song and plays it from the start. In the free edition there are ten jam songs: the six above plus 17 디스코 볼 (Disco Ball, 4/4), 52 마왕의 궁전 (In the Hall of the Mountain King, 4/4), 69 봄처녀 (Spring Maiden, 3/4) and 79 사미오티사 (Samiotissa, 7/8). Those four play only in jams and cannot be played from the song list. Use the <span class="k">Pick</span> box on a song row to choose the jam picks yourself (playable songs only). The time signature at the end of each song row (e.g. 3/4) tells which beats it fits.</li>
+<li>Eight jam songs in other time signatures — in the free edition only 79 Samiotissa is used for jams; the rest open in Pro.
+<ul>
+<li><strong>3/4</strong> — 73 The Blue Danube · 74 Waltz of the Flowers · 75 Minute Waltz · 76 Amazing Grace · 77 Miryang Arirang · 78 Jindo Arirang</li>
+<li><strong>7/8</strong> — 79 Samiotissa · 80 Jovano, Jovanke</li>
+</ul></li>
+<li>5/4 has no jam song yet, so it plays with beat, chords and bass.</li>
+</ul>
+</section>
+
+<section id="fx">
+<h2>8. FX sounds</h2>
+<p>Tap the round <span class="k">FX</span> button above the Inspiration Drop button and a sound board opens upward: eleven background sounds to lay under your beats.</p>
+<p>⛈ Thunderstorm · 🌧 Rain on the window · 🌊 Ocean waves · 🫧 Shallow Water · 🐋 Deep Water · 💧 Stream · 🌲 Forest · 🌬 Wind · 🔥 Campfire · 🛣 Highway · 🌌 Space · ✕ Off</p>
+<ul>
+<li>Each sound is a seamless <strong>5-minute loop</strong>. Picking another sound crossfades smoothly.</li>
+<li>While FX plays, the beats and music get slightly quieter.</li>
+<li>Only while a sound is on, a <strong>vertical volume handle</strong> (0 – 2×) appears next to FX. It remembers your last value.</li>
+<li>Tap “Off” to stop.</li>
+<li>All FX sounds are made from CC0 recordings on freesound.org.</li>
+</ul>
+</section>
+
+<section id="editor">
+<h2>9. Dice Playground</h2>
+<p>The dice playground below the first screen. Change the selected bar with the dice. In the free edition <strong>only bar 1 can be edited</strong>; from bar 2 you can view and listen only. Pro edits every bar.</p>
+<ul>
+<li><strong>Pick a bar</strong> — use the ‹ › buttons next to the title, or tap a bar card further down.</li>
+<li><span class="k">▶ Play this bar</span> — hear only the selected bar. <span class="k">🎲 Roll all four dice!</span> — rerolls every row that isn’t locked.</li>
+<li>For each row (Hi-hat · Snare · Kick · Percussion)
+<ul>
+<li>Big die — randomize just that row!</li>
+<li>🔒 Lock — keeps the row when you roll dice or press the gold button.</li>
+<li>🔇 Muted — gives the row a break. You can also choose its sound in the box next to it.</li>
+<li>Colored buttons 1–6 — pick a rhythm yourself.</li>
+<li>16 steps — each tap goes <strong>rest → normal → soft → strong</strong>. In other time signatures, the number of steps, the ruler and the pattern names follow that time signature.</li>
+</ul></li>
+<li><strong>Beat code</strong> — four digits from 1 to 6. 1613 means Hi-hat 1 · Snare 6 · Kick 1 · Percussion 3. Put it in with <span class="k">Pop in</span>.</li>
+<li><strong>Phrase BPM</strong> — type a number and <span class="k">Apply</span>, or press 🎲, to change the BPM of that 4-bar phrase.</li>
+<li><strong>Engine buttons</strong> — change the engine of the whole 4-bar phrase. Locked rows and steps you edited by hand are kept. 🔒 House, Eurodance and K-pop are Pro features.</li>
+</ul>
+<p class="note">🔒 In the free edition, the editing controls are dimmed and locked from bar 2. Picking a bar and ▶ Play this bar still work. <span class="k">About Pro</span> on the line shown there opens the info box (section 13). Editing every bar opens in Pro.</p>
+</section>
+
+<section id="party">
+<h2>10. My beats, all in a row!</h2>
+<ul>
+<li>The whole song lines up as bar cards. Tap a card to jump to the playground above.</li>
+<li>Play all · ■ Stop · ↻ Repeat · ↶ Undo (back one step).</li>
+<li>File buttons — 💾 Save work (JSON) · 📂 Load · 🎹 Save MIDI · 🎁 Song as HTML. 🔒 All are Pro features (section 11).</li>
+</ul>
+</section>
+
+<section id="record">
+<h2>11. Record · Open · MIDI Save</h2>
+<p class="note">🔒 Record, Open and MIDI Save are Pro features. In the free edition, tapping one opens an info box (section 13). Below is how they work in Pro.</p>
+<ul>
+<li><strong>Record</strong> — press it while playing and switch kits. Every kit change is written down as you play. Press it again to save a <strong>.mid file</strong>; the take is also kept in “Open”.</li>
+<li><strong>Open</strong> — two tabs, “🎧 Heard beats” and “⏺ Recordings”, plus “📁 From file”. Tap a heard beat to play that song again exactly.</li>
+<li><strong>MIDI Save</strong> — saves the current song as a MIDI file with the tempo of each 4-bar phrase, every sound choice and the time signatures.</li>
+</ul>
+</section>
+
+<section id="dancers">
+<h2>12. Dancers and visualizer</h2>
+<ul>
+<li>On the small stage left of the kits, three light-line dancers move to the beat.</li>
+<li>The formation changes each phrase — together · wave (one beat behind each other) · mirror. In a breakdown one dancer goes solo; on a stop they all freeze in the same pose.</li>
+<li>They step back and forth in depth — back during a breakdown, closer during the build-up, and right at the front when it drops.</li>
+<li>Their outfits change with the kit. With the Korean Percussion kit, all three wear a gat hat and magoja jacket.</li>
+<li>Show or hide them with the dance button next to the kits.</li>
+</ul>
+</section>
+
+<section id="free">
+<h2>13. Free and Pro</h2>
+<div class="tbl"><table>
+<tr><th>Feature</th><th>Free</th><th>Pro</th></tr>
+<tr><td>Endless gold-button beats · count-in · ten kits · pinning · shake · dancers · visualizers · themes · language</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>Seven time signatures · time-signature and genre pickers</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>Eleven FX sounds · Beat Game · Play with screen off</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>Engines Neon · Classic · Soul · Techno</td><td class="c">✓</td><td class="c">✓</td></tr>
+<tr><td>House · Eurodance · K-pop</td><td class="c">—</td><td class="c">✓</td></tr>
+<tr><td>Inspiration Drop songs</td><td class="c">6</td><td class="c">80</td></tr>
+<tr><td>Jam songs (section 7)</td><td class="c">6 + 17 · 52 · 69 · 79</td><td class="c">all</td></tr>
+<tr><td>Dice Playground viewing and listening</td><td class="c">all bars</td><td class="c">all bars</td></tr>
+<tr><td>Dice Playground editing</td><td class="c">bar 1</td><td class="c">all bars</td></tr>
+<tr><td>Record · Open · MIDI Save</td><td class="c">—</td><td class="c">✓</td></tr>
+<tr><td>Save work · Load · Save MIDI · Song as HTML</td><td class="c">—</td><td class="c">✓</td></tr>
+<tr><td>Auto-save (continue next time) · heard-beat history</td><td class="c">—</td><td class="c">✓</td></tr>
+</table></div>
+<p>The app is free to download. Pro is a <strong>one-time purchase that lasts forever</strong> (the Pro lifetime pass), bought inside the app through Google Play.</p>
+<ul>
+<li>In the free edition, locked buttons and songs carry a small 🔒 and open an info box when tapped. <span class="k">Buy Pro</span> goes on to Google Play checkout; <span class="k">Close</span> just closes the box.</li>
+<li>When the purchase finishes, the app reopens once as Pro.</li>
+<li>If you change devices, get Pro back with <span class="k">Restore purchase</span> in ⓘ App info.</li>
+<li>Google Play is needed only to buy or restore. Everything else works without the internet.</li>
+<li><strong>Saving</strong> — the free edition saves nothing. When you close the app the song is gone and only your settings stay. On Pro, your work is saved on this device.</li>
+</ul>
+</section>
+
+<section id="tips">
+<h2>14. Good to know</h2>
+<ul>
+<li>On iPhone, the silent switch may mute the sound.</li>
+<li>On a PC, the space bar plays and pauses the whole song.</li>
+<li>Leaving the screen pauses playback.</li>
+<li>MIDI files saved in Pro may sound different depending on the program (instrument) that opens them.</li>
+<li>The free edition saves nothing. When you close the app the current song is gone and only your settings stay. On Pro, your work is saved on this device.</li>
+<li>Nothing is sent to a server. Your records stay on this device. Pro purchases are handled by Google Play; this app never receives payment details.</li>
+</ul>
+</section>
+
+<section id="credits">
+<h2>15. Sound credits</h2>
+<p>The drum kit sounds were rendered from the MIDI CLOVIS sound banks — MuseScore General (S. Christian Collins · MIT) · MuldjordKit (Lars Muldjord · CC BY 4.0) · FreePats (CC0). The Korean percussion uses the digital Korean traditional instrument sounds of the National Gugak Center, credited under the KOGL Type 1 license. The eleven FX sounds are CC0 (public domain) recordings from freesound.org. The full text is under “Sound sources and licenses” at the bottom of the app.</p>
+</section>
+
+<footer>TODAY’S BEAT S · Korean Version · Today’s rhythm — made by your own hands!</footer>
+</div>
+</body>
+</html>
