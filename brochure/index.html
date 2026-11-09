@@ -1,0 +1,131 @@
+<!doctype html>
+<!-- 오늘의 비트 S 1쪽 소개서(A4 · 한국어) — 크롬으로 PDF 를 찍어 brochure/todaybeat-s-ko.pdf 로 낸다 -->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>오늘의 비트 S 소개서 — ILVACIO SOLUTION</title>
+<style>
+@page{size:A4;margin:0}
+:root{--navy:#0b1233;--ink:#1b2340;--muted:#55607e;--line:#dfe4f0;--gold:#f5b400;--gold2:#ffd33d;--cyan:#0099c7;--soft:#f5f7fc}
+*{box-sizing:border-box}
+html,body{margin:0;background:#c9cede}
+body{font:10.5pt/1.55 "Pretendard","Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif;color:var(--ink);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;margin:10mm auto;background:#fff;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4mm 12mm #0003}
+@media print{html,body{background:#fff}.page{margin:0;box-shadow:none}}
+
+/* 머리 — 앱과 같은 남색 · 금빛 */
+.head{background:radial-gradient(130mm 80mm at 85% -10%,#22348a 0,transparent 70%),var(--navy);color:#eef3ff;padding:8mm 14mm 7mm;display:grid;grid-template-columns:1fr 40mm;gap:8mm;align-items:center}
+.brand{font-weight:800;letter-spacing:.18em;font-size:8pt;color:#aab8db;margin-left:auto}
+.app-id{display:flex;align-items:center;gap:4mm;margin-bottom:3mm}
+.app-id img{width:12mm;height:12mm;border-radius:3mm}
+.app-id span{font-size:8pt;letter-spacing:.12em;color:#00dcff;font-weight:700}
+h1{font-size:28pt;line-height:1.1;margin:0;font-weight:900;letter-spacing:-.03em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ffdb25,#ff7842,#ff399c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:#ffc46b;font-weight:700;margin:.5mm 0 3mm;font-size:10.5pt}
+.lead{font-size:14pt;font-weight:800;margin:0 0 1.5mm}
+.head p.desc{margin:0;color:#c9d3ee;font-size:10pt}
+.head .shot{width:40mm;height:56mm;object-fit:cover;object-position:top;border-radius:4mm;border:.4mm solid #26325f;box-shadow:0 6mm 14mm #000a}
+
+/* 몸 */
+.body{padding:6mm 14mm 5mm;flex:1;display:flex;flex-direction:column;gap:4mm}
+h2{font-size:12.5pt;margin:0 0 2.5mm;color:var(--navy);display:flex;align-items:center;gap:2mm}
+h2::before{content:"";width:1.2mm;height:4.4mm;border-radius:1mm;background:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.card{background:var(--soft);border:.3mm solid var(--line);border-radius:3mm;padding:2.5mm 3.2mm}
+.card h3{margin:0 0 1mm;font-size:10.5pt}
+.card p{margin:0;color:var(--muted);font-size:8.7pt;line-height:1.45}
+.shots{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm}
+.shots figure{margin:0}
+.shots img{width:100%;height:33mm;object-fit:cover;object-position:top;border-radius:2.5mm;border:.3mm solid var(--line)}
+.shots figcaption{text-align:center;color:var(--muted);font-size:8.5pt;margin-top:1mm}
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:3mm}
+.plans ul{margin:1.5mm 0 0;padding-left:4.5mm;color:var(--muted);font-size:9.3pt}
+.plans .pro{background:linear-gradient(180deg,#fff7da,#fffdf5);border-color:#ecd38a}
+.plans .pro h3{color:#9a6a00}
+.privacy{margin:0;color:var(--muted);font-size:9.5pt}
+.privacy b{color:var(--ink)}
+
+/* 발 — QR 둘 · 연락처 */
+.foot{margin-top:auto;background:var(--soft);border-top:.3mm solid var(--line);padding:4mm 14mm;display:grid;grid-template-columns:auto auto 1fr;gap:7mm;align-items:center}
+.qr{display:flex;align-items:center;gap:3mm}
+.qr img{width:18mm;height:18mm;background:#fff;padding:1.5mm;border-radius:2mm;border:.3mm solid var(--line)}
+.qr b{display:block;font-size:9.5pt;color:var(--navy)}
+.qr small{color:var(--muted);font-size:8pt}
+.contact{text-align:right;font-size:8.8pt;color:var(--muted);line-height:1.6}
+.contact strong{color:var(--navy);letter-spacing:.14em;font-size:9.5pt}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="head">
+    <div>
+      <div class="app-id"><img src="../img/icon-512.png" alt=""><span>TODAY'S BEAT S · 안드로이드 앱</span><div class="brand">ILVACIO SOLUTION</div></div>
+      <h1>오늘의 <em>비트</em> S</h1>
+      <p class="sub">Korean Version</p>
+      <p class="lead">골드버튼 한 번에 새 드럼 비트!</p>
+      <p class="desc">주사위로 굴리는 4마디 드럼 비트 놀이터예요. 악보를 몰라도, 악기를 못 쳐도 괜찮아요. 누르고, 흔들고, 굴리면서 나만의 비트를 만들어요.</p>
+    </div>
+    <img class="shot" src="../img/1-home.jpg" alt="첫 화면">
+  </header>
+
+  <main class="body">
+    <section>
+      <h2>무엇을 할 수 있나요</h2>
+      <div class="grid">
+        <div class="card"><h3>🥁 골드버튼</h3><p>누를 때마다 새 비트. 4마디마다 엔진과 빠르기를 골라 곡을 짜고, 필과 브레이크다운까지 넣어요.</p></div>
+        <div class="card"><h3>🎼 일곱 박자</h3><p>4/4 · 3/4 · 2/4 · 6/8 · 12/8 · 5/4 · 7/8. 박자마다 대표 장르가 있어요.</p></div>
+        <div class="card"><h3>🎻 영감 터뜨리기</h3><p>오리지널 · 명곡 · 민요 연주곡이 비트 위에 함께 울려요.</p></div>
+        <div class="card"><h3>📳 흔들면 키트가 바뀌어요</h3><p>드럼 키트 열 가지. 국립국악원 국악기 음원으로 만든 한국 타악 키트도 있어요.</p></div>
+        <div class="card"><h3>🌧 자연의 소리 FX</h3><p>빗소리 · 파도 · 숲 · 모닥불 · 우주까지 열한 가지를 비트 아래에 깔아요.</p></div>
+        <div class="card"><h3>🎮 비트 게임 · 💃 춤꾼</h3><p>떨어지는 롤에 맞춰 건반을 누르고, 빛줄 댄서가 비트에 맞춰 춤춰요.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>화면</h2>
+      <div class="shots">
+        <figure><img src="../img/1-home.jpg" alt=""><figcaption>첫 화면</figcaption></figure>
+        <figure><img src="../img/2-bar-editor.jpg" alt=""><figcaption>마디로 놀자</figcaption></figure>
+        <figure><img src="../img/3-beat-game.jpg" alt=""><figcaption>비트 게임</figcaption></figure>
+        <figure><img src="../img/4-korean-kit.jpg" alt=""><figcaption>한국 타악</figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>무료판과 프로</h2>
+      <div class="plans">
+        <div class="card">
+          <h3>무료로 내려받기</h3>
+          <ul>
+            <li>골드버튼 비트를 끝없이 들어요</li>
+            <li>연주곡 6곡 · 엔진 네 가지</li>
+            <li>첫 마디 편집(곡은 저장되지 않아요)</li>
+          </ul>
+        </div>
+        <div class="card pro">
+          <h3>✨ 프로 평생 이용권</h3>
+          <ul>
+            <li>앱 안에서 구글 플레이로 한 번 결제</li>
+            <li>연주곡 80곡 전부 · 모든 마디 편집</li>
+            <li>하우스 · 유로댄스 · 케이팝 엔진</li>
+            <li>레코드 · 열기 · 미디저장 · 작업 저장</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>내 기기 안에서만</h2>
+      <p class="privacy"><b>🔒 가입 · 광고 없음</b> — 곡과 설정은 이 기기 안에만 저장돼요. <b>✈ 인터넷 없이도</b> — 결제할 때만 구글 플레이에 연결해요. <b>🌏 여덟 언어</b> — 한국어 · English · 日本語 · 中文 · Монгол · Español · Português</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="qr"><img src="qr-play.svg" alt="구글 플레이 QR"><div><b>Google Play</b><small>«오늘의 비트 S» 검색</small></div></div>
+    <div class="qr"><img src="qr-site.svg" alt="웹페이지 QR"><div><b>웹페이지 · 설명서</b><small>ilvaciosolution.com</small></div></div>
+    <div class="contact"><strong>ILVACIO SOLUTION</strong><br>support@ilvaciosolution.com<br>© 2026 ILVACIO SOLUTION</div>
+  </footer>
+</div>
+</body>
+</html>
