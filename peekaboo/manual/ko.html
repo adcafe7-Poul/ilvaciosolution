@@ -1,0 +1,183 @@
+<!doctype html>
+<!-- 쏙쏙 피아노 사용 설명서 — 한국어(원문 · 다른 언어는 이 글을 옮긴다) -->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f4f1e4">
+<meta name="description" content="쏙쏙 피아노: 친구들과 바이엘 사용 설명서 — 친구들과 연주 · 감상하기 · 테마 일곱 · 메뉴 잠금 · 무료판과 프로 · 전자칠판">
+<title>쏙쏙 피아노 · 사용 설명서</title>
+<style>
+:root{--bg:#f4f1e4;--card:#fffdf5;--ink:#2f3a2f;--muted:#5d6b5c;--accent:#5c7f62;--gold:#b98a1c;--line:#5c7f6233;--font:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Hiragino Sans","PingFang SC",system-ui,sans-serif;color-scheme:light}
+@media(prefers-color-scheme:dark){:root{--bg:#141a15;--card:#1d251ecc;--ink:#eef3e8;--muted:#b4c2b0;--accent:#8fc39a;--gold:#f0c75a;--line:#8fc39a44;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:15px/1.8 var(--font);background:radial-gradient(circle at 8% 0%,#9ec7a333,transparent 30rem),radial-gradient(circle at 95% 20%,#f3c96a26,transparent 28rem),var(--bg);overflow-wrap:anywhere;word-break:keep-all}
+.wrap{max-width:760px;margin:0 auto;padding:16px 16px 48px}
+.langs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px}
+.langs a{color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:700;background:var(--card);white-space:nowrap}
+.langs a[aria-current]{background:var(--accent);color:#fff;border-color:transparent}
+header{text-align:center;padding:14px 0 6px}
+.brand{font-size:12px;letter-spacing:.14em;color:var(--accent);font-weight:800}
+h1{font-size:clamp(28px,8vw,40px);line-height:1.2;margin:6px 0 2px}
+.sub{color:var(--muted);margin:0}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 16px;margin:16px 0}
+.toc ol{margin:6px 0 0;padding-left:22px;columns:2;column-gap:24px}
+.toc a{color:inherit}
+section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:4px 18px 12px;margin:14px 0}
+h2{font-size:19px;color:var(--accent);margin:14px 0 6px}
+.k{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:0 7px;font-weight:700;background:#5c7f6214;white-space:nowrap}
+.note{color:var(--muted);font-size:14px;border-left:3px solid var(--gold);padding-left:10px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left;vertical-align:top}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="langs" aria-label="언어"><a href="ko.html" hreflang="ko" aria-current="page">한국어</a><a href="en.html" hreflang="en">English</a><a href="ja.html" hreflang="ja">日本語</a><a href="zh.html" hreflang="zh-Hans">中文</a><a href="mn.html" hreflang="mn">Монгол</a><a href="es-mx.html" hreflang="es-MX">Español (MX)</a><a href="es-cl.html" hreflang="es-CL">Español (CL)</a><a href="pt-br.html" hreflang="pt-BR">Português (BR)</a></nav>
+<header>
+<div class="brand">PEEKABOO PIANO · MANUAL</div>
+<h1>🐾 쏙쏙 피아노</h1>
+<p class="sub">친구들과 바이엘 — 사용 설명서</p>
+</header>
+
+<nav class="toc" aria-label="차례"><b>차례</b>
+<ol>
+<li><a href="#about">쏙쏙 피아노는?</a></li>
+<li><a href="#start">처음 열기</a></li>
+<li><a href="#home">첫 화면</a></li>
+<li><a href="#play">친구들과 연주</a></li>
+<li><a href="#slide">훑어 치기</a></li>
+<li><a href="#listen">감상하기</a></li>
+<li><a href="#top">위쪽 단추</a></li>
+<li><a href="#lock">메뉴 잠금</a></li>
+<li><a href="#themes">테마 일곱</a></li>
+<li><a href="#songs">곡 목록</a></li>
+<li><a href="#pro">무료판과 프로</a></li>
+<li><a href="#board">큰 화면 · 전자칠판</a></li>
+<li><a href="#privacy">개인정보 · 문의</a></li>
+</ol>
+</nav>
+
+<section id="about">
+<h2>1. 쏙쏙 피아노는?</h2>
+<p>구멍에서 동물 친구가 <strong>쏙!</strong> 올라오면 눌러 주세요. 그 음이 울리고 곡이 한 음씩 나아가요. 두더지 잡기처럼 놀다 보면 바이엘 한 곡을 끝까지 치게 돼요.</p>
+<p>아이와 어른이 함께 쓰도록 만들었어요. 아이는 놀이로 치고, 어른은 악보 · 롤 · 88건반으로 연주곡을 감상해요. 태블릿에 맞춰 만들었고 휴대폰은 가로로 돌려서 써요.</p>
+</section>
+
+<section id="start">
+<h2>2. 처음 열기</h2>
+<p>앱을 열면 <span class="k">눌러서 시작해요</span>가 나와요. 한 번 누르면 피아노 소리를 준비해요(몇 초). 브라우저와 휴대폰은 사람이 한 번 눌러야 소리를 낼 수 있어서 이 단추가 있어요.</p>
+</section>
+
+<section id="home">
+<h2>3. 첫 화면</h2>
+<ul>
+<li><strong>책장 탭 넷</strong> — <span class="k">바이엘</span> <span class="k">체르니 100번</span> <span class="k">체르니 30번</span> <span class="k">캐롤 · 민요</span>.</li>
+<li><strong>곡 칸</strong> — 🐾 와 <span class="k">놀이</span>가 붙은 곡은 친구들과 칠 수 있는 곡이고, <span class="k">감상</span>은 들어 보는 곡이에요. 🔒가 붙은 곡은 프로에서 열려요(11장).</li>
+<li><strong>고른 곡</strong> — 오른쪽에 곡 이름과 악보 앞부분이 보여요.</li>
+<li><strong>테마 단추 일곱</strong> — 친구 얼굴 단추를 누르면 그 테마로 <strong>바로 놀이</strong>가 시작돼요.</li>
+<li><span class="k">친구들과 연주</span> <span class="k">감상하기</span> — 휴대폰 가로 화면에서는 자리가 좁아 <span class="k">친구들과 연주</span>를 숨기고 테마 단추가 그 일을 해요.</li>
+</ul>
+</section>
+
+<section id="play">
+<h2>4. 친구들과 연주</h2>
+<p>아래 줄 구멍은 흰 건반, 위 줄 구멍은 검은 건반이에요. 구멍 밑에 계이름이 적혀 있어요.</p>
+<ul>
+<li><strong>빛나는 친구를 눌러요</strong> — 칠 차례인 친구가 빛나며 얼굴을 내밀어요. 맞게 누르면 다음 음으로 넘어가요. 틀려도 괜찮아요, 맞는 친구를 누를 때까지 기다려 줘요.</li>
+<li><span class="k">왼손</span> <span class="k">양손</span> <span class="k">오른손</span> — 칠 손을 골라요. 고르지 않은 손은 앱이 반주로 쳐 줘요.</li>
+<li><span class="k">하나만 눌러도 돼요</span> — 켜면 화음도 한 음만 누르면 나머지는 저절로 울려요. 어린 아이에게 좋아요.</li>
+<li><span class="k">연습하기</span> — 곡 없이 모든 친구가 얼굴을 내밀어요. 마음껏 눌러 보세요. 다시 누르면 곡 놀이로 돌아가요.</li>
+<li><span class="k">시범 듣기</span> — 곡을 먼저 들어요. <span class="k">처음부터</span> — 곡을 처음부터 다시.</li>
+<li><span class="k">셈여림</span> — 0이면 모든 음이 고르게, 끝까지 올리면 악보의 세기 그대로. <span class="k">음량</span> — 소리 크기.</li>
+<li><strong>맞힌 음</strong> — 곡 이름 밑에 «맞힌 음 5 / 17»처럼 보여요.</li>
+<li><strong>다 치면</strong> — 축하 효과가 터지고, 반짝이는 테마 친구 얼굴(<span class="k">한 번 더</span>)이 나와요. 누르면 처음부터 다시 쳐요.</li>
+<li><strong>놀이 중 테마 바꾸기</strong> — 무대 오른쪽 위 단추를 누르면 바탕과 친구만 바로 바뀌고 곡은 그대로 이어져요.</li>
+<li>위에는 지금 치는 곡의 악보가 4~8마디 보이고, 빨간 선이 지금 자리를 따라가요.</li>
+</ul>
+</section>
+
+<section id="slide">
+<h2>5. 훑어 치기(글리산도)</h2>
+<p>손가락을 구멍에 댄 채 옆으로 미끄러뜨리면, 지나가는 구멍의 음이 차례로 울려요. 지나온 음은 바로 끊기지 않고 잠깐(0.6초) 더 울려 진짜 피아노를 훑는 느낌이 나요. 감상하기의 88건반에서도 돼요.</p>
+</section>
+
+<section id="listen">
+<h2>6. 감상하기</h2>
+<ul>
+<li>위에서부터 <strong>악보 · 흐르는 롤 · 88건반</strong>이 함께 움직이며 곡을 들려줘요. 오른손은 청록, 왼손은 주황빛이에요.</li>
+<li><span class="k">재생 · 멈춤</span>, 위치 막대, <span class="k">빠르기</span>로 들어요.</li>
+<li>88건반을 직접 눌러 따라 쳐도 돼요.</li>
+</ul>
+</section>
+
+<section id="top">
+<h2>7. 위쪽 단추</h2>
+<table>
+<tr><th>단추</th><th>하는 일</th></tr>
+<tr><td><span class="k">피아노 · 일렉 · 마림바 · 신디</span></td><td>악기 바꾸기(처음 고를 때 몇 초 준비)</td></tr>
+<tr><td>⛶</td><td>전체 화면 · 앱에서는 화면 꺼짐 방지도 함께</td></tr>
+<tr><td>☀ / 🌙</td><td>낮 · 밤 바탕 색(누를 때마다 다음 색)</td></tr>
+<tr><td>ⓘ</td><td>앱 정보 — 성공 축하 효과 고르기(다채롭게 · 물방울 · 폭죽 · 레이저 · 꽃가루 · 끄기) · 무료판/프로 · 구매 되살리기 · 소리 · 악보 출처</td></tr>
+<tr><td>언어</td><td>여덟 언어. 계이름도 그 나라 방식으로 바뀌어요.</td></tr>
+<tr><td>✕</td><td>앱 닫기(한 번 더 물어봐요)</td></tr>
+</table>
+</section>
+
+<section id="lock">
+<h2>8. 메뉴 잠금 — 부모님께</h2>
+<p>왼쪽 위 <strong>열쇠</strong> 단추를 <strong>3초</strong> 꾹 누르면 메뉴가 잠겨요(은색 자물쇠). 아이가 놀이 중에 다른 단추를 눌러도 화면이 바뀌지 않아요. 무대의 구멍과 감상의 88건반은 그대로 칠 수 있어요. 다시 3초 누르면 열려요. 앱을 다시 열어도 잠김은 유지돼요.</p>
+</section>
+
+<section id="themes">
+<h2>9. 테마 일곱</h2>
+<table>
+<tr><th>테마</th><th>친구</th></tr>
+<tr><td>🌳 숲</td><td>고양이 · 강아지 · 코알라 · 캥거루 · 코끼리 · 기린 등 동물 친구 열둘</td></tr>
+<tr><td>🌊 바다</td><td>바다 아기 동물 열둘</td></tr>
+<tr><td>🌴 정글</td><td>정글의 새 열둘</td></tr>
+<tr><td>🎤 무대</td><td>노래하는 무대 친구 스물넷(앞줄 · 뒷줄에 섞여 나와요)</td></tr>
+<tr><td>🌙 달</td><td>AI 로봇 열둘 — 지구와 은하가 보이는 달 위에서</td></tr>
+<tr><td>💎 크리스탈 숲</td><td>우주귀염둥이 열둘</td></tr>
+<tr><td>🎃 할로윈</td><td>호박 · 유령 · 마녀 · 꼬마 도깨비 등 축제 친구 열둘</td></tr>
+</table>
+<p class="note">동물 · 로봇 · 우주 · 할로윈 테마는 음 이름마다 친구가 정해져 있어요(도 = 늘 같은 친구). 무대 테마는 줄마다 친구가 차례로 나와요.</p>
+</section>
+
+<section id="songs">
+<h2>10. 곡 목록</h2>
+<ul>
+<li>바이엘 106곡(놀이 83) · 체르니 100번 100곡(놀이 28) · 체르니 30번 30곡(놀이 2)</li>
+<li>캐롤 넷(징글벨 · 고요한 밤 거룩한 밤 · 덱 더 홀스 · 우리 모두 즐거운 성탄)</li>
+<li>민요 아홉(아리랑 · 옹헤야 · 쾌지나칭칭나네 · 몽금포타령 · 한강수타령 · 늴리리야 · 한오백년 · 뱃노래 · 상어 캠프송)</li>
+</ul>
+<p class="note">악보는 모두 저작권이 끝난 원판에서 새로 입력했고, 캐롤 · 민요는 이 앱의 두 손 편곡이에요.</p>
+</section>
+
+<section id="pro">
+<h2>11. 무료판과 프로</h2>
+<ul>
+<li><strong>무료판</strong> — 숲 · 바다 테마, 놀이곡 23곡(바이엘 앞 20곡 + 징글벨 · 아리랑 · 상어 캠프송), 바이엘 106곡 감상.</li>
+<li><strong>프로 평생 이용권</strong>(한 번 결제) — 테마 일곱 · 놀이곡 126곡 · 감상곡 전부.</li>
+<li>🔒가 붙은 곡이나 테마를 누르면 «프로에서 열려요» 창이 떠요. <span class="k">어른이 열기</span>를 누르면 <strong>부모님 확인</strong> 문제(두 수의 곱)가 나오고, 맞혀야 구글 플레이 결제로 넘어가요.</li>
+<li>휴대폰을 바꾸었으면 ⓘ 앱 정보의 <span class="k">구매 되살리기</span>를 눌러요(같은 구글 계정).</li>
+</ul>
+</section>
+
+<section id="board">
+<h2>12. 큰 화면 · 전자칠판</h2>
+<p>안드로이드 터치 TV · 전자칠판에는 앱을 깔아 쓰고, 윈도 PC가 붙은 전자칠판에서는 웹판 묶음(시작 파일을 두 번 누르면 이 PC 안에서만 열림)을 쓸 수 있어요. 여러 손가락으로 함께 눌러도 돼요.</p>
+</section>
+
+<section id="privacy">
+<h2>13. 개인정보 · 문의</h2>
+<p>회원 가입도 광고도 없어요. 아무 정보도 밖으로 보내지 않아요. 인터넷은 결제할 때만 구글 플레이에 연결해요.</p>
+<p>개인정보처리방침: <a href="../privacy/">ilvaciosolution.com/peekaboo/privacy/</a> · 문의: support@ilvaciosolution.com</p>
+</section>
+
+<footer>쏙쏙 피아노 · ILVACIO SOLUTION</footer>
+</div>
+</body>
+</html>

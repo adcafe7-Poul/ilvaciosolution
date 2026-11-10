@@ -1,0 +1,61 @@
+<!doctype html>
+<!-- 쏙쏙 피아노 사용 설명서 — 언어 고르기(여덟 언어) -->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f4f1e4">
+<title>쏙쏙 피아노 · Peekaboo Piano · Manual</title>
+<style>
+:root{--bg:#f4f1e4;--card:#fffdf5;--ink:#2f3a2f;--muted:#5d6b5c;--accent:#5c7f62;--gold:#b98a1c;--line:#5c7f6233;color-scheme:light}
+@media(prefers-color-scheme:dark){:root{--bg:#141a15;--card:#1d251ecc;--ink:#eef3e8;--muted:#b4c2b0;--accent:#8fc39a;--gold:#f0c75a;--line:#8fc39a44;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;min-height:100vh;color:var(--ink);font:15px/1.6 "Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Hiragino Sans","Yu Gothic","PingFang SC","Microsoft YaHei",system-ui,"Segoe UI",Roboto,"Noto Sans",sans-serif;background:radial-gradient(circle at 8% 0%,#9ec7a333,transparent 30rem),radial-gradient(circle at 95% 20%,#f3c96a26,transparent 28rem),var(--bg)}
+.wrap{width:100%;max-width:520px;margin:0 auto;padding:16px 16px 32px}
+.brand{text-align:center;font-size:12px;letter-spacing:.14em;color:var(--accent);font-weight:800;margin-top:14px}
+h1{text-align:center;font-size:clamp(28px,8vw,40px);line-height:1.2;margin:8px 0 4px}
+.sub{text-align:center;color:var(--muted);margin:0 0 20px;font-size:13px;overflow-wrap:anywhere}
+.list{display:grid;gap:9px}
+.list a{display:flex;align-items:center;justify-content:space-between;gap:10px;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:18px;padding:12px 16px;background:var(--card);box-shadow:0 6px 18px #2f3a2f12}
+.list a:hover,.list a:focus-visible{border-color:var(--accent);outline:none}
+.list b{font-size:17px}
+.list small{color:var(--muted);font-size:13px;text-align:right}
+.list a.match{border-color:var(--gold);box-shadow:0 0 0 2px #b98a1c44,0 6px 18px #2f3a2f12}
+.list a.match small::after{content:" ✦";color:var(--gold)}
+</style>
+</head>
+<body>
+<main class="wrap">
+<div class="brand">PEEKABOO PIANO · MANUAL</div>
+<h1>🐾 쏙쏙 피아노</h1>
+<p class="sub">Peekaboo Piano · ひょっこりピアノ · 躲猫猫钢琴</p>
+<nav class="list" aria-label="언어 · Language">
+<a href="ko.html" hreflang="ko" data-lang="ko"><b>한국어</b><small>사용 설명서</small></a>
+<a href="en.html" hreflang="en" data-lang="en"><b>English</b><small>User manual</small></a>
+<a href="ja.html" hreflang="ja" data-lang="ja"><b>日本語</b><small>使い方</small></a>
+<a href="zh.html" hreflang="zh-Hans" data-lang="zh"><b>中文(简体)</b><small>使用说明</small></a>
+<a href="mn.html" hreflang="mn" data-lang="mn"><b>Монгол</b><small>Хэрэглэх заавар</small></a>
+<a href="es-mx.html" hreflang="es-MX" data-lang="es-mx"><b>Español (México)</b><small>Manual de uso</small></a>
+<a href="es-cl.html" hreflang="es-CL" data-lang="es-cl"><b>Español (Chile)</b><small>Manual de uso</small></a>
+<a href="pt-br.html" hreflang="pt-BR" data-lang="pt-br"><b>Português (Brasil)</b><small>Manual de uso</small></a>
+</nav>
+</main>
+<script>
+// 기기 언어와 맞는 칸을 빛나게만 한다(저절로 넘어가지 않는다) — es-CL → 칠레 · 다른 es → 멕시코 · pt → 브라질
+(function () {
+  var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+  for (var i = 0; i < langs.length; i++) {
+    var tag = String(langs[i]).toLowerCase(),
+      base = tag.slice(0, 2),
+      key = base === 'es' ? (/^es-cl\b/.test(tag) ? 'es-cl' : 'es-mx') : base === 'pt' ? 'pt-br' : base;
+    var a = document.querySelector('[data-lang="' + key + '"]');
+    if (a) {
+      a.classList.add('match');
+      return;
+    }
+  }
+})();
+</script>
+</body>
+</html>

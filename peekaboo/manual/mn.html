@@ -1,0 +1,183 @@
+<!doctype html>
+<!-- 쏙쏙 피아노 사용 설명서 — Монгол -->
+<html lang="mn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f4f1e4">
+<meta name="description" content="Peekaboo Piano: Найзуудтайгаа Байер — хэрэглэх заавар: Найзуудтайгаа тоглох · Сонсох · долоон загвар · цэсний түгжээ · үнэгүй хувилбар ба Pro · ухаалаг самбар">
+<title>Peekaboo Piano · Хэрэглэх заавар</title>
+<style>
+:root{--bg:#f4f1e4;--card:#fffdf5;--ink:#2f3a2f;--muted:#5d6b5c;--accent:#5c7f62;--gold:#b98a1c;--line:#5c7f6233;--font:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Hiragino Sans","PingFang SC",system-ui,sans-serif;color-scheme:light}
+@media(prefers-color-scheme:dark){:root{--bg:#141a15;--card:#1d251ecc;--ink:#eef3e8;--muted:#b4c2b0;--accent:#8fc39a;--gold:#f0c75a;--line:#8fc39a44;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:15px/1.8 var(--font);background:radial-gradient(circle at 8% 0%,#9ec7a333,transparent 30rem),radial-gradient(circle at 95% 20%,#f3c96a26,transparent 28rem),var(--bg);overflow-wrap:anywhere;word-break:keep-all}
+.wrap{max-width:760px;margin:0 auto;padding:16px 16px 48px}
+.langs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px}
+.langs a{color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:700;background:var(--card);white-space:nowrap}
+.langs a[aria-current]{background:var(--accent);color:#fff;border-color:transparent}
+header{text-align:center;padding:14px 0 6px}
+.brand{font-size:12px;letter-spacing:.14em;color:var(--accent);font-weight:800}
+h1{font-size:clamp(28px,8vw,40px);line-height:1.2;margin:6px 0 2px}
+.sub{color:var(--muted);margin:0}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 16px;margin:16px 0}
+.toc ol{margin:6px 0 0;padding-left:22px;columns:2;column-gap:24px}
+.toc a{color:inherit}
+section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:4px 18px 12px;margin:14px 0}
+h2{font-size:19px;color:var(--accent);margin:14px 0 6px}
+.k{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:0 7px;font-weight:700;background:#5c7f6214;white-space:nowrap}
+.note{color:var(--muted);font-size:14px;border-left:3px solid var(--gold);padding-left:10px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left;vertical-align:top}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="langs" aria-label="Хэл"><a href="ko.html" hreflang="ko">한국어</a><a href="en.html" hreflang="en">English</a><a href="ja.html" hreflang="ja">日本語</a><a href="zh.html" hreflang="zh-Hans">中文</a><a href="mn.html" hreflang="mn" aria-current="page">Монгол</a><a href="es-mx.html" hreflang="es-MX">Español (MX)</a><a href="es-cl.html" hreflang="es-CL">Español (CL)</a><a href="pt-br.html" hreflang="pt-BR">Português (BR)</a></nav>
+<header>
+<div class="brand">PEEKABOO PIANO · MANUAL</div>
+<h1>🐾 Peekaboo Piano</h1>
+<p class="sub">Найзуудтайгаа Байер — Хэрэглэх заавар</p>
+</header>
+
+<nav class="toc" aria-label="Гарчиг"><b>Гарчиг</b>
+<ol>
+<li><a href="#about">Peekaboo Piano гэж юу вэ?</a></li>
+<li><a href="#start">Анх нээх</a></li>
+<li><a href="#home">Эхний дэлгэц</a></li>
+<li><a href="#play">Найзуудтайгаа тоглох</a></li>
+<li><a href="#slide">Гулсуулж тоглох</a></li>
+<li><a href="#listen">Сонсох</a></li>
+<li><a href="#top">Дээд талын товчнууд</a></li>
+<li><a href="#lock">Цэсний түгжээ</a></li>
+<li><a href="#themes">Долоон загвар</a></li>
+<li><a href="#songs">Аяны жагсаалт</a></li>
+<li><a href="#pro">Үнэгүй хувилбар ба Pro</a></li>
+<li><a href="#board">Том дэлгэц · ухаалаг самбар</a></li>
+<li><a href="#privacy">Хувийн мэдээлэл · холбоо барих</a></li>
+</ol>
+</nav>
+
+<section id="about">
+<h2>1. Peekaboo Piano гэж юу вэ?</h2>
+<p>Нүхнээс амьтан найз <strong>цухуйн!</strong> гарч ирвэл дараарай. Тэр нот дуугарч, ая нэг нэг нотоор урагшилна. Нүхнээс цухуйх амьтныг цохих тоглоом шиг тоглож байтал Байерын нэг аяыг эхнээс нь дуустал тоглочихно.</p>
+<p>Хүүхэд, том хүн хамтдаа хэрэглэхээр бүтээсэн. Хүүхэд тоглоом болгон тоглож, том хүн нот · ролл · 88 товчлуураар аяыг сонсоно. Таблетад тохируулж бүтээсэн бөгөөд утсыг хэвтээ байдлаар эргүүлж хэрэглэнэ.</p>
+</section>
+
+<section id="start">
+<h2>2. Анх нээх</h2>
+<p>Аппыг нээхэд <span class="k">Эхлэхийн тулд дар</span> гарч ирнэ. Нэг дарахад төгөлдөр хуурын дууг бэлдэнэ (хэдэн секунд). Хөтөч болон утас хүн нэг удаа дарсны дараа л дуу гаргаж чаддаг тул энэ товч байдаг.</p>
+</section>
+
+<section id="home">
+<h2>3. Эхний дэлгэц</h2>
+<ul>
+<li><strong>Номын тавиурын дөрвөн таб</strong> — <span class="k">Байер</span> <span class="k">Черни 100</span> <span class="k">Черни 30</span> <span class="k">Зул сар · Ардын дуу</span>.</li>
+<li><strong>Аяны карт</strong> — 🐾 болон <span class="k">Тоглох</span> тэмдэгтэй ая нь найзуудтайгаа тоглож болох ая, <span class="k">Сонсох</span> нь сонсох ая. 🔒 тэмдэгтэй ая Pro-д нээгдэнэ (11-р хэсэг).</li>
+<li><strong>Сонгосон ая</strong> — баруун талд аяны нэр, нотын эхний хэсэг харагдана.</li>
+<li><strong>Долоон загварын товч</strong> — найзын нүүртэй товчийг дарвал тэр загвараар <strong>шууд тоглоом</strong> эхэлнэ.</li>
+<li><span class="k">Найзуудтайгаа тоглох</span> <span class="k">Сонсох</span> — утасны хэвтээ дэлгэцэнд зай бага тул <span class="k">Найзуудтайгаа тоглох</span> товчийг нууж, загварын товчнууд түүний ажлыг хийнэ.</li>
+</ul>
+</section>
+
+<section id="play">
+<h2>4. Найзуудтайгаа тоглох</h2>
+<p>Доод эгнээний нүхнүүд цагаан товчлуур, дээд эгнээний нүхнүүд хар товчлуур. Нүх бүрийн доор нотын нэр бичигдсэн байна.</p>
+<ul>
+<li><strong>Гэрэлтэж буй найзыг дар</strong> — ээлж нь ирсэн найз гэрэлтэж цухуйна. Зөв дарвал дараагийн нот руу шилжинэ. Алдсан ч зүгээр, зөв найзыг дартал хүлээж өгнө.</li>
+<li><span class="k">Зүүн</span> <span class="k">Хоёр гар</span> <span class="k">Баруун</span> — тоглох гараа сонгоно. Сонгоогүй гарыг апп дагалдах хөгжим болгон тоглож өгнө.</li>
+<li><span class="k">Нэгийг дарахад болно</span> — асаавал хөвчийн нэг нотыг дарахад бусад нь өөрөө дуугарна. Бага насны хүүхдэд тохиромжтой.</li>
+<li><span class="k">Дасгал</span> — аягүйгээр бүх найз цухуйна. Дуртайгаараа дараарай. Дахин дарвал аяны тоглоом руу буцна.</li>
+<li><span class="k">Эхлээд сонсох</span> — аяыг эхлээд сонсоно. <span class="k">Эхнээс нь</span> — аяыг эхнээс нь дахин эхлүүлнэ.</li>
+<li><span class="k">Хүч сул</span> — 0 үед бүх нот жигд хүчтэй, хамгийн дээд хүртэл өсгөвөл нотон дээрх хүч сул яг хэвээрээ. <span class="k">Дуу</span> — дууны хэмжээ.</li>
+<li><strong>Зөв дарсан нот</strong> — аяны нэрийн доор «Зөв 5 / 17» гэх мэтээр харагдана.</li>
+<li><strong>Дуусгавал</strong> — баярын эффект буудаж, гялалзсан загварын найзын нүүр (<span class="k">Дахин нэг</span>) гарч ирнэ. Дарвал эхнээс нь дахин тоглоно.</li>
+<li><strong>Тоглож байхдаа загвар солих</strong> — тайзны баруун дээд булангийн товчийг дарвал зөвхөн дэвсгэр болон найзууд шууд солигдож, ая үргэлжилсээр байна.</li>
+<li>Дээд хэсэгт тоглож буй аяны нот 4–8 хэмжээсээр харагдах бөгөөд улаан шугам одоогийн байрлалыг дагана.</li>
+</ul>
+</section>
+
+<section id="slide">
+<h2>5. Гулсуулж тоглох (глиссандо)</h2>
+<p>Хуруугаа нүхэн дээр тавьсан чигтээ хажуу тийш гулсуулбал дайрсан нүхнүүдийн нот дараалан дуугарна. Өнгөрсөн нот шууд тасрахгүй, бага зэрэг (0.6 секунд) удаан хангинах тул жинхэнэ төгөлдөр хуур дээр гулсуулж буй мэт санагдана. Сонсох хэсгийн 88 товчлуур дээр ч болно.</p>
+</section>
+
+<section id="listen">
+<h2>6. Сонсох</h2>
+<ul>
+<li>Дээрээс доош <strong>нот · урсах ролл · 88 товчлуур</strong> хамтдаа хөдөлж аяыг сонсгоно. Баруун гар нь ногоовтор цэнхэр, зүүн гар нь улбар шар өнгөтэй.</li>
+<li><span class="k">Тоглуулах · Зогсоох</span>, байрлалын зурвас, <span class="k">Хурд</span>-аар сонсоно.</li>
+<li>88 товчлуурыг өөрөө дарж дагаж тоглож болно.</li>
+</ul>
+</section>
+
+<section id="top">
+<h2>7. Дээд талын товчнууд</h2>
+<table>
+<tr><th>Товч</th><th>Үүрэг</th></tr>
+<tr><td><span class="k">Төгөлдөр · Цахилгаан · Маримба · Синт</span></td><td>Хөгжмийн зэмсэг солих (анх сонгоход хэдэн секунд бэлдэнэ)</td></tr>
+<tr><td>⛶</td><td>Бүтэн дэлгэц · аппад дэлгэцийг асаалттай байлгах үйлдэл хамт ажиллана</td></tr>
+<tr><td>☀ / 🌙</td><td>Өдөр · шөнийн дэвсгэр өнгө (дарах бүрт дараагийн өнгө)</td></tr>
+<tr><td>ⓘ</td><td>Тухай — баярын эффект сонгох (Олон өнгө · Гялалзах дусал · Салют · Гэрэлт лазер · Цэцгийн дэлбээ · Унтраах) · үнэгүй хувилбар/Pro · Худалдан авалт сэргээх · дуу ба нотын эх сурвалж</td></tr>
+<tr><td>Хэл</td><td>Найман хэл. Нотын нэр ч тухайн орны заншлаар солигдоно.</td></tr>
+<tr><td>✕</td><td>Аппыг хаах (дахин нэг асууна)</td></tr>
+</table>
+</section>
+
+<section id="lock">
+<h2>8. Цэсний түгжээ — эцэг эхчүүдэд</h2>
+<p>Зүүн дээд булангийн <strong>түлхүүр</strong> товчийг <strong>3 секунд</strong> дарж байвал цэс түгжигдэнэ (мөнгөлөг цоож). Хүүхэд тоглож байхдаа өөр товч дарсан ч дэлгэц солигдохгүй. Тайзны нүхнүүд болон Сонсох хэсгийн 88 товчлуурыг хэвээр тоглож болно. Дахин 3 секунд дарвал нээгдэнэ. Аппыг дахин нээсэн ч түгжээ хэвээр үлдэнэ.</p>
+</section>
+
+<section id="themes">
+<h2>9. Долоон загвар</h2>
+<table>
+<tr><th>Загвар</th><th>Найзууд</th></tr>
+<tr><td>🌳 Ой</td><td>Муур · гөлөг · коала · кенгуру · заан · анааш зэрэг арван хоёр амьтан найз</td></tr>
+<tr><td>🌊 Далай</td><td>Далайн арван хоёр бяцхан амьтан</td></tr>
+<tr><td>🌴 Ширэнгэн ой</td><td>Ширэнгэн ойн арван хоёр шувуу</td></tr>
+<tr><td>🎤 Тайз</td><td>Дуулдаг хорин дөрвөн тайзны найз (урд · хойд эгнээнд холилдон гарна)</td></tr>
+<tr><td>🌙 Сар</td><td>Арван хоёр AI робот — Дэлхий, галактик харагдах сар дээр</td></tr>
+<tr><td>💎 Болор ой</td><td>Арван хоёр сансрын хөөрхөн</td></tr>
+<tr><td>🎃 Хэллоуин</td><td>Хулуу · сүнс · шулам · бяцхан чөтгөр зэрэг арван хоёр баярын найз</td></tr>
+</table>
+<p class="note">Амьтан · робот · сансар · Хэллоуин загварт нотын нэр бүрт тогтсон найз бий (До = үргэлж нэг найз). Тайз загварт эгнээ бүрт найзууд ээлжлэн гарна.</p>
+</section>
+
+<section id="songs">
+<h2>10. Аяны жагсаалт</h2>
+<ul>
+<li>Байер 106 ая (тоглох 83) · Черни 100 — 100 ая (тоглох 28) · Черни 30 — 30 ая (тоглох 2)</li>
+<li>Зул сарын дөрвөн дуу (Jingle Bells · Silent Night · Deck the Halls · We Wish You a Merry Christmas)</li>
+<li>Ардын есөн дуу (Arirang · Ongheya · Kwaejina Chingching Nane · Monggeumpo Taryeong · Hangangsu Taryeong · Nilliriya · Han Obaengnyeon · Baennorae · Акулын түүдгийн дуу)</li>
+</ul>
+<p class="note">Бүх нотыг зохиогчийн эрх нь дууссан эх хэвлэлээс шинээр оруулсан бөгөөд зул сарын болон ардын дуунууд нь энэ аппын хоёр гарт зориулсан найруулга юм.</p>
+</section>
+
+<section id="pro">
+<h2>11. Үнэгүй хувилбар ба Pro</h2>
+<ul>
+<li><strong>Үнэгүй хувилбар</strong> — Ой · Далай загвар, тоглох 23 ая (Байерын эхний 20 ая + Jingle Bells · Arirang · Акулын түүдгийн дуу), Байерын 106 аяыг сонсох.</li>
+<li><strong>Pro насан туршийн эрх</strong> (нэг удаагийн төлбөр) — долоон загвар · тоглох 126 ая · сонсох ая бүгд.</li>
+<li>🔒 тэмдэгтэй ая эсвэл загварыг дарвал «Pro-д нээгдэнэ» цонх гарна. <span class="k">Томчуудад</span> товчийг дарвал <strong>Томчуудын шалгалт</strong> асуулт (хоёр тооны үржвэр) гарч, зөв хариулсны дараа л Google Play-ийн төлбөр рүү шилжинэ.</li>
+<li>Утсаа сольсон бол ⓘ Тухай хэсгийн <span class="k">Худалдан авалт сэргээх</span> товчийг дарна уу (ижил Google бүртгэл).</li>
+</ul>
+</section>
+
+<section id="board">
+<h2>12. Том дэлгэц · ухаалаг самбар</h2>
+<p>Android мэдрэгчтэй ТВ · ухаалаг самбарт аппыг суулгаж хэрэглэнэ. Windows компьютер холбогдсон ухаалаг самбарт вэб хувилбарын багцыг (эхлэх файлыг давхар дарвал зөвхөн тэр компьютерт нээгдэнэ) хэрэглэж болно. Олон хуруугаар зэрэг дарж ч болно.</p>
+</section>
+
+<section id="privacy">
+<h2>13. Хувийн мэдээлэл · холбоо барих</h2>
+<p>Бүртгэл ч, зар сурталчилгаа ч байхгүй. Ямар ч мэдээллийг гадагш илгээхгүй. Зөвхөн худалдан авах үед интернэтээр Google Play-д холбогдоно.</p>
+<p>Нууцлалын бодлого: <a href="../privacy/">ilvaciosolution.com/peekaboo/privacy/</a> · Холбоо барих: support@ilvaciosolution.com</p>
+</section>
+
+<footer>Peekaboo Piano · ILVACIO SOLUTION</footer>
+</div>
+</body>
+</html>

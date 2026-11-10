@@ -1,0 +1,183 @@
+<!doctype html>
+<!-- 쏙쏙 피아노 사용 설명서 — 中文(简体) -->
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f4f1e4">
+<meta name="description" content="躲猫猫钢琴：和朋友一起弹拜厄 使用说明 — 和朋友一起弹 · 欣赏 · 七个主题 · 菜单锁 · 免费版与专业版 · 电子白板">
+<title>躲猫猫钢琴 · 使用说明</title>
+<style>
+:root{--bg:#f4f1e4;--card:#fffdf5;--ink:#2f3a2f;--muted:#5d6b5c;--accent:#5c7f62;--gold:#b98a1c;--line:#5c7f6233;--font:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Hiragino Sans","PingFang SC",system-ui,sans-serif;color-scheme:light}
+@media(prefers-color-scheme:dark){:root{--bg:#141a15;--card:#1d251ecc;--ink:#eef3e8;--muted:#b4c2b0;--accent:#8fc39a;--gold:#f0c75a;--line:#8fc39a44;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:15px/1.8 var(--font);background:radial-gradient(circle at 8% 0%,#9ec7a333,transparent 30rem),radial-gradient(circle at 95% 20%,#f3c96a26,transparent 28rem),var(--bg);overflow-wrap:anywhere;word-break:keep-all}
+.wrap{max-width:760px;margin:0 auto;padding:16px 16px 48px}
+.langs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px}
+.langs a{color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:700;background:var(--card);white-space:nowrap}
+.langs a[aria-current]{background:var(--accent);color:#fff;border-color:transparent}
+header{text-align:center;padding:14px 0 6px}
+.brand{font-size:12px;letter-spacing:.14em;color:var(--accent);font-weight:800}
+h1{font-size:clamp(28px,8vw,40px);line-height:1.2;margin:6px 0 2px}
+.sub{color:var(--muted);margin:0}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 16px;margin:16px 0}
+.toc ol{margin:6px 0 0;padding-left:22px;columns:2;column-gap:24px}
+.toc a{color:inherit}
+section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:4px 18px 12px;margin:14px 0}
+h2{font-size:19px;color:var(--accent);margin:14px 0 6px}
+.k{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:0 7px;font-weight:700;background:#5c7f6214;white-space:nowrap}
+.note{color:var(--muted);font-size:14px;border-left:3px solid var(--gold);padding-left:10px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left;vertical-align:top}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="langs" aria-label="语言"><a href="ko.html" hreflang="ko">한국어</a><a href="en.html" hreflang="en">English</a><a href="ja.html" hreflang="ja">日本語</a><a href="zh.html" hreflang="zh-Hans" aria-current="page">中文</a><a href="mn.html" hreflang="mn">Монгол</a><a href="es-mx.html" hreflang="es-MX">Español (MX)</a><a href="es-cl.html" hreflang="es-CL">Español (CL)</a><a href="pt-br.html" hreflang="pt-BR">Português (BR)</a></nav>
+<header>
+<div class="brand">PEEKABOO PIANO · MANUAL</div>
+<h1>🐾 躲猫猫钢琴</h1>
+<p class="sub">和朋友一起弹拜厄 — 使用说明</p>
+</header>
+
+<nav class="toc" aria-label="目录"><b>目录</b>
+<ol>
+<li><a href="#about">躲猫猫钢琴是什么?</a></li>
+<li><a href="#start">第一次打开</a></li>
+<li><a href="#home">首页</a></li>
+<li><a href="#play">和朋友一起弹</a></li>
+<li><a href="#slide">滑着弹</a></li>
+<li><a href="#listen">欣赏</a></li>
+<li><a href="#top">顶部按钮</a></li>
+<li><a href="#lock">菜单锁</a></li>
+<li><a href="#themes">七个主题</a></li>
+<li><a href="#songs">曲目列表</a></li>
+<li><a href="#pro">免费版与专业版</a></li>
+<li><a href="#board">大屏幕 · 电子白板</a></li>
+<li><a href="#privacy">隐私 · 联系我们</a></li>
+</ol>
+</nav>
+
+<section id="about">
+<h2>1. 躲猫猫钢琴是什么?</h2>
+<p>动物朋友从洞里<strong>冒出来!</strong>的时候，请点一下。对应的音会响起，乐曲一个音一个音地向前走。像打地鼠一样玩着玩着，就能把一首拜厄弹到最后。</p>
+<p>它是为孩子和大人一起使用而设计的。孩子边玩边弹，大人可以通过乐谱 · 卷帘 · 88键键盘欣赏乐曲。本应用为平板电脑设计，手机请横过来使用。</p>
+</section>
+
+<section id="start">
+<h2>2. 第一次打开</h2>
+<p>打开应用后会出现<span class="k">点一下开始</span>。点一下，就会准备钢琴声音(几秒钟)。浏览器和手机要等有人点过一次之后才能发出声音，所以有这个按钮。</p>
+</section>
+
+<section id="home">
+<h2>3. 首页</h2>
+<ul>
+<li><strong>四个书架标签</strong> — <span class="k">拜厄</span> <span class="k">车尔尼599</span> <span class="k">车尔尼849</span> <span class="k">圣诞歌 · 民谣</span>。</li>
+<li><strong>曲目卡片</strong> — 带有 🐾 和<span class="k">游戏</span>的曲子可以和朋友一起弹，<span class="k">欣赏</span>是用来听的曲子。带 🔒 的曲子在专业版中解锁(第11节)。</li>
+<li><strong>选中的曲子</strong> — 右侧会显示曲名和乐谱的开头部分。</li>
+<li><strong>七个主题按钮</strong> — 点一下朋友的脸，就会用那个主题<strong>马上开始游戏</strong>。</li>
+<li><span class="k">和朋友一起弹</span> <span class="k">欣赏</span> — 手机横屏时空间较窄，会隐藏<span class="k">和朋友一起弹</span>，由主题按钮来代替它。</li>
+</ul>
+</section>
+
+<section id="play">
+<h2>4. 和朋友一起弹</h2>
+<p>下面一排的洞是白键，上面一排的洞是黑键。洞的下面写着音名。</p>
+<ul>
+<li><strong>点一点发光的朋友</strong> — 轮到的朋友会发光并探出头来。点对了，就进入下一个音。点错也没关系，它会一直等到你点到正确的朋友。</li>
+<li><span class="k">左手</span> <span class="k">双手</span> <span class="k">右手</span> — 选择要弹的手。没有选的那只手，由应用来弹伴奏。</li>
+<li><span class="k">按一个就可以</span> — 打开后，和弦也只要按一个音，其余的音会自动响起。适合年幼的孩子。</li>
+<li><span class="k">练习</span> — 不用选曲，所有朋友都会探出头来。尽情地点吧。再点一次就回到乐曲游戏。</li>
+<li><span class="k">先听示范</span> — 先把曲子听一遍。<span class="k">从头开始</span> — 从头重新弹这首曲子。</li>
+<li><span class="k">强弱</span> — 设为0时所有音一样响，调到最高时完全按照乐谱的强弱。<span class="k">音量</span> — 声音的大小。</li>
+<li><strong>弹对的音</strong> — 曲名下方会显示 «弹对 5 / 17» 这样的数字。</li>
+<li><strong>弹完以后</strong> — 会放出庆祝特效，并出现闪闪发光的主题朋友的脸(<span class="k">再来一次</span>)。点一下就从头再弹。</li>
+<li><strong>游戏中更换主题</strong> — 点舞台右上角的按钮，只有背景和朋友会马上改变，乐曲继续进行。</li>
+<li>上方会显示正在弹的曲子的乐谱，每次4～8小节，红线跟着当前的位置移动。</li>
+</ul>
+</section>
+
+<section id="slide">
+<h2>5. 滑着弹(刮奏)</h2>
+<p>手指按在洞上横向滑动，经过的洞的音会依次响起。经过的音不会马上停止，而是再响一小会儿(0.6秒)，就像在真正的钢琴上刮奏一样。在欣赏的88键键盘上也可以这样弹。</p>
+</section>
+
+<section id="listen">
+<h2>6. 欣赏</h2>
+<ul>
+<li>从上到下，<strong>乐谱 · 流动的卷帘 · 88键键盘</strong>一起运动，为你播放乐曲。右手是青绿色，左手是橙色。</li>
+<li>用<span class="k">播放 · 暂停</span>、进度条和<span class="k">速度</span>来欣赏。</li>
+<li>也可以亲手按88键跟着弹。</li>
+</ul>
+</section>
+
+<section id="top">
+<h2>7. 顶部按钮</h2>
+<table>
+<tr><th>按钮</th><th>作用</th></tr>
+<tr><td><span class="k">钢琴 · 电钢琴 · 马林巴 · 合成器</span></td><td>更换乐器(第一次选择时需要准备几秒)</td></tr>
+<tr><td>⛶</td><td>全屏 · 在应用中同时保持屏幕常亮</td></tr>
+<tr><td>☀ / 🌙</td><td>白天 · 夜晚背景色(每点一次换成下一种颜色)</td></tr>
+<tr><td>ⓘ</td><td>关于 — 选择成功特效(多彩 · 闪亮水珠 · 烟花 · 闪耀激光 · 花瓣飞舞 · 关闭) · 免费版/专业版 · 恢复购买 · 声音与乐谱来源</td></tr>
+<tr><td>语言</td><td>八种语言。音名也会换成那个国家的习惯叫法。</td></tr>
+<tr><td>✕</td><td>关闭应用(会再问一次)</td></tr>
+</table>
+</section>
+
+<section id="lock">
+<h2>8. 菜单锁 — 写给家长</h2>
+<p>按住左上角的<strong>钥匙</strong>按钮<strong>3秒</strong>，菜单就会锁定(银色的锁)。孩子在游戏中即使点到别的按钮，画面也不会切换。舞台上的洞和欣赏中的88键仍然可以弹。再按住3秒即可解锁。重新打开应用后，锁定依然保持。</p>
+</section>
+
+<section id="themes">
+<h2>9. 七个主题</h2>
+<table>
+<tr><th>主题</th><th>朋友</th></tr>
+<tr><td>🌳 森林</td><td>猫 · 小狗 · 考拉 · 袋鼠 · 大象 · 长颈鹿等十二位动物朋友</td></tr>
+<tr><td>🌊 大海</td><td>十二只海洋动物宝宝</td></tr>
+<tr><td>🌴 丛林</td><td>十二只丛林鸟儿</td></tr>
+<tr><td>🎤 舞台</td><td>二十四位唱歌的舞台朋友(混在前排 · 后排出现)</td></tr>
+<tr><td>🌙 月球</td><td>十二个AI机器人 — 在能看见地球和银河的月球上</td></tr>
+<tr><td>💎 水晶森林</td><td>十二个太空小可爱</td></tr>
+<tr><td>🎃 万圣节</td><td>南瓜 · 幽灵 · 女巫 · 小鬼怪等十二位节日朋友</td></tr>
+</table>
+<p class="note">在动物 · 机器人 · 太空 · 万圣节主题中，每个音名都有固定的朋友(Do = 永远是同一个朋友)。在舞台主题中，每一排的朋友会轮流出现。</p>
+</section>
+
+<section id="songs">
+<h2>10. 曲目列表</h2>
+<ul>
+<li>拜厄 106首(可玩83首) · 车尔尼599 100首(可玩28首) · 车尔尼849 30首(可玩2首)</li>
+<li>圣诞歌四首(铃儿响叮当 · 平安夜 · 装饰大厅 · 祝你圣诞快乐)</li>
+<li>民谣九首(阿里郎 · 嗡嘿呀 · 快哉那称称那内 · 梦金浦打令 · 汉江水打令 · 呢哩哩呀 · 恨五百年 · 船歌 · 鲨鱼营火歌)</li>
+</ul>
+<p class="note">所有乐谱都根据版权已过期的原版重新录入，圣诞歌 · 民谣是本应用的双手编曲。</p>
+</section>
+
+<section id="pro">
+<h2>11. 免费版与专业版</h2>
+<ul>
+<li><strong>免费版</strong> — 森林 · 大海主题，23首游戏曲目(拜厄前20首 + 铃儿响叮当 · 阿里郎 · 鲨鱼营火歌)，以及欣赏全部106首拜厄。</li>
+<li><strong>专业版终身通行证</strong>(一次性付款) — 七个主题 · 126首游戏曲目 · 全部欣赏曲目。</li>
+<li>点带 🔒 的曲子或主题，会弹出 «专业版解锁» 窗口。点<span class="k">请家长操作</span>后会出现<strong>家长确认</strong>题(两个数相乘)，答对后才会进入 Google Play 付款。</li>
+<li>换了手机的话，请在 ⓘ 关于 中点<span class="k">恢复购买</span>(使用同一个 Google 账号)。</li>
+</ul>
+</section>
+
+<section id="board">
+<h2>12. 大屏幕 · 电子白板</h2>
+<p>安卓触屏电视和电子白板可以安装应用使用；连接 Windows 电脑的电子白板可以使用网页版安装包(双击启动文件，只在这台电脑里打开)。多根手指同时按也可以。</p>
+</section>
+
+<section id="privacy">
+<h2>13. 隐私 · 联系我们</h2>
+<p>不需要注册，也没有广告。不会向外发送任何信息。只有付款时才会联网连接 Google Play。</p>
+<p>隐私政策: <a href="../privacy/">ilvaciosolution.com/peekaboo/privacy/</a> · 联系我们: support@ilvaciosolution.com</p>
+</section>
+
+<footer>躲猫猫钢琴 · ILVACIO SOLUTION</footer>
+</div>
+</body>
+</html>
