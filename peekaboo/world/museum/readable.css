@@ -1,0 +1,91 @@
+/* 세계악기박물관 — 읽기 좋게 덧댄 꾸밈(쳇 원판 뒤에 싣는다 · 작은 글 키움 · 한글 자간 · 피아노 안에서는 바깥 링크 숨김) */
+body {
+  font-family:
+    'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', system-ui, -apple-system, 'Segoe UI',
+    sans-serif;
+  font-size: 16px;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+header h1,
+.hero h2 {
+  letter-spacing: -0.01em;
+}
+.brand {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+}
+.tag,
+.code,
+.visual-tag,
+.discovery {
+  font-size: 12px;
+}
+.hero p {
+  font-size: 16px;
+  line-height: 1.75;
+}
+.stats span {
+  font-size: 13px;
+}
+.summary,
+.pagebar span {
+  font-size: 14px;
+}
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #66746a;
+}
+.english {
+  font-size: 13px;
+}
+.feature {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #4d5d57;
+}
+.actions button,
+.photo-card-link {
+  font-size: 14px;
+}
+.role {
+  font-size: 14px;
+}
+.reference-content small {
+  font-size: 13px;
+  color: #66736c;
+}
+.detailfield strong {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+.detailfield p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.detailart small,
+.viewer-note,
+.sources {
+  font-size: 14px;
+}
+.sheet p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.sheet table {
+  font-size: 15px;
+}
+footer {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.audio-controls {
+  font-size: 14px;
+}
+
+/* 피아노 안(전자칠판 · 아이 화면) — 바깥 사이트로 나가는 문은 숨긴다 */
+html[data-paw-embedded] [data-source],
+html[data-paw-embedded] .sources {
+  display: none !important;
+}

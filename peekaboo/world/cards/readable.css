@@ -1,0 +1,404 @@
+/* 음악 영웅 카드 — 읽기 좋게 덧댄 꾸밈(쳇 원판 style.css 뒤에 싣는다 · 글 최소 12 px · 옅은 글 대비 · 한글 자간) */
+:root {
+  --read: #4d5a47;
+  --soft: #5f6b58;
+  --label: #6b7663;
+  font-family:
+    'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', sans-serif;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
+}
+.brand b,
+.page-heading h1,
+.hero-title h2,
+.lesson h3,
+.museum-teaser strong,
+.collection h2,
+.dialog-head h2,
+.museum-hero strong,
+#detailBody h3,
+.season h3,
+.sidebar h2,
+.hero-description,
+.sound-box strong {
+  font-family: Georgia, 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', serif;
+}
+
+/* 한글 제목 자간 — −1.2 ~ −2.8 px 로 글자가 붙던 것 */
+.brand b,
+.season h3,
+.page-heading h1,
+.hero-title h2,
+.collection h2,
+.dialog-head h2,
+.museum-hero strong {
+  letter-spacing: -0.01em;
+}
+.lesson h3,
+.hero-description {
+  letter-spacing: 0;
+}
+
+/* 머리 줄 */
+.brand small {
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: var(--label);
+}
+.topbar nav button {
+  font-size: 15px;
+  color: var(--soft);
+}
+.topbar nav button.nav-current {
+  color: var(--accent);
+}
+.piano-link,
+.save-filter {
+  font-size: 14px !important;
+  color: var(--soft);
+}
+
+/* 왼쪽 세계 목록 */
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: var(--label);
+}
+.world {
+  font-size: 15px;
+  color: var(--soft);
+}
+.world small {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--label);
+}
+.world b {
+  font-size: 13px;
+}
+.world-note,
+.season p,
+.aside-link {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--soft);
+}
+.season small {
+  font-size: 12px;
+  color: #8a7a4c;
+}
+
+/* 가운데 머리말 */
+.breadcrumb {
+  font-size: 13px;
+  color: var(--label);
+}
+.page-heading p {
+  font-size: 15px;
+  color: var(--soft);
+}
+.collection-label {
+  font-size: 12px;
+  color: var(--label);
+}
+.collection-label strong span {
+  font-size: 15px;
+  color: var(--label);
+}
+.stage-caption,
+.touch-hint,
+.palette-row {
+  font-size: 13px;
+  color: var(--label);
+}
+.card-controls button {
+  font-size: 14px;
+  color: var(--soft);
+}
+
+/* 카드 안 — 카드 크기에 비례(--u) · 가장 작은 글 8 → 9.5 단위 이상 */
+.face-top {
+  font-size: calc(var(--u) * 9);
+  letter-spacing: 0.06em;
+}
+.face-name small {
+  font-size: calc(var(--u) * 11);
+}
+.face-name h2 {
+  letter-spacing: -0.02em;
+}
+.pitch span {
+  font-size: calc(var(--u) * 8);
+}
+.art-label {
+  font-size: calc(var(--u) * 8);
+  letter-spacing: 0.1em;
+  color: #5f7350;
+}
+.portrait {
+  height: calc(var(--u) * 228);
+}
+.quote {
+  font-size: calc(var(--u) * 13.5);
+  line-height: 1.65;
+  letter-spacing: 0;
+}
+.gifts {
+  font-size: calc(var(--u) * 10.5);
+  color: #5f7051;
+}
+.card-story {
+  font-size: calc(var(--u) * 10.5);
+  line-height: 1.7;
+  color: #5f7051;
+  margin-top: calc(var(--u) * 9);
+}
+.seed-button b {
+  font-size: calc(var(--u) * 10);
+}
+.seed-button small {
+  font-size: calc(var(--u) * 9);
+  color: #74806a;
+}
+.instrument-window {
+  height: calc(var(--u) * 205);
+}
+.instrument-caption {
+  font-size: calc(var(--u) * 9);
+  color: #7a6e55;
+}
+.back .face-name small {
+  font-size: calc(var(--u) * 10);
+}
+.back-facts small {
+  font-size: calc(var(--u) * 9);
+  color: #6d775f;
+}
+.back-facts b {
+  font-size: calc(var(--u) * 12);
+}
+.back-intro {
+  font-size: calc(var(--u) * 11);
+  line-height: 1.7;
+}
+.museum-card-link {
+  font-size: calc(var(--u) * 10.5);
+}
+
+/* 오른쪽 이야기 칸 */
+.specimen-no {
+  font-size: 12px;
+  color: var(--label);
+}
+.specimen-no b {
+  color: #7d8a6a;
+}
+.hero-role {
+  font-size: 16px;
+  color: var(--soft);
+}
+.hero-tags span {
+  font-size: 13px;
+  padding: 5px 11px;
+  color: #56704c;
+}
+.hero-description {
+  font-size: 17px;
+  line-height: 1.85;
+  color: var(--read);
+}
+.story-tabs button {
+  font-size: 15px;
+  color: var(--soft);
+}
+.lesson small,
+.museum-teaser small {
+  font-size: 12px;
+  color: var(--label);
+}
+.lesson h3 {
+  font-size: 18px;
+}
+.lesson p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--read);
+}
+.museum-teaser span {
+  font-size: 13px;
+  color: var(--soft);
+}
+.mission {
+  font-size: 15px;
+  line-height: 1.7;
+}
+.local-note {
+  font-size: 13px;
+  color: var(--soft);
+}
+.sound-box small,
+.sound-box div > span {
+  font-size: 13px;
+  color: var(--soft);
+}
+.small-actions,
+.audio-status {
+  font-size: 14px;
+  color: var(--soft);
+}
+.edition-line {
+  font-size: 13px;
+  color: var(--label);
+}
+
+/* 친구 모음 */
+.collection-top p,
+.filter-row > span {
+  font-size: 14px;
+  color: var(--soft);
+}
+.search-box input {
+  font-size: 16px;
+}
+.search-box input::placeholder {
+  color: #8a9180;
+}
+.filter-row button {
+  font-size: 14px;
+  padding: 7px 12px;
+  color: var(--soft);
+}
+.friend-tile .tile-number {
+  font-size: 11px;
+  color: var(--label);
+}
+.friend-tile strong {
+  font-size: 15px;
+}
+.friend-tile small {
+  font-size: 12px;
+  color: var(--soft);
+}
+.empty {
+  font-size: 15px;
+}
+footer {
+  font-size: 13px;
+  color: var(--label);
+  line-height: 1.8;
+}
+footer b {
+  font-size: 11px;
+  color: var(--label);
+}
+
+/* 창(대화 상자) */
+#detailBody {
+  font-size: 16px;
+  line-height: 1.85;
+  color: var(--read);
+}
+.museum-hero p,
+.museum-meta span,
+.source-links a,
+.illustration-note,
+.music-grid small,
+.zoom-controls label,
+#visualDialog > p,
+#visualDialog > small {
+  font-size: 14px;
+  color: var(--soft);
+}
+.music-grid > div {
+  font-size: 15px;
+}
+.key {
+  font-size: 13px;
+}
+.key small {
+  font-size: 11px;
+}
+.key.black {
+  font-size: 11px;
+}
+#detailBody .action-button,
+.visual-actions button,
+.zoom-controls button {
+  font-size: 14px;
+}
+.virtue-list span {
+  font-size: 14px;
+}
+#toast {
+  font-size: 15px;
+}
+
+/* 좁은 화면(태블릿 · 폰 세계 띠) */
+@media (max-width: 980px) {
+  .world-strip button {
+    font-size: 14px;
+    padding: 8px 12px;
+    color: var(--soft);
+  }
+  .world-strip button small {
+    font-size: 12px;
+    color: var(--label);
+  }
+}
+@media (max-width: 560px) {
+  .topbar nav button {
+    font-size: 14px;
+  }
+  .hero-description {
+    font-size: 16px;
+  }
+}
+
+/* 왼쪽 기둥 — 글을 키운 만큼 넓힘(영문 부제가 두 줄로 갈라지지 않게) */
+.layout {
+  grid-template-columns: 252px minmax(0, 1fr);
+}
+.world small,
+.sidebar .eyebrow {
+  white-space: nowrap;
+}
+@media (max-width: 1170px) {
+  .layout {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+  .world small {
+    font-size: 10px;
+  }
+}
+@media (max-width: 980px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 대비 모자란 남은 곳 */
+.breadcrumb span,
+.breadcrumb a,
+.breadcrumb button {
+  color: var(--label);
+}
+.breadcrumb b {
+  color: var(--read);
+}
+.specimen-no b {
+  color: #6b7a58;
+}
+.sound-box strong {
+  color: #556e48;
+}
+.season small {
+  color: #7d6c3c;
+}
+.filter-row button {
+  color: #56624f;
+}
+.stage-caption {
+  letter-spacing: 0;
+}
