@@ -113,3 +113,15 @@ body > header.wrap {
 body > header.wrap .world-nav {
   flex-basis: 100%;
 }
+/* 한글 머리말에 영문용 자간(3 px)이 걸려 글자가 흩어지던 것 · 단추 글이 두 줄로 꺾이던 것 */
+.hero .brand {
+  letter-spacing: 0.04em;
+  font-size: 14px;
+}
+.card .actions button {
+  white-space: nowrap;
+  padding: 9px 8px;
+}
+.card .actions .primary {
+  flex: 1.6;
+}
