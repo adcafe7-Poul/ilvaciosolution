@@ -1,0 +1,79 @@
+{
+  "objectID": 503008,
+  "isHighlight": true,
+  "accessionNumber": "34.86.1a",
+  "accessionYear": "1934",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DP105130.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DP105130.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/DP216543.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 162484,
+      "role": "Maker",
+      "name": "Antonio Stradivari",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500079466",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q182011",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Violin",
+  "title": "\"Antonius\" Violin",
+  "culture": "Italian (Cremona)",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "",
+  "artistDisplayName": "Antonio Stradivari",
+  "artistDisplayBio": "Italian, Cremona 1644–1737 Cremona",
+  "artistSuffix": "",
+  "artistAlphaSort": "Stradivari, Antonio",
+  "artistNationality": "Italian",
+  "artistBeginDate": "1644",
+  "artistEndDate": "1737",
+  "artistGender": "",
+  "artistWikidata_URL": "https://www.wikidata.org/wiki/Q182011",
+  "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500079466",
+  "objectDate": "1711",
+  "objectBeginDate": 1711,
+  "objectEndDate": 1711,
+  "medium": "Maple, spruce, ebony",
+  "dimensions": "Height: 23 in. (58.4 cm)\r\nWidth: 8 in. (20.3 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Height": 58.420116,
+        "Width": 20.32004
+      }
+    }
+  ],
+  "creditLine": "Bequest of Annie Bolton Matthews Bryant, 1933",
+  "geographyType": "",
+  "city": "Cremona",
+  "state": "",
+  "county": "",
+  "country": "Italy",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Lute-bowed-unfretted",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/503008",
+  "tags": null,
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q29385582",
+  "isTimelineWork": true,
+  "GalleryNumber": "684"
+}

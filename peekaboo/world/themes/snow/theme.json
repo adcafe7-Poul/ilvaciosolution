@@ -1,0 +1,93 @@
+{
+ "id": "snow",
+ "nameKo": "눈나라 동물 음악회",
+ "background": "bg.webp",
+ "face": "face.webp",
+ "friends": [
+  {
+   "pc": 0,
+   "id": "P01",
+   "name": "포리",
+   "file": "P01.webp",
+   "scale": 1
+  },
+  {
+   "pc": 1,
+   "id": "P02",
+   "name": "엠피",
+   "file": "P02.webp",
+   "scale": 1
+  },
+  {
+   "pc": 2,
+   "id": "P03",
+   "name": "아델",
+   "file": "P03.webp",
+   "scale": 0.8
+  },
+  {
+   "pc": 3,
+   "id": "P04",
+   "name": "록키",
+   "file": "P04.webp",
+   "scale": 1
+  },
+  {
+   "pc": 4,
+   "id": "P05",
+   "name": "허스",
+   "file": "P05.webp",
+   "scale": 1
+  },
+  {
+   "pc": 5,
+   "id": "P06",
+   "name": "루프",
+   "file": "P06.webp",
+   "scale": 1
+  },
+  {
+   "pc": 6,
+   "id": "P07",
+   "name": "뿔이",
+   "file": "P07.webp",
+   "scale": 1
+  },
+  {
+   "pc": 7,
+   "id": "P08",
+   "name": "아이비",
+   "file": "P08.webp",
+   "scale": 1
+  },
+  {
+   "pc": 8,
+   "id": "P09",
+   "name": "하피",
+   "file": "P09.webp",
+   "scale": 1
+  },
+  {
+   "pc": 9,
+   "id": "P10",
+   "name": "설이",
+   "file": "P10.webp",
+   "scale": 1
+  },
+  {
+   "pc": 10,
+   "id": "P11",
+   "name": "월리",
+   "file": "P11.webp",
+   "scale": 1
+  },
+  {
+   "pc": 11,
+   "id": "P12",
+   "name": "스노우",
+   "file": "P12.webp",
+   "scale": 1
+  }
+ ],
+ "bgAlign": 0.7
+}

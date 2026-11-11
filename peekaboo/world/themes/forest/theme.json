@@ -1,0 +1,202 @@
+{
+ "id": "forest",
+ "nameKo": "포근숲 친구들 · 스물네 친구의 음악회",
+ "background": "bg.webp",
+ "face": "face.webp",
+ "friends": [
+  {
+   "pc": 0,
+   "bank": 0,
+   "id": "F01",
+   "name": "리본냥",
+   "file": "F01.webp",
+   "scale": 1
+  },
+  {
+   "pc": 1,
+   "bank": 0,
+   "id": "F08",
+   "name": "까미",
+   "file": "F08.webp",
+   "scale": 1
+  },
+  {
+   "pc": 2,
+   "bank": 0,
+   "id": "F02",
+   "name": "몽이",
+   "file": "F02.webp",
+   "scale": 1
+  },
+  {
+   "pc": 3,
+   "bank": 0,
+   "id": "F09",
+   "name": "푸푸",
+   "file": "F09.webp",
+   "scale": 1
+  },
+  {
+   "pc": 4,
+   "bank": 0,
+   "id": "F03",
+   "name": "모글",
+   "file": "F03.webp",
+   "scale": 1
+  },
+  {
+   "pc": 5,
+   "bank": 0,
+   "id": "F04",
+   "name": "미루",
+   "file": "F04.webp",
+   "scale": 1
+  },
+  {
+   "pc": 6,
+   "bank": 0,
+   "id": "F10",
+   "name": "라미",
+   "file": "F10.webp",
+   "scale": 1
+  },
+  {
+   "pc": 7,
+   "bank": 0,
+   "id": "F05",
+   "name": "코코",
+   "file": "F05.webp",
+   "scale": 1
+  },
+  {
+   "pc": 8,
+   "bank": 0,
+   "id": "F11",
+   "name": "캥이",
+   "file": "F11.webp",
+   "scale": 1
+  },
+  {
+   "pc": 9,
+   "bank": 0,
+   "id": "F06",
+   "name": "엘리",
+   "file": "F06.webp",
+   "scale": 1
+  },
+  {
+   "pc": 10,
+   "bank": 0,
+   "id": "F12",
+   "name": "보리",
+   "file": "F12.webp",
+   "scale": 1
+  },
+  {
+   "pc": 11,
+   "bank": 0,
+   "id": "F07",
+   "name": "기리",
+   "file": "F07.webp",
+   "scale": 1
+  },
+  {
+   "pc": 0,
+   "bank": 1,
+   "id": "F13",
+   "name": "호비",
+   "file": "F13.webp",
+   "scale": 1
+  },
+  {
+   "pc": 1,
+   "bank": 1,
+   "id": "F14",
+   "name": "레오",
+   "file": "F14.webp",
+   "scale": 1
+  },
+  {
+   "pc": 2,
+   "bank": 1,
+   "id": "F15",
+   "name": "울리",
+   "file": "F15.webp",
+   "scale": 1
+  },
+  {
+   "pc": 3,
+   "bank": 1,
+   "id": "F16",
+   "name": "코요",
+   "file": "F16.webp",
+   "scale": 1
+  },
+  {
+   "pc": 4,
+   "bank": 1,
+   "id": "F17",
+   "name": "하니",
+   "file": "F17.webp",
+   "scale": 1
+  },
+  {
+   "pc": 5,
+   "bank": 1,
+   "id": "F18",
+   "name": "치치",
+   "file": "F18.webp",
+   "scale": 1
+  },
+  {
+   "pc": 6,
+   "bank": 1,
+   "id": "F19",
+   "name": "폴리",
+   "file": "F19.webp",
+   "scale": 1
+  },
+  {
+   "pc": 7,
+   "bank": 1,
+   "id": "F20",
+   "name": "로노",
+   "file": "F20.webp",
+   "scale": 1
+  },
+  {
+   "pc": 8,
+   "bank": 1,
+   "id": "F21",
+   "name": "하포",
+   "file": "F21.webp",
+   "scale": 1
+  },
+  {
+   "pc": 9,
+   "bank": 1,
+   "id": "F22",
+   "name": "곰이",
+   "file": "F22.webp",
+   "scale": 1
+  },
+  {
+   "pc": 10,
+   "bank": 1,
+   "id": "F23",
+   "name": "다미",
+   "file": "F23.webp",
+   "scale": 1
+  },
+  {
+   "pc": 11,
+   "bank": 1,
+   "id": "F24",
+   "name": "솔이",
+   "file": "F24.webp",
+   "scale": 1
+  }
+ ],
+ "banks": 2,
+ "bgAlign": 0.12
+}

@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="theme-color" content="#f4f1e4" />
+    <title>쏙쏙 피아노</title>
+
+
+    <script type="module" crossorigin src="./assets/index-CxzYjjTA.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-NLaw057a.css">
+    <meta name="paw-edition" content="free" />
+  <link rel="stylesheet" href="./museum-bridge.css">
+<script src="./museum-bridge.js" defer></script>
+</head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol id="ic-full" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" /></symbol>
+      <!-- 앱판 ⛶ 자리 = 화면 꺼짐 방지 — 오늘의 비트 앱과 같은 전구 -->
+      <symbol id="ic-bulb" viewBox="0 0 24 24">
+        <path
+          d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.1V16h5v-.1c0-.8.4-1.6 1.1-2.1A6 6 0 0 0 12 3z"
+        />
+      </symbol>
+      <symbol id="ic-sun" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="4.2" />
+        <path
+          d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5.3 5.3l1.7 1.7M17 17l1.7 1.7M5.3 18.7 7 17M17 7l1.7-1.7"
+        />
+      </symbol>
+      <symbol id="ic-moon" viewBox="0 0 24 24">
+        <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" />
+      </symbol>
+      <symbol id="ic-info" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 11v6M12 7.5v.5" />
+      </symbol>
+      <symbol id="ic-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" /></symbol>
+      <!-- 메뉴 잠금 — 열쇠(열림 · 금색) · 자물쇠(잠김 · 은색) -->
+      <symbol id="ic-key" viewBox="0 0 24 24">
+        <circle cx="8" cy="12" r="3.6" />
+        <path d="M11.6 12H21M17.5 12v3M20.3 12v2.4" />
+      </symbol>
+      <symbol id="ic-lock" viewBox="0 0 24 24">
+        <rect x="5.5" y="10.5" width="13" height="9" rx="2" />
+        <path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5M12 14v2.2" />
+      </symbol>
+      <symbol id="ic-play" viewBox="0 0 24 24">
+        <path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="ic-pause" viewBox="0 0 24 24">
+        <path d="M7.5 5.5h3v13h-3zM13.5 5.5h3v13h-3z" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="ic-stop" viewBox="0 0 24 24">
+        <rect x="6.5" y="6.5" width="11" height="11" rx="1.5" fill="currentColor" stroke="none" />
+      </symbol>
+    </svg>
+
+    <header class="top">
+      <div class="brand">
+        <span class="mark" aria-hidden="true">♬</span>
+        <div>
+          <b data-t="app">쏙쏙 피아노</b>
+          <small data-t="tagline"></small>
+        </div>
+        <!-- 메뉴 잠금(2026-11-09 사용자) — 3초 누르면 잠김(은색) · 다시 3초면 열림(금색) · 잠기면 메뉴는 회색으로 눌리지 않음 · 무대 · 건반은 그대로 -->
+        <button
+          type="button"
+          class="lock"
+          id="lock"
+          aria-pressed="false"
+          data-t-title="lockHold"
+          data-t-aria="lockHold"
+        >
+          <svg><use href="#ic-key" /></svg>
+        </button>
+        <small class="lock-tip" data-t="lockTip">3초 누르기 · 잠김/열림</small>
+      </div>
+      <nav class="tools" data-lockable>
+        <!-- 악기 — 캡슐 단추(피아노가 기본 · 2026-11-09 사용자) -->
+        <div class="capsule" id="inst" role="group" data-t-aria="instrument">
+          <button type="button" data-inst="piano" data-t="inst_piano" class="on">피아노</button>
+          <button type="button" data-inst="epiano" data-t="inst_epiano">일렉</button>
+          <button type="button" data-inst="marimba" data-t="inst_marimba">마림바</button>
+          <button type="button" data-inst="synth" data-t="inst_synth">신디</button>
+        </div>
+        <a class="museum-launch" href="./cards/index.html" title="아홉 세계 132명의 양면 카드" style="text-decoration:none">✧ <span>포토카드</span></a><button type="button" id="museum-launch" class="museum-launch" title="악기박물관 · 친구들의 악기를 살펴봐요" aria-label="악기박물관 열기" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h18L12 3 3 9Zm2 3v6m5-6v6m4-6v6m5-6v6M3 21h18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>박물관</span></button><button id="shell-full" class="orb" type="button" data-t-aria="fullscreen">
+          <svg><use href="#ic-full" /></svg>
+        </button>
+        <button id="shell-sun" class="orb" type="button" data-t-title="day" data-t-aria="day">
+          <svg><use href="#ic-sun" /></svg>
+        </button>
+        <button id="shell-moon" class="orb" type="button" data-t-title="night" data-t-aria="night">
+          <svg><use href="#ic-moon" /></svg>
+        </button>
+        <button id="shell-info" class="orb" type="button" data-t-title="info" data-t-aria="info">
+          <svg><use href="#ic-info" /></svg>
+        </button>
+        <button id="lang-pill" class="pill" type="button" data-t-aria="language">한국어</button>
+        <button id="shell-close" class="orb close" type="button" data-t-title="close" data-t-aria="close">
+          <svg><use href="#ic-close" /></svg>
+        </button>
+        <div id="lang-menu" class="menu" hidden></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 첫 화면 — 책장(왼쪽) · 고른 곡의 악보(오른쪽) -->
+      <section class="screen on" id="home">
+        <aside class="shelf glass" data-lockable>
+          <div class="tabs" role="tablist">
+            <button type="button" data-col="beyer" data-t="beyer" class="on">바이엘</button>
+            <button type="button" data-col="czerny-599" data-t="czerny">체르니 100번</button>
+            <button type="button" data-col="czerny-849" data-t="czerny30">체르니 30번</button>
+            <button type="button" data-col="carol" data-t="carol">캐롤</button>
+          </div>
+          <div class="pieces" id="pieces" role="listbox"></div>
+        </aside>
+        <article class="feature glass">
+          <div class="feature-head">
+            <span class="num" id="f-num"></span>
+            <div>
+              <h2 id="f-title"></h2>
+              <small id="f-sub"></small>
+            </div>
+          </div>
+          <div class="paper"><canvas id="f-score"></canvas></div>
+          <div class="actions" data-lockable>
+            <!-- 테마 단추 넷 — 누르면 그 테마로 놀이(코알라 = 숲 · 꼬마상어 = 바다 · 앵무새 = 정글 · 안경 쓴 친구 = 아이돌 무대)
+                 놀이 칸 오른쪽 위 단추와 같은 검은 바탕 · 황금 테두리(2026-11-09 사용자 «악장을 선택하는 페이지에도 테마버튼») -->
+            <div class="faces" id="themes" role="group">
+              <button
+                type="button"
+                class="tbtn"
+                data-theme="forest"
+                data-t-title="theme_forest"
+                data-t-aria="theme_forest"
+              >
+                <img src="themes/forest/face.webp" alt="" />
+              </button>
+              <button
+                type="button"
+                class="tbtn"
+                data-theme="ocean"
+                data-t-title="theme_ocean"
+                data-t-aria="theme_ocean"
+              >
+                <img src="themes/ocean/face.webp" alt="" />
+              </button>
+              <button
+                type="button"
+                class="tbtn"
+                data-theme="jungle"
+                data-t-title="theme_jungle"
+                data-t-aria="theme_jungle"
+              >
+                <img src="themes/jungle/face.webp" alt="" />
+              </button>
+              <button
+                type="button"
+                class="tbtn"
+                data-theme="idol"
+                data-t-title="theme_idol"
+                data-t-aria="theme_idol"
+              >
+                <img src="themes/idol/face.webp" alt="" />
+              </button>
+              <button
+                type="button"
+                class="tbtn"
+                data-theme="robot"
+                data-t-title="theme_robot"
+                data-t-aria="theme_robot"
+              >
+                <img src="themes/robot/face.webp" alt="" />
+              </button>
+              <button
+                type="button"
+                class="tbtn"
+                data-theme="crystal"
+                data-t-title="theme_crystal"
+                data-t-aria="theme_crystal"
+              >
+                <img src="themes/crystal/face.webp" alt="" />
+              </button>
+              <button
+                type="button"
+                class="tbtn"
+                data-theme="halloween"
+                data-t-title="theme_halloween"
+                data-t-aria="theme_halloween"
+              >
+                <img src="themes/halloween/face.webp" alt="" />
+              </button>
+              <button
+                type="button"
+                class="tbtn"
+                data-theme="dino"
+                data-t-title="theme_dino"
+                data-t-aria="theme_dino"
+              >
+                <img src="themes/dino/face.webp" alt="" />
+              </button>
+              <button
+                type="button"
+                class="tbtn"
+                data-theme="snow"
+                data-t-title="theme_snow"
+                data-t-aria="theme_snow"
+              >
+                <img src="themes/snow/face.webp" alt="" />
+              </button>
+            </div>
+            <button type="button" class="primary" id="go-play" data-t="play">친구들과 연주</button>
+            <button type="button" class="secondary" id="go-listen" data-t="listen">감상하기</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 놀이 — 악보 띠 · 구멍 37개 무대 -->
+      <section class="screen" id="play">
+        <!-- 놀이 막대는 통째로 잠그지 않는다 — 연습하기 · 시범 듣기는 잠겨도 눌린다(아이에게 재미 · 무해 · 2026-11-09 사용자) · 나머지는 하나씩 data-lockable -->
+        <div class="bar glass">
+          <button type="button" class="ghost" data-back data-t="back" data-lockable>돌아가기</button>
+          <!-- 곡 이름 밑에 «맞힌 음» — 막대가 폰 가로(720 px)에서도 한 줄에 들도록(2026-11-09 사용자 «상단 메뉴를 줄이고 놀이 칸을 넓게») -->
+          <div class="title">
+            <span id="p-title"></span>
+            <span class="stat" id="p-stat"></span>
+          </div>
+          <div class="seg" id="p-hands" role="group" data-lockable>
+            <button type="button" data-hand="left" data-t="left">왼손</button>
+            <button type="button" data-hand="both" data-t="both" class="on">양손</button>
+            <button type="button" data-hand="right" data-t="right">오른손</button>
+          </div>
+          <!-- 가로 폰은 자리가 좁아 긴 설명 대신 짧은 이름(«한 음만») — 빈 네모만 보였다(2026-11-10 사용자) -->
+          <label class="check" data-lockable data-t-title="easy"
+            ><input type="checkbox" id="p-easy" /><span data-t="easy"></span
+            ><span class="short" data-t="easyShort"></span
+          ></label>
+          <!-- 연습하기 — 시범 듣기 왼쪽(2026-11-09 사용자) · 모든 친구가 얼굴을 내밀고 누르면 몸이 나온다 -->
+          <button type="button" class="secondary" id="p-practice" data-t="practice" aria-pressed="false">
+            연습하기
+          </button>
+          <button type="button" class="secondary" id="p-demo" data-t="demo">시범 듣기</button>
+          <button type="button" class="secondary" id="p-restart" data-t="restart" data-lockable>
+            처음부터
+          </button>
+          <label class="lever" data-lockable
+            ><span data-t="dynamics">셈여림</span
+            ><input type="range" class="dyn" min="0" max="100" step="5" value="50" data-t-aria="dynamics"
+          /></label>
+          <label class="lever" data-lockable
+            ><span data-t="volume">음량</span
+            ><input type="range" class="vol" min="0" max="100" step="5" value="80" data-t-aria="volume"
+          /></label>
+        </div>
+        <div class="paper strip"><canvas id="p-score"></canvas></div>
+        <div class="stage-wrap">
+          <canvas id="p-stage"></canvas>
+          <div class="hint" id="p-hint"></div>
+          <!-- 놀이 칸 오른쪽 위 테마 단추 넷 — 검은 바탕 · 황금 테두리 · 그림자 · 누르면 바로 그 테마(연주는 이어 감 · 2026-11-09 사용자)
+               넷째 «아이돌 무대» = 별빛 아이돌 24명(앞줄 · 뒷줄 명단) · 잠금과 상관없이 늘 눌림 -->
+          <div class="stage-themes" id="p-themes" role="group">
+            <button
+              type="button"
+              class="tbtn"
+              data-theme="forest"
+              data-t-title="theme_forest"
+              data-t-aria="theme_forest"
+            >
+              <img src="themes/forest/face.webp" alt="" />
+            </button>
+            <button
+              type="button"
+              class="tbtn"
+              data-theme="ocean"
+              data-t-title="theme_ocean"
+              data-t-aria="theme_ocean"
+            >
+              <img src="themes/ocean/face.webp" alt="" />
+            </button>
+            <button
+              type="button"
+              class="tbtn"
+              data-theme="jungle"
+              data-t-title="theme_jungle"
+              data-t-aria="theme_jungle"
+            >
+              <img src="themes/jungle/face.webp" alt="" />
+            </button>
+            <button
+              type="button"
+              class="tbtn"
+              data-theme="idol"
+              data-t-title="theme_idol"
+              data-t-aria="theme_idol"
+            >
+              <img src="themes/idol/face.webp" alt="" />
+            </button>
+            <button
+              type="button"
+              class="tbtn"
+              data-theme="robot"
+              data-t-title="theme_robot"
+              data-t-aria="theme_robot"
+            >
+              <img src="themes/robot/face.webp" alt="" />
+            </button>
+            <button
+              type="button"
+              class="tbtn"
+              data-theme="crystal"
+              data-t-title="theme_crystal"
+              data-t-aria="theme_crystal"
+            >
+              <img src="themes/crystal/face.webp" alt="" />
+            </button>
+            <button
+              type="button"
+              class="tbtn"
+              data-theme="halloween"
+              data-t-title="theme_halloween"
+              data-t-aria="theme_halloween"
+            >
+              <img src="themes/halloween/face.webp" alt="" />
+            </button>
+            <button
+              type="button"
+              class="tbtn"
+              data-theme="dino"
+              data-t-title="theme_dino"
+              data-t-aria="theme_dino"
+            >
+              <img src="themes/dino/face.webp" alt="" />
+            </button>
+            <button
+              type="button"
+              class="tbtn"
+              data-theme="snow"
+              data-t-title="theme_snow"
+              data-t-aria="theme_snow"
+            >
+              <img src="themes/snow/face.webp" alt="" />
+            </button>
+          </div>
+          <!-- 곡을 다 치면 — 테마 캐릭터 얼굴이 반짝이며 «한 번 더»(글을 못 읽는 아이도 저절로 누르게 · 2026-11-09 사용자) -->
+          <button
+            type="button"
+            class="again-face"
+            id="p-again-face"
+            hidden
+            data-t-aria="again"
+            data-t-title="again"
+          >
+            <span class="again-glow" aria-hidden="true"></span>
+            <img alt="" />
+            <span class="again-shine" aria-hidden="true"></span>
+            <span class="spark s1" aria-hidden="true">✦</span>
+            <span class="spark s2" aria-hidden="true">✦</span>
+            <span class="spark s3" aria-hidden="true">✦</span>
+            <span class="spark s4" aria-hidden="true">✦</span>
+            <span class="spark s5" aria-hidden="true">✦</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- 감상 — 악보 4 · 롤 4 · 88건반 2 -->
+      <section class="screen" id="listen">
+        <div class="bar glass" data-lockable>
+          <button type="button" class="ghost" data-back data-t="back">돌아가기</button>
+          <div class="title" id="l-title"></div>
+          <!-- 감상(입체 롤 · 88건반) · 연습(곡에 맞는 건반 · 수직 낙하 롤 · 2026-11-10 사용자) -->
+          <div class="seg" id="l-mode" role="group">
+            <button type="button" data-mode="listen" data-t="modeListen" class="on">감상</button>
+            <button type="button" data-mode="practice" data-t="modePractice">연습</button>
+          </div>
+          <span class="kbd-size" id="l-kbd" hidden></span>
+          <!-- 감상 칸에만 — 반복듣기(멈출 때까지 이 곡) · 이어듣기(다음 곡) · 다시 누르면 끔(2026-11-10 사용자) -->
+          <div class="seg" id="l-loop" role="group">
+            <button type="button" data-loop="repeat" data-t="loopRepeat" aria-pressed="false">
+              반복듣기
+            </button>
+            <button type="button" data-loop="next" data-t="loopNext" aria-pressed="false">이어듣기</button>
+          </div>
+          <button type="button" class="orb big" id="l-play" data-t-aria="playPause">
+            <svg><use href="#ic-play" /></svg>
+          </button>
+          <!-- 멈춤 — 끝내고 처음 준비 상태로(빈 롤 · 큰 ▶ · 2026-11-10 사용자) -->
+          <button type="button" class="orb" id="l-stop" data-t-aria="stop" data-t-title="stop">
+            <svg><use href="#ic-stop" /></svg>
+          </button>
+          <input type="range" id="l-seek" min="0" max="1000" value="0" />
+          <span class="time" id="l-time">0:00</span>
+          <select id="l-rate" data-t-aria="tempo">
+            <option value="0.5">0.5×</option>
+            <option value="0.75">0.75×</option>
+            <option value="1" selected>1×</option>
+            <option value="1.25">1.25×</option>
+          </select>
+          <label class="lever"
+            ><span data-t="dynamics">셈여림</span
+            ><input type="range" class="dyn" min="0" max="100" step="5" value="50" data-t-aria="dynamics"
+          /></label>
+          <label class="lever"
+            ><span data-t="volume">음량</span
+            ><input type="range" class="vol" min="0" max="100" step="5" value="80" data-t-aria="volume"
+          /></label>
+        </div>
+        <div class="show">
+          <div class="paper s-score"><canvas id="l-score"></canvas></div>
+          <div class="s-roll">
+            <canvas id="l-roll"></canvas>
+            <!-- 준비 — 롤 · 건반이 빈 채로 이 단추를 기다린다(오늘의 비트 게임처럼 · ▶ 를 누르면 음표가 위에서 내려온다) -->
+            <button type="button" class="l-start" id="l-start" data-t-aria="playPause" hidden>
+              <svg><use href="#ic-play" /></svg>
+            </button>
+          </div>
+          <div class="s-keys"><canvas id="l-keys"></canvas></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 첫 누름 문 = 인트로(2026-11-10 사용자 «극히 학구적» → 구멍 아홉에서 테마 친구들이 쏙쏙 · 움직임은 transform 만 · 화면 어디를 눌러도 시작) -->
+    <div class="gate" id="gate">
+      <div class="gate-notes" aria-hidden="true"><i>♪</i><i>♫</i><i>♩</i><i>♬</i><i>♪</i><i>♫</i></div>
+      <div class="gate-card">
+        <h1 data-t="app">쏙쏙 피아노</h1>
+        <p data-t="tagline"></p>
+        <button type="button" class="gate-go" id="gate-btn" data-t="tapStart">눌러서 시작해요</button>
+        <small id="gate-msg"></small>
+      </div>
+      <div class="peeks" aria-hidden="true">
+        <div class="peek" style="--i: 0">
+          <div class="peek-win"><img src="intro/forest.webp" alt="" /></div>
+        </div>
+        <div class="peek" style="--i: 5">
+          <div class="peek-win"><img src="intro/ocean.webp" alt="" /></div>
+        </div>
+        <div class="peek" style="--i: 2">
+          <div class="peek-win"><img src="intro/jungle.webp" alt="" /></div>
+        </div>
+        <div class="peek" style="--i: 7">
+          <div class="peek-win"><img src="intro/idol.webp" alt="" /></div>
+        </div>
+        <div class="peek" style="--i: 4">
+          <div class="peek-win"><img src="intro/robot.webp" alt="" /></div>
+        </div>
+        <div class="peek" style="--i: 1">
+          <div class="peek-win"><img src="intro/crystal.webp" alt="" /></div>
+        </div>
+        <div class="peek" style="--i: 8">
+          <div class="peek-win"><img src="intro/halloween.webp" alt="" /></div>
+        </div>
+        <div class="peek" style="--i: 3">
+          <div class="peek-win"><img src="intro/dino.webp" alt="" /></div>
+        </div>
+        <div class="peek" style="--i: 6">
+          <div class="peek-win"><img src="intro/snow.webp" alt="" /></div>
+        </div>
+      </div>
+    </div>
+
+    <dialog id="ask" class="glass">
+      <h2></h2>
+      <p></p>
+      <div class="actions">
+        <button type="button" class="secondary no"></button>
+        <button type="button" class="primary yes"></button>
+      </div>
+    </dialog>
+    <dialog id="about" class="glass">
+      <h2 data-t="info">앱 정보</h2>
+      <p data-t="privacy"></p>
+      <label class="lever about-row"
+        ><span data-t="effect">성공 축하 효과</span
+        ><select id="fx-style"></select
+      ></label>
+      <p id="about-edition" class="about-edition"></p>
+      <button type="button" class="secondary" id="about-restore" data-t="proRestore" hidden>
+        구매 되살리기
+      </button>
+      <h3 data-t="credits"></h3>
+      <p data-t="creditText"></p>
+      <div class="actions">
+        <button type="button" class="primary" id="about-close" data-t="close">닫기</button>
+      </div>
+    </dialog>
+    <!-- 부모 확인 — 결제 앞(구글 가족 정책 «어른 확인») · 한 자리 수 둘의 곱 -->
+    <dialog id="parent" class="glass">
+      <h2 data-t="parentTitle">부모님 확인</h2>
+      <p id="parent-q"></p>
+      <input
+        id="parent-a"
+        class="parent-a"
+        type="text"
+        inputmode="numeric"
+        pattern="[0-9]*"
+        maxlength="3"
+        autocomplete="off"
+      />
+      <div class="actions">
+        <button type="button" class="secondary" id="parent-no" data-t="close">닫기</button>
+        <button type="button" class="primary" id="parent-yes" data-t="parentOk">확인</button>
+      </div>
+    </dialog>
+    <div id="toast" class="toast" role="status"></div>
+  </body>
+</html>

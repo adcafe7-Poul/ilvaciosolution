@@ -1,0 +1,81 @@
+{
+  "objectID": 502833,
+  "isHighlight": true,
+  "accessionNumber": "89.4.2957",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DP321283.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DP321283.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/mi89.4.2957.R.jpg"
+  ],
+  "constituents": null,
+  "department": "Musical Instruments",
+  "objectName": "Shō",
+  "title": "Shō",
+  "culture": "Japanese",
+  "period": "Tokugawa",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "19th century",
+  "objectBeginDate": 1801,
+  "objectEndDate": 1900,
+  "medium": "Bamboo wood, metal",
+  "dimensions": "19 × 2 3/4 in. (48.3 × 7 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Diameter": 7,
+        "Height": 48.3
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "Japan",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Aerophone-Free Reed-mouth organ",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-12-20T04:50:39.43Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/502833",
+  "tags": [
+    {
+      "term": "Insects",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300310470",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1390"
+    },
+    {
+      "term": "Spiders",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249715",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1357"
+    }
+  ],
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q116413060",
+  "isTimelineWork": false,
+  "GalleryNumber": "681"
+}

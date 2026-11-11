@@ -1,0 +1,87 @@
+{
+  "files": [
+    {
+      "file": "cat.webp",
+      "bytes": 13740
+    },
+    {
+      "file": "dog.webp",
+      "bytes": 13954
+    },
+    {
+      "file": "mole.webp",
+      "bytes": 14290
+    },
+    {
+      "file": "meerkat.webp",
+      "bytes": 12732
+    },
+    {
+      "file": "koala.webp",
+      "bytes": 13374
+    },
+    {
+      "file": "elephant.webp",
+      "bytes": 11732
+    },
+    {
+      "file": "giraffe.webp",
+      "bytes": 12418
+    },
+    {
+      "file": "blackcat.webp",
+      "bytes": 12894
+    },
+    {
+      "file": "maltipoo.webp",
+      "bytes": 13258
+    },
+    {
+      "file": "raccoon.webp",
+      "bytes": 13908
+    },
+    {
+      "file": "kangaroo.webp",
+      "bytes": 12186
+    },
+    {
+      "file": "elephantblue.webp",
+      "bytes": 11722
+    },
+    {
+      "file": "bg-garden.webp",
+      "bytes": 311966
+    }
+  ],
+  "alias": {
+    "bg-intro": "bg-garden.webp"
+  },
+  "FOOT_INSETS": {
+    "cat": 31.667,
+    "dog": 30.256,
+    "mole": 31.844,
+    "meerkat": 32.759,
+    "koala": 34.973,
+    "elephant": 40.556,
+    "giraffe": 31.667,
+    "blackcat": 31.667,
+    "maltipoo": 37.778,
+    "raccoon": 32.222,
+    "kangaroo": 31.667,
+    "elephantblue": 37.778
+  },
+  "SPRITE_BOUNDS": {
+    "cat": [180, 11, 56, 169, 243],
+    "dog": [195, 5, 58, 190, 241],
+    "mole": [179, 12, 57, 168, 243],
+    "meerkat": [174, 8, 57, 166, 243],
+    "koala": [183, 5, 64, 178, 236],
+    "elephant": [180, 4, 73, 175, 227],
+    "giraffe": [180, 23, 56, 156, 243],
+    "blackcat": [180, 16, 56, 164, 243],
+    "maltipoo": [180, 4, 68, 175, 232],
+    "raccoon": [180, 8, 56, 172, 242],
+    "kangaroo": [180, 27, 57, 153, 243],
+    "elephantblue": [180, 4, 68, 175, 232]
+  }
+}

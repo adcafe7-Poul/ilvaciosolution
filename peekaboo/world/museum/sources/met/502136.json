@@ -1,0 +1,81 @@
+{
+  "objectID": 502136,
+  "isHighlight": false,
+  "accessionNumber": "89.4.1561",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/midp89.4.1561 (2).jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/midp89.4.1561 (2).jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/midp89.4.1561.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/148236.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 155479,
+      "role": "Culture",
+      "name": "Maori",
+      "constituentULAN_URL": "",
+      "constituentWikidata_URL": "",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Pūtōrino",
+  "title": "Pūtōrino",
+  "culture": "Maori people",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Culture",
+  "artistPrefix": "",
+  "artistDisplayName": "Maori",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "Maori",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "late 19th century",
+  "objectBeginDate": 1875,
+  "objectEndDate": 1889,
+  "medium": "matai (Podocarpus spicatus) wood, cord",
+  "dimensions": "17 7/8 × 2 × 1 in. (45.4 × 5.1 × 2.5 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Depth": 2.540005,
+        "Height": 45.40259,
+        "Width": 5.08001
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "New Zealand",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Aerophone-Blow Hole-end-blown flute (vertical)",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-12-20T04:50:39.43Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/502136",
+  "tags": null,
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q116273258",
+  "isTimelineWork": false,
+  "GalleryNumber": "681"
+}

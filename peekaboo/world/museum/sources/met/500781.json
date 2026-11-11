@@ -1,0 +1,79 @@
+{
+  "objectID": 500781,
+  "isHighlight": false,
+  "accessionNumber": "89.4.212",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/midp89.4.212.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/midp89.4.212.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/MUS826A.JPG",
+    "https://images.metmuseum.org/CRDImages/mi/original/89.4.212slide.jpg"
+  ],
+  "constituents": null,
+  "department": "Musical Instruments",
+  "objectName": "Nagphani",
+  "title": "Nagphani",
+  "culture": "Nepal or India",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "late 19th century",
+  "objectBeginDate": 1850,
+  "objectEndDate": 1900,
+  "medium": "Copper, polychrome",
+  "dimensions": "12 1/4 × 18 1/4 × 2 5/8 in. (31.1 × 46.4 × 6.7 cm)\r\nSounding Length: 59 1/16 in. (150 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": "Sounding Length",
+      "elementMeasurements": {
+        "Height": 150.01904
+      }
+    },
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Depth": 6.6675134,
+        "Height": 31.115063,
+        "Width": 46.35509
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "Nepal",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Aerophone-Lip Vibrated-trumpet / trombone",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/500781",
+  "tags": null,
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q116412843",
+  "isTimelineWork": false,
+  "GalleryNumber": "681"
+}

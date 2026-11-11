@@ -1,0 +1,76 @@
+{
+  "objectID": 500568,
+  "isHighlight": false,
+  "accessionNumber": "89.2.176",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/MUS2014.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/MUS2014.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/midp89.2.176.jpg"
+  ],
+  "constituents": null,
+  "department": "Musical Instruments",
+  "objectName": "Guenbri",
+  "title": "Guenbri",
+  "culture": "Saudi Arabian",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "late 19th century",
+  "objectBeginDate": 1875,
+  "objectEndDate": 1899,
+  "medium": "Gourd, wood, parchment decorated with floral designs",
+  "dimensions": "62cm x 16cm x 10cm",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Diameter": 15.24,
+        "Length": 60.9601
+      }
+    }
+  ],
+  "creditLine": "Gift of Joseph W. Drexel, 1889",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "Saudi Arabia",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Lute-plucked-unfretted",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/500568",
+  "tags": [
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    }
+  ],
+  "objectWikidata_URL": "",
+  "isTimelineWork": false,
+  "GalleryNumber": ""
+}

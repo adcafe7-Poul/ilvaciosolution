@@ -1,0 +1,79 @@
+{
+  "objectID": 503578,
+  "isHighlight": true,
+  "accessionNumber": "2003.63a–d",
+  "accessionYear": "2003",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DP327143.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DP327143.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/DP103174~1.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP167857.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 169986,
+      "role": "Maker",
+      "name": "Unknown",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500125274",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q24238356",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Musette Baroque",
+  "title": "Musette Baroque",
+  "culture": "French",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "",
+  "artistDisplayName": "Unknown",
+  "artistDisplayBio": "",
+  "artistSuffix": ", France",
+  "artistAlphaSort": "Unknown",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "https://www.wikidata.org/wiki/Q24238356",
+  "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500125274",
+  "objectDate": "ca. 1700",
+  "objectBeginDate": 1700,
+  "objectEndDate": 1700,
+  "medium": "Leather, ivory, silk, wood, silver, iron",
+  "dimensions": "Width (Across bag): 11 1/2 in. (29.2 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Width": 29.2
+      }
+    }
+  ],
+  "creditLine": "Purchase, Clara Mertens Bequest, in memory of André Mertens, 2003",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "France",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Aerophone-Reed Vibrated-bagpipe",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/503578",
+  "tags": null,
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q29385640",
+  "isTimelineWork": true,
+  "GalleryNumber": ""
+}

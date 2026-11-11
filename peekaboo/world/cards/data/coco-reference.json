@@ -1,0 +1,11 @@
+{
+ "schema":"music-hero-card/v1", "characterId":"FR-05", "registryNumber":5,
+ "nameKo":"코코", "titleKo":"다정함의 연주자", "themeKo":"포근숲",
+ "solfege":"솔", "pitchClass":7, "referenceMidi":67, "instrumentId":"piano-001",
+ "serial":"SRT-005-0000000123-2601", "editionIndex":123, "editionSizeExample":1000,
+ "season":"26-01", "seasonName":"처음의 숲", "status":"prototype-not-issued",
+ "characterImage":"assets/coco.png", "instrumentImage":"assets/piano.png",
+ "values":["다정함","함께 배움","나눔"],
+ "quote":"네 마음의 소리를 들려줄래?",
+ "description":"작은 잎 하나도 나누는 코코. 친구의 박자를 기다리며 함께 연주해요."
+}

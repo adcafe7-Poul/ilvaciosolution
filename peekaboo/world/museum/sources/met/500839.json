@@ -1,0 +1,79 @@
+{
+  "objectID": 500839,
+  "isHighlight": false,
+  "accessionNumber": "89.4.287",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/89.4.287 slide.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/89.4.287 slide.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/89.4.287 det slide.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/89.4.287 det slide 2.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/89.4.287 det slide 3.jpg"
+  ],
+  "constituents": null,
+  "department": "Musical Instruments",
+  "objectName": "Saw U",
+  "title": "Saw U",
+  "culture": "Thai",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "late 19th century",
+  "objectBeginDate": 1850,
+  "objectEndDate": 1900,
+  "medium": "Wood",
+  "dimensions": "29 1/2 × 4 in. (74.9 × 10.2 cm)\r\nHeight (Of bow): 26 in. (66 cm)",
+  "measurements": [
+    {
+      "elementName": "Height",
+      "elementDescription": "Of bow",
+      "elementMeasurements": {
+        "Height": 66
+      }
+    },
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Diameter": 10.2,
+        "Height": 74.9
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "Thailand",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Lute-bowed-unfretted",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/500839",
+  "tags": null,
+  "objectWikidata_URL": "",
+  "isTimelineWork": false,
+  "GalleryNumber": ""
+}

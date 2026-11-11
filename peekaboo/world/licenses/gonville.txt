@@ -1,0 +1,8 @@
+Gonville — music font by Simon Tatham (https://www.chiark.greenend.org.uk/~sgtatham/gonville/),
+embedded in VexFlow 5.0.0 (build/esm/src/fonts/gonville.js · font version 20240308.224b1e8).
+
+The font file's own copyright field (name table, ID 0) reads:
+
+    No copyright is claimed on this font file.
+
+No license text is attached to the font file itself; it is shipped here as part of VexFlow (see vexflow.txt, MIT).

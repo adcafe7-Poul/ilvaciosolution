@@ -1,0 +1,79 @@
+{
+  "objectID": 504896,
+  "isHighlight": false,
+  "accessionNumber": "06.1309",
+  "accessionYear": "1906",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/midp06.1309.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/midp06.1309.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/midp06.1309back.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 176948,
+      "role": "Maker",
+      "name": "probably Baron Baronak",
+      "constituentULAN_URL": "",
+      "constituentWikidata_URL": "",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Kemençe",
+  "title": "Kemençe",
+  "culture": "Turkish",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "probably",
+  "artistDisplayName": "Baron Baronak",
+  "artistDisplayBio": "Armenian, 1834?–1900",
+  "artistSuffix": "",
+  "artistAlphaSort": "Baronak, Baron",
+  "artistNationality": "Armenian",
+  "artistBeginDate": "1834",
+  "artistEndDate": "1900",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "19th century",
+  "objectBeginDate": 1800,
+  "objectEndDate": 1899,
+  "medium": "wood, pearl, tortoise shell",
+  "dimensions": "Diam. 14.3 x L. 39.4cm (5 5/8 x 15 1/2in.)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Diameter": 14.2875,
+        "Length": 39.3701
+      }
+    }
+  ],
+  "creditLine": "Gift of Miss Hewitt, 1906",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "Turkey",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Lute-bowed-unfretted",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2022-09-21T13:10:29.527Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/504896",
+  "tags": null,
+  "objectWikidata_URL": "",
+  "isTimelineWork": false,
+  "GalleryNumber": ""
+}

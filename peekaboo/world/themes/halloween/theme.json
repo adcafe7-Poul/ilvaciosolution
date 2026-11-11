@@ -1,0 +1,93 @@
+{
+ "id": "halloween",
+ "nameKo": "할로윈 축제 친구들",
+ "background": "bg.webp",
+ "face": "face.webp",
+ "friends": [
+  {
+   "pc": 0,
+   "id": "H01",
+   "name": "뿔콩",
+   "file": "H01.webp",
+   "scale": 1
+  },
+  {
+   "pc": 1,
+   "id": "H02",
+   "name": "몽실",
+   "file": "H02.webp",
+   "scale": 1
+  },
+  {
+   "pc": 2,
+   "id": "H03",
+   "name": "보라",
+   "file": "H03.webp",
+   "scale": 1
+  },
+  {
+   "pc": 3,
+   "id": "H04",
+   "name": "별담",
+   "file": "H04.webp",
+   "scale": 1
+  },
+  {
+   "pc": 4,
+   "id": "H05",
+   "name": "달그락",
+   "file": "H05.webp",
+   "scale": 1
+  },
+  {
+   "pc": 5,
+   "id": "H06",
+   "name": "패치콩",
+   "file": "H06.webp",
+   "scale": 1
+  },
+  {
+   "pc": 6,
+   "id": "H07",
+   "name": "루나",
+   "file": "H07.webp",
+   "scale": 1
+  },
+  {
+   "pc": 7,
+   "id": "H08",
+   "name": "로제",
+   "file": "H08.webp",
+   "scale": 1
+  },
+  {
+   "pc": 8,
+   "id": "H09",
+   "name": "펌키",
+   "file": "H09.webp",
+   "scale": 1
+  },
+  {
+   "pc": 9,
+   "id": "H10",
+   "name": "여우리",
+   "file": "H10.webp",
+   "scale": 1
+  },
+  {
+   "pc": 10,
+   "id": "H11",
+   "name": "해솔",
+   "file": "H11.webp",
+   "scale": 1
+  },
+  {
+   "pc": 11,
+   "id": "H12",
+   "name": "수정",
+   "file": "H12.webp",
+   "scale": 1
+  }
+ ],
+ "bgAlign": 0.8
+}

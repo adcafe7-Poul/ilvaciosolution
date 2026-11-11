@@ -1,0 +1,108 @@
+{
+ "id": "dino",
+ "nameKo": "아기공룡 음악 놀이터",
+ "background": "bg.webp",
+ "face": "face.webp",
+ "friends": [
+  {
+   "pc": 0,
+   "bank": 0,
+   "id": "D01",
+   "name": "티로",
+   "file": "D01.webp",
+   "scale": 1
+  },
+  {
+   "pc": 1,
+   "bank": 0,
+   "id": "D05",
+   "name": "디플리",
+   "file": "D05.webp",
+   "scale": 1,
+   "shift": 0.25
+  },
+  {
+   "pc": 2,
+   "bank": 0,
+   "id": "D03",
+   "name": "스테기",
+   "file": "D03.webp",
+   "scale": 1,
+   "shift": 0.15
+  },
+  {
+   "pc": 3,
+   "bank": 0,
+   "id": "D04",
+   "name": "브라미",
+   "file": "D04.webp",
+   "scale": 1
+  },
+  {
+   "pc": 4,
+   "bank": 0,
+   "id": "D02",
+   "name": "트리",
+   "file": "D02.webp",
+   "scale": 1,
+   "shift": 0.1
+  },
+  {
+   "pc": 5,
+   "bank": 0,
+   "id": "D06",
+   "name": "안키",
+   "file": "D06.webp",
+   "scale": 1
+  },
+  {
+   "pc": 6,
+   "bank": 0,
+   "id": "D07",
+   "name": "파라",
+   "file": "D07.webp",
+   "scale": 1
+  },
+  {
+   "pc": 7,
+   "bank": 0,
+   "id": "D08",
+   "name": "파키",
+   "file": "D08.webp",
+   "scale": 1
+  },
+  {
+   "pc": 8,
+   "bank": 0,
+   "id": "D09",
+   "name": "벨로",
+   "file": "D09.webp",
+   "scale": 1
+  },
+  {
+   "pc": 9,
+   "bank": 0,
+   "id": "D10",
+   "name": "스피니",
+   "file": "D10.webp",
+   "scale": 1
+  },
+  {
+   "pc": 10,
+   "bank": 0,
+   "id": "D11",
+   "name": "카르니",
+   "file": "D11.webp",
+   "scale": 1
+  },
+  {
+   "pc": 11,
+   "bank": 0,
+   "id": "D12",
+   "name": "이구",
+   "file": "D12.webp",
+   "scale": 1
+  }
+ ],
+ "bgAlign": 0.65
+}

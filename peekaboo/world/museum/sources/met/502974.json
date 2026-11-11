@@ -1,0 +1,85 @@
+{
+  "objectID": 502974,
+  "isHighlight": false,
+  "accessionNumber": "07.222.1",
+  "accessionYear": "1907",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/182095.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/182095.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/midp07.222.1.jpg"
+  ],
+  "constituents": null,
+  "department": "Musical Instruments",
+  "objectName": "Ryuteki (\"dragon flute\")",
+  "title": "Ryuteki (龍笛 \"dragon flute\")",
+  "culture": "Japanese",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "19th century",
+  "objectBeginDate": 1801,
+  "objectEndDate": 1900,
+  "medium": "Bamboo, various woods",
+  "dimensions": "15 3/4 × 7/8 in. (40 × 2.2 cm)\r\nCase: 17 1/8 × 1 1/8 × 1 1/8 in. (43.5 × 2.9 × 2.9 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Diameter": 2.2,
+        "Height": 40
+      }
+    },
+    {
+      "elementName": "Overall",
+      "elementDescription": "Case",
+      "elementMeasurements": {
+        "Depth": 2.8575058,
+        "Height": 43.497585,
+        "Width": 2.8575058
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "Japan",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Aerophone-Blow Hole-side-blown flute (transverse)",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2023-08-09T04:55:37.473Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/502974",
+  "tags": [
+    {
+      "term": "Dragons",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375726",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7559"
+    }
+  ],
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q116413070",
+  "isTimelineWork": false,
+  "GalleryNumber": "681"
+}

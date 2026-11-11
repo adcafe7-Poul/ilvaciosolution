@@ -1,0 +1,115 @@
+{
+  "objectID": 501788,
+  "isHighlight": true,
+  "accessionNumber": "89.4.1219a–c",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DP300941.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DP300941.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/DP300963.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP300903.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP300905.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP300906.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP300910.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP300922.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/129110.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/129111.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/mi89.4.1219.AV1.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/mi89.4.1219.R.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/213958.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/213959.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/213960.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/213961.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/213962.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 154981,
+      "role": "Maker",
+      "name": "Bartolomeo Cristofori",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500329977",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q301597",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Grand Piano",
+  "title": "Grand Piano",
+  "culture": "Italian (Florence)",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "",
+  "artistDisplayName": "Bartolomeo Cristofori",
+  "artistDisplayBio": "Padua 1655–1731 Florence",
+  "artistSuffix": "",
+  "artistAlphaSort": "Cristofori Bartolomeo",
+  "artistNationality": "Italian",
+  "artistBeginDate": "1655",
+  "artistEndDate": "1731",
+  "artistGender": "",
+  "artistWikidata_URL": "https://www.wikidata.org/wiki/Q301597",
+  "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500329977",
+  "objectDate": "1720",
+  "objectBeginDate": 1720,
+  "objectEndDate": 1720,
+  "medium": "Cypress, boxwood, paint, leather, fir",
+  "dimensions": "Height (Total): 34 1/16 (86.5 cm)\r\nWidth (Parallel to keyboard): 37 5/8 (95.6 cm)\r\nDepth (Case length, perpendicular to keyboard): 90 in. (228.6 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Depth": 228.6,
+        "Height": 86.5,
+        "Width": 95.6
+      }
+    },
+    {
+      "elementName": "Overall",
+      "elementDescription": "Depth (Case length, perpendicular to keyboard)",
+      "elementMeasurements": {
+        "Depth": 228.6
+      }
+    },
+    {
+      "elementName": "Width",
+      "elementDescription": "Parallel to keyboard",
+      "elementMeasurements": {
+        "Width": 95.6
+      }
+    },
+    {
+      "elementName": "Height",
+      "elementDescription": "Total",
+      "elementMeasurements": {
+        "Height": 86.5
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "Florence",
+  "state": "",
+  "county": "",
+  "country": "Italy",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Zither-struck-piano",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-12-20T04:50:39.43Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/501788",
+  "tags": null,
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q29385573",
+  "isTimelineWork": true,
+  "GalleryNumber": "684"
+}

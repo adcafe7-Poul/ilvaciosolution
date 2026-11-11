@@ -1,0 +1,82 @@
+{
+  "objectID": 503349,
+  "isHighlight": false,
+  "accessionNumber": "1988.365",
+  "accessionYear": "1988",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DP217174.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DP217174.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/DP217170.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP217171.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP217173.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 154975,
+      "role": "Maker",
+      "name": "attributed to Andreas Jais",
+      "constituentULAN_URL": "(not assigned)",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q95634923",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Bass Viola da Gamba",
+  "title": "Bass Viola da Gamba",
+  "culture": "Austrian",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "attributed to",
+  "artistDisplayName": "Andreas Jais",
+  "artistDisplayBio": "German, Mittenwald 1685–1753 Tölz",
+  "artistSuffix": "",
+  "artistAlphaSort": "Jais, Andreas",
+  "artistNationality": "German",
+  "artistBeginDate": "1685",
+  "artistEndDate": "1753",
+  "artistGender": "",
+  "artistWikidata_URL": "https://www.wikidata.org/wiki/Q95634923",
+  "artistULAN_URL": "(not assigned)",
+  "objectDate": "early 18th century",
+  "objectBeginDate": 1700,
+  "objectEndDate": 1750,
+  "medium": "Wood",
+  "dimensions": "47 1/4 × 14 5/8 × 9 3/4 in. (120 × 37.1 × 24.8 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Depth": 24.765049,
+        "Height": 120.01524,
+        "Width": 37.147575
+      }
+    }
+  ],
+  "creditLine": "Gift of Janos Scholz, in memory of his son, Walter Rosen Scholz, and in honor of the Centennial of The Crosby Brown Collection of Musical Instruments, 1988",
+  "geographyType": "",
+  "city": "Absam",
+  "state": "",
+  "county": "",
+  "country": "Austria",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Bowed",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/503349",
+  "tags": null,
+  "objectWikidata_URL": "",
+  "isTimelineWork": true,
+  "GalleryNumber": ""
+}

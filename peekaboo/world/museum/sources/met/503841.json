@@ -1,0 +1,79 @@
+{
+  "objectID": 503841,
+  "isHighlight": false,
+  "accessionNumber": "89.4.2300",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/89.4.2300 slide.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/89.4.2300 slide.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/212470.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 155618,
+      "role": "Maker",
+      "name": "John F. Stratton",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500334774",
+      "constituentWikidata_URL": "",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Tuba in E-flat",
+  "title": "Tuba in E-flat",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "",
+  "artistDisplayName": "John F. Stratton",
+  "artistDisplayBio": "American",
+  "artistSuffix": "",
+  "artistAlphaSort": "Stratton, John F.",
+  "artistNationality": "American",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500334774",
+  "objectDate": "mid-19th century",
+  "objectBeginDate": 1860,
+  "objectEndDate": 1875,
+  "medium": "Brass",
+  "dimensions": "Length: 129.8cm (51 1/8in.) Diameter of bell:  27cm (10 5/8in.)  Diamete of bore:  1.48cm (9/16in.)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Diameter": 1.48,
+        "Length": 129.8
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "New York",
+  "state": "New York",
+  "county": "",
+  "country": "United States",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Aerophone-Lip Vibrated-trumpet / trombone",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/503841",
+  "tags": null,
+  "objectWikidata_URL": "",
+  "isTimelineWork": false,
+  "GalleryNumber": ""
+}

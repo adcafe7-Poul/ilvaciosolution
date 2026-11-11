@@ -1,0 +1,80 @@
+{
+  "objectID": 500666,
+  "isHighlight": false,
+  "accessionNumber": "89.4.106",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/MUS1109A2a.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/MUS1109A2a.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/MUS1109A2.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 155239,
+      "role": "Maker",
+      "name": "Shigemoto, Isohachi",
+      "constituentULAN_URL": "",
+      "constituentWikidata_URL": "",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Shamisen",
+  "title": "Shamisen (三味線)",
+  "culture": "Japanese",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "",
+  "artistDisplayName": "Shigemoto, Isohachi",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "Shigemoto, Isohachi",
+  "artistNationality": "Japanese",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "ca. 1875",
+  "objectBeginDate": 1865,
+  "objectEndDate": 1885,
+  "medium": "Wood, cloth, skin",
+  "dimensions": "37 13/16 × 7 13/16 × 3 11/16 in. (96 × 19.9 × 9.3 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Depth": 9.3,
+        "Height": 96,
+        "Width": 19.9
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "Tokyo, Ueno district",
+  "state": "",
+  "county": "",
+  "country": "Japan",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Lute-plucked-unfretted",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/500666",
+  "tags": null,
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q116412638",
+  "isTimelineWork": false,
+  "GalleryNumber": "681"
+}

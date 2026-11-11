@@ -1,0 +1,80 @@
+{
+  "objectID": 503607,
+  "isHighlight": false,
+  "accessionNumber": "2002.324a, b",
+  "accessionYear": "2002",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DP-12679-153.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DP-12679-153.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/MI21.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP-12679-154.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 155374,
+      "role": "Maker",
+      "name": "Eduard Kruspe",
+      "constituentULAN_URL": "(not assigned)",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q94924449",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Double Horn in F / B-flat",
+  "title": "Double Horn in F / B-flat",
+  "culture": "German",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "",
+  "artistDisplayName": "Eduard Kruspe",
+  "artistDisplayBio": "German, Erfurt 1831–1919 Erfurt",
+  "artistSuffix": "",
+  "artistAlphaSort": "Kruspe Eduard",
+  "artistNationality": "German",
+  "artistBeginDate": "1831",
+  "artistEndDate": "1919",
+  "artistGender": "",
+  "artistWikidata_URL": "https://www.wikidata.org/wiki/Q94924449",
+  "artistULAN_URL": "(not assigned)",
+  "objectDate": "1904–19",
+  "objectBeginDate": 1904,
+  "objectEndDate": 1919,
+  "medium": "Brass, nickel-silver",
+  "dimensions": "Height: 16 1/2 in. (41.9 cm)\r\nDiameter (of bell): 12 3/8 in. (31.4 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Diameter": 31.432564,
+        "Height": 41.910084
+      }
+    }
+  ],
+  "creditLine": "Purchase, Susan M. Greenberg Gift, in honor of Edward J. Greenberg, 2002",
+  "geographyType": "",
+  "city": "Erfurt",
+  "state": "",
+  "county": "",
+  "country": "Germany",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Aerophone-Lip Vibrated-horn",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/503607",
+  "tags": null,
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q116235467",
+  "isTimelineWork": false,
+  "GalleryNumber": "680"
+}

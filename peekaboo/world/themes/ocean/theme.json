@@ -1,0 +1,93 @@
+{
+ "id": "ocean",
+ "nameKo": "산호빛 바다 음악회",
+ "background": "bg.webp",
+ "face": "face.webp",
+ "friends": [
+  {
+   "pc": 0,
+   "id": "shark",
+   "name": "샤루",
+   "file": "shark.webp",
+   "scale": 1
+  },
+  {
+   "pc": 1,
+   "id": "baby-orca",
+   "name": "오키",
+   "file": "baby-orca.webp",
+   "scale": 1
+  },
+  {
+   "pc": 2,
+   "id": "baby-dolphin",
+   "name": "돌랑",
+   "file": "baby-dolphin.webp",
+   "scale": 1
+  },
+  {
+   "pc": 3,
+   "id": "baby-marlin",
+   "name": "창파",
+   "file": "baby-marlin.webp",
+   "scale": 1
+  },
+  {
+   "pc": 4,
+   "id": "baby-clownfish",
+   "name": "귤핀",
+   "file": "baby-clownfish.webp",
+   "scale": 1
+  },
+  {
+   "pc": 5,
+   "id": "baby-octopus",
+   "name": "옥토리",
+   "file": "baby-octopus.webp",
+   "scale": 1
+  },
+  {
+   "pc": 6,
+   "id": "baby-squid",
+   "name": "잉키",
+   "file": "baby-squid.webp",
+   "scale": 1
+  },
+  {
+   "pc": 7,
+   "id": "baby-sea-turtle",
+   "name": "토르티",
+   "file": "baby-sea-turtle.webp",
+   "scale": 1
+  },
+  {
+   "pc": 8,
+   "id": "baby-stingray",
+   "name": "가오린",
+   "file": "baby-stingray.webp",
+   "scale": 1
+  },
+  {
+   "pc": 9,
+   "id": "baby-seahorse",
+   "name": "해몽",
+   "file": "baby-seahorse.webp",
+   "scale": 1
+  },
+  {
+   "pc": 10,
+   "id": "baby-lobster",
+   "name": "로브",
+   "file": "baby-lobster.webp",
+   "scale": 1
+  },
+  {
+   "pc": 11,
+   "id": "baby-king-crab",
+   "name": "크라비",
+   "file": "baby-king-crab.webp",
+   "scale": 1
+  }
+ ],
+ "bgAlign": 0.85
+}

@@ -1,0 +1,111 @@
+{
+  "objectID": 505626,
+  "isHighlight": true,
+  "accessionNumber": "2007.194a–f",
+  "accessionYear": "2007",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DP148476.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DP148476.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/DP148474.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP148475.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296080.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296081.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296082.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296083.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296086.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296088.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296089.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296091.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296093.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296123.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296130.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296133.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296137.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296138.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP296139.jpg",
+    "https://images.metmuseum.org/CRDImages/mi/original/DP166912.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 156055,
+      "role": "Maker",
+      "name": "Metalwork by Goto Teijo, 9th generation Goto master, Japan",
+      "constituentULAN_URL": "",
+      "constituentWikidata_URL": "",
+      "gender": ""
+    },
+    {
+      "constituentID": 156021,
+      "role": "Maker",
+      "name": "Workshop of Gotō Yūjō",
+      "constituentULAN_URL": "(not assigned)",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5587930",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Koto",
+  "title": "Koto (箏)",
+  "culture": "Japanese",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "",
+  "artistDisplayName": "Metalwork by Goto Teijo, 9th generation Goto master, Japan",
+  "artistDisplayBio": "1603–1673",
+  "artistSuffix": "",
+  "artistAlphaSort": "Teijo Goto",
+  "artistNationality": "Japanese",
+  "artistBeginDate": "1603",
+  "artistEndDate": "1673",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "early 17th century",
+  "objectBeginDate": 1600,
+  "objectEndDate": 1625,
+  "medium": "Various woods, ivory and tortoiseshell inlays, gold and silver inlays, metalwork, cloth, laquer, paper,",
+  "dimensions": "5 1/8 × 74 5/8 × 9 1/2 in. (13 × 189.5 × 24.2 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Depth": 24.2,
+        "Height": 13,
+        "Width": 189.5
+      }
+    }
+  ],
+  "creditLine": "Purchase, Amati Gifts, 2007",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "Japan",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Zither-plucked-long zither",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2026-03-26T04:54:24.577Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/505626",
+  "tags": [
+    {
+      "term": "Cranes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300254555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q25365"
+    }
+  ],
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q29385707",
+  "isTimelineWork": true,
+  "GalleryNumber": "684"
+}

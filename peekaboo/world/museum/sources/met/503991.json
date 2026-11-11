@@ -1,0 +1,79 @@
+{
+  "objectID": 503991,
+  "isHighlight": false,
+  "accessionNumber": "2001.171",
+  "accessionYear": "2001",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DT698.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DT698.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/MI18.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 165623,
+      "role": "Maker",
+      "name": "Lyon &amp; Healy",
+      "constituentULAN_URL": "",
+      "constituentWikidata_URL": "",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Pedal Harp",
+  "title": "Pedal Harp",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "",
+  "artistDisplayName": "Lyon & Healy",
+  "artistDisplayBio": "American, Chicago, Illinois",
+  "artistSuffix": "",
+  "artistAlphaSort": "Lyon & Healy",
+  "artistNationality": "American",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "1891–95",
+  "objectBeginDate": 1891,
+  "objectEndDate": 1895,
+  "medium": "Wood, metal",
+  "dimensions": "Height: 70 1/16 in. (178 cm)\r\nDepth: 37 in. (94 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Depth": 94,
+        "Height": 178
+      }
+    }
+  ],
+  "creditLine": "Purchase, Clara Mertens Bequest, in memory of André Mertens, 2001",
+  "geographyType": "",
+  "city": "Chicago",
+  "state": "Illinois",
+  "county": "",
+  "country": "United States",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Harp",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-08-07T04:50:37.167Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/503991",
+  "tags": null,
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q96161361",
+  "isTimelineWork": true,
+  "GalleryNumber": ""
+}

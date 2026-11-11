@@ -1,0 +1,79 @@
+{
+  "objectID": 504201,
+  "isHighlight": false,
+  "accessionNumber": "89.4.2138",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/MUS323a3.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/MUS323a3.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/MUS324a4.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 154956,
+      "role": "Maker",
+      "name": "Adolphe (Antoine Joseph) Sax",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500332407",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q181995",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Soprano saxophone in B-Flat",
+  "title": "Soprano saxophone in B-Flat",
+  "culture": "French",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Maker",
+  "artistPrefix": "",
+  "artistDisplayName": "Adolphe (Antoine Joseph) Sax",
+  "artistDisplayBio": "Belgian, Dinant, Belgium 1814–1894 Paris",
+  "artistSuffix": "",
+  "artistAlphaSort": "Sax, Adolphe (Antoine Joseph)",
+  "artistNationality": "Belgian, active France",
+  "artistBeginDate": "1814-11-06",
+  "artistEndDate": "1894-02-07",
+  "artistGender": "",
+  "artistWikidata_URL": "https://www.wikidata.org/wiki/Q181995",
+  "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500332407",
+  "objectDate": "1882",
+  "objectBeginDate": 1882,
+  "objectEndDate": 1882,
+  "medium": "unplated brass, wood",
+  "dimensions": "Bell Diam.  7.1 x L. 62.4cm (2 13/16 x 24 9/16in.); Mouthpiece: 6.5 mm; Body L. 56.8 cm; Bore diam. 10.5 mm",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Diameter": 7.1,
+        "Length": 62.4
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "Paris",
+  "state": "",
+  "county": "",
+  "country": "France",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Aerophone-Reed Vibrated-single reed conical",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2023-05-19T04:53:50.78Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/504201",
+  "tags": null,
+  "objectWikidata_URL": "",
+  "isTimelineWork": false,
+  "GalleryNumber": ""
+}

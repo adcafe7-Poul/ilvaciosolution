@@ -1,0 +1,93 @@
+{
+ "id": "robot",
+ "nameKo": "달빛 AI 로봇 음악회",
+ "background": "bg.webp",
+ "face": "face.webp",
+ "friends": [
+  {
+   "pc": 0,
+   "id": "R01",
+   "name": "코랄네모",
+   "file": "R01.webp",
+   "scale": 1
+  },
+  {
+   "pc": 1,
+   "id": "R02",
+   "name": "허니로버",
+   "file": "R02.webp",
+   "scale": 1
+  },
+  {
+   "pc": 2,
+   "id": "R03",
+   "name": "펄리",
+   "file": "R03.webp",
+   "scale": 1
+  },
+  {
+   "pc": 3,
+   "id": "R04",
+   "name": "덕키",
+   "file": "R04.webp",
+   "scale": 1
+  },
+  {
+   "pc": 4,
+   "id": "R05",
+   "name": "민트돔",
+   "file": "R05.webp",
+   "scale": 1
+  },
+  {
+   "pc": 5,
+   "id": "R06",
+   "name": "로지",
+   "file": "R06.webp",
+   "scale": 1
+  },
+  {
+   "pc": 6,
+   "id": "R07",
+   "name": "오르비",
+   "file": "R07.webp",
+   "scale": 1
+  },
+  {
+   "pc": 7,
+   "id": "R08",
+   "name": "모듈",
+   "file": "R08.webp",
+   "scale": 1
+  },
+  {
+   "pc": 8,
+   "id": "R09",
+   "name": "탭냥",
+   "file": "R09.webp",
+   "scale": 1
+  },
+  {
+   "pc": 9,
+   "id": "R10",
+   "name": "포미",
+   "file": "R10.webp",
+   "scale": 1
+  },
+  {
+   "pc": 10,
+   "id": "R11",
+   "name": "헥사",
+   "file": "R11.webp",
+   "scale": 1
+  },
+  {
+   "pc": 11,
+   "id": "R12",
+   "name": "젤리온",
+   "file": "R12.webp",
+   "scale": 1
+  }
+ ],
+ "bgAlign": 0.5
+}

@@ -1,0 +1,78 @@
+{
+  "objectID": 500926,
+  "isHighlight": false,
+  "accessionNumber": "89.4.298",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/89.4.298 slide.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/89.4.298 slide.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/89.4.298 det slide.jpg"
+  ],
+  "constituents": null,
+  "department": "Musical Instruments",
+  "objectName": "Saw Duang",
+  "title": "Saw Duang",
+  "culture": "Thai",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "late 19th century",
+  "objectBeginDate": 1850,
+  "objectEndDate": 1900,
+  "medium": "Wood, bone, ivory,  metal",
+  "dimensions": "27 × 2 3/8 × 2 3/16 in. (68.6 × 6 × 5.6 cm)\r\nHeight (Of bow): 25 1/2 in. (64.7 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Depth": 6,
+        "Diameter": 5.6,
+        "Height": 68.58014
+      }
+    },
+    {
+      "elementName": "Height",
+      "elementDescription": "Of bow",
+      "elementMeasurements": {
+        "Height": 64.7
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "Thailand",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Lute-bowed-unfretted",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/500926",
+  "tags": null,
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q116412934",
+  "isTimelineWork": false,
+  "GalleryNumber": "681"
+}

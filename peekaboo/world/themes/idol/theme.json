@@ -1,0 +1,207 @@
+{
+ "id": "idol",
+ "nameKo": "별빛 아이돌 음악회",
+ "background": "bg.webp",
+ "face": "face.webp",
+ "friends": [
+  {
+   "id": "M01",
+   "name": "이든",
+   "group": "male",
+   "file": "M01.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F01",
+   "name": "세린",
+   "group": "female",
+   "file": "F01.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M02",
+   "name": "시온",
+   "group": "male",
+   "file": "M02.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F02",
+   "name": "아린",
+   "group": "female",
+   "file": "F02.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M03",
+   "name": "하준",
+   "group": "male",
+   "file": "M03.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M04",
+   "name": "리듬",
+   "group": "male",
+   "file": "M04.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F03",
+   "name": "별하",
+   "group": "female",
+   "file": "F03.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M05",
+   "name": "유안",
+   "group": "male",
+   "file": "M05.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F04",
+   "name": "채린",
+   "group": "female",
+   "file": "F04.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M06",
+   "name": "태오",
+   "group": "male",
+   "file": "M06.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F05",
+   "name": "나린",
+   "group": "female",
+   "file": "F05.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M07",
+   "name": "하람",
+   "group": "male",
+   "file": "M07.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M08",
+   "name": "민율",
+   "group": "male",
+   "file": "M08.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F06",
+   "name": "루아",
+   "group": "female",
+   "file": "F06.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M09",
+   "name": "도윤",
+   "group": "male",
+   "file": "M09.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F07",
+   "name": "다온",
+   "group": "female",
+   "file": "F07.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M10",
+   "name": "은찬",
+   "group": "male",
+   "file": "M10.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M11",
+   "name": "라온",
+   "group": "male",
+   "file": "M11.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F08",
+   "name": "소율",
+   "group": "female",
+   "file": "F08.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M12",
+   "name": "해준",
+   "group": "male",
+   "file": "M12.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F09",
+   "name": "유리나",
+   "group": "female",
+   "file": "F09.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M13",
+   "name": "노을",
+   "group": "male",
+   "file": "M13.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "F10",
+   "name": "예나",
+   "group": "female",
+   "file": "F10.webp",
+   "scale": 0.85
+  },
+  {
+   "id": "M14",
+   "name": "로운",
+   "group": "male",
+   "file": "M14.webp",
+   "scale": 0.85
+  }
+ ],
+ "rows": {
+  "white": [
+   "M01",
+   "F02",
+   "M05",
+   "F04",
+   "M08",
+   "M03",
+   "F06",
+   "M10",
+   "F09",
+   "M13",
+   "M06",
+   "F07"
+  ],
+  "black": [
+   "M02",
+   "F01",
+   "M11",
+   "F03",
+   "M04",
+   "M14",
+   "F05",
+   "M07",
+   "F08",
+   "M09",
+   "F10",
+   "M12"
+  ]
+ },
+ "bgAlign": 0.5
+}

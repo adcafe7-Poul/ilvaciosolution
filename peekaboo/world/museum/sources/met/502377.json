@@ -1,0 +1,135 @@
+{
+  "objectID": 502377,
+  "isHighlight": true,
+  "accessionNumber": "89.4.2929a–e",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DP204706a.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DP204706a.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/mi89.4.2929.R.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 155187,
+      "role": "Designer",
+      "name": "Michele Todini",
+      "constituentULAN_URL": "(not assigned)",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q20005928",
+      "gender": ""
+    },
+    {
+      "constituentID": 176901,
+      "role": "Artist",
+      "name": "Basilio Onofri",
+      "constituentULAN_URL": "",
+      "constituentWikidata_URL": "",
+      "gender": ""
+    },
+    {
+      "constituentID": 176902,
+      "role": "Artist",
+      "name": "Jacob Reiff",
+      "constituentULAN_URL": "",
+      "constituentWikidata_URL": "",
+      "gender": ""
+    }
+  ],
+  "department": "Musical Instruments",
+  "objectName": "Harpsichord",
+  "title": "Harpsichord",
+  "culture": "Italian (Roman)",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Designer",
+  "artistPrefix": "",
+  "artistDisplayName": "Michele Todini",
+  "artistDisplayBio": "Italian, Saluzzo, Piedmont, bapt. 1616–1690, Rome",
+  "artistSuffix": ", designer",
+  "artistAlphaSort": "Todini, Michele",
+  "artistNationality": "Italian",
+  "artistBeginDate": "1616",
+  "artistEndDate": "1690",
+  "artistGender": "",
+  "artistWikidata_URL": "https://www.wikidata.org/wiki/Q20005928",
+  "artistULAN_URL": "(not assigned)",
+  "objectDate": "ca. 1670",
+  "objectBeginDate": 1665,
+  "objectEndDate": 1675,
+  "medium": "Wood, gilt, ebony, ivory, parchment",
+  "dimensions": "Harpsichord: 14 3/4 in. × 9 ft. 10 in. × 38 in. (37.5 × 299.7 × 96.5 cm)\r\nPolyphemus: 50 × 60 × 52 in. (127 × 152.4 × 132.1 cm)\r\nGalatea: 35 × 57 × 47 in. (88.9 × 144.8 × 119.4 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": "Galatea",
+      "elementMeasurements": {
+        "Depth": 119.4,
+        "Height": 88.9,
+        "Width": 144.8
+      }
+    },
+    {
+      "elementName": "Overall",
+      "elementDescription": "Polyphemus",
+      "elementMeasurements": {
+        "Depth": 132.1,
+        "Height": 127,
+        "Width": 152.4
+      }
+    },
+    {
+      "elementName": "Overall",
+      "elementDescription": "Harpsichord",
+      "elementMeasurements": {
+        "Depth": 96.5,
+        "Height": 37.5,
+        "Width": 299.7
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "Rome",
+  "state": "",
+  "county": "",
+  "country": "Italy",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Chordophone-Zither-plucked-harpsichord",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-31T04:54:36.6Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/502377",
+  "tags": [
+    {
+      "term": "Triton",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q148030"
+    },
+    {
+      "term": "Galatea",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q241070"
+    },
+    {
+      "term": "Nymphs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379159",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q373916"
+    },
+    {
+      "term": "Fish",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266085",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q152"
+    }
+  ],
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19947560",
+  "isTimelineWork": true,
+  "GalleryNumber": "681"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "crystal",
+ "nameKo": "크리스탈 숲의 우주귀염둥이",
+ "background": "bg.webp",
+ "face": "face.webp",
+ "friends": [
+  {
+   "pc": 0,
+   "id": "C01",
+   "name": "루미",
+   "file": "C01.webp",
+   "scale": 1
+  },
+  {
+   "pc": 1,
+   "id": "C02",
+   "name": "피치",
+   "file": "C02.webp",
+   "scale": 1
+  },
+  {
+   "pc": 2,
+   "id": "C03",
+   "name": "민티",
+   "file": "C03.webp",
+   "scale": 1
+  },
+  {
+   "pc": 3,
+   "id": "C04",
+   "name": "포포",
+   "file": "C04.webp",
+   "scale": 1
+  },
+  {
+   "pc": 4,
+   "id": "C05",
+   "name": "스노리",
+   "file": "C05.webp",
+   "scale": 1
+  },
+  {
+   "pc": 5,
+   "id": "C06",
+   "name": "밤별",
+   "file": "C06.webp",
+   "scale": 1
+  },
+  {
+   "pc": 6,
+   "id": "C07",
+   "name": "허니",
+   "file": "C07.webp",
+   "scale": 1
+  },
+  {
+   "pc": 7,
+   "id": "C08",
+   "name": "아쿠",
+   "file": "C08.webp",
+   "scale": 1
+  },
+  {
+   "pc": 8,
+   "id": "C09",
+   "name": "모스",
+   "file": "C09.webp",
+   "scale": 1
+  },
+  {
+   "pc": 9,
+   "id": "C10",
+   "name": "아메",
+   "file": "C10.webp",
+   "scale": 1
+  },
+  {
+   "pc": 10,
+   "id": "C11",
+   "name": "젤루",
+   "file": "C11.webp",
+   "scale": 1
+  },
+  {
+   "pc": 11,
+   "id": "C12",
+   "name": "로로",
+   "file": "C12.webp",
+   "scale": 1
+  }
+ ],
+ "bgAlign": 0.65
+}

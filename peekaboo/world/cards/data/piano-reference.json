@@ -1,0 +1,18 @@
+{
+ "instrumentId":"piano-001", "nameKo":"피아노", "nameOriginal":"Pianoforte",
+ "illustrationNote":"현대 그랜드피아노의 AI 교육 일러스트. 특정 역사 유물의 사진이나 구조를 보증하는 도면이 아닙니다.",
+ "chapters":[
+  {"title":"작게도 크게도, 마음대로", "html":"<p>피아노의 시작은 <b>1700년경 이탈리아 피렌체</b>. 악기 제작자 <b>바르톨로메오 크리스토포리</b>가 건반을 누르는 힘으로 소리의 크기를 바꿀 수 있는 악기를 만들었어요. 이름 <i>piano e forte</i>는 ‘작게 그리고 크게’라는 뜻이에요.<sup class='source-ref'>[1]</sup></p><p>뉴욕 메트로폴리탄 미술관에는 <b>1720년에 만든 크리스토포리 피아노</b>가 남아 있어요. 카드 속 그림은 이 유물이 아닌 현대 그랜드피아노예요.<sup class='source-ref'>[2]</sup></p>"},
+  {"title":"눈에 보이지 않는 작은 오케스트라", "html":"<p>피아노는 <b>현을 해머로 두드리는 건반악기</b>예요. 손가락 → 건반의 액션 → 해머 → 현 → 울림판을 거쳐 소리가 방 안으로 퍼져요. 오른쪽 댐퍼 페달은 음이 더 오래 울리도록 도와줘요.<sup class='source-ref'>[3]</sup></p><p>일반적인 현대 피아노의 건반은 <b>88개</b>. 현은 모델에 따라 다르지만 보통 약 <b>230개</b>예요. 높은 음 쪽에는 한 음에 여러 현이 울리기도 해요.<sup class='source-ref'>[4]</sup></p>"},
+  {"title":"혼자서도, 함께여도", "html":"<p>피아노는 선율과 반주를 함께 연주할 수 있어요. <b>독주</b>, 노래의 반주, 다른 악기와의 <b>실내악</b>, 오케스트라와 함께하는 <b>협주곡</b>에서 다양한 역할을 맡아요.<sup class='source-ref'>[1]</sup></p><ul><li><b>베토벤 · 피아노 협주곡 1번</b><br>피아노와 오케스트라가 주고받는 대화에 귀 기울여 보세요.<sup class='source-ref'>[5]</sup></li><li><b>쇼팽 · 발라드</b><br>짧은 장면들이 하나의 이야기로 이어지는 듯한 변화를 찾아보세요.<sup class='source-ref'>[6]</sup></li><li><b>슈베르트 · 방랑자 환상곡</b><br>같은 생각이 다른 표정으로 돌아오는 것을 느껴 보세요.<sup class='source-ref'>[6]</sup></li></ul><p>감상 문장은 코코의 배움 제안이에요. 이 시제품에는 해당 작품의 음원·악보를 수록하지 않았어요.</p>"},
+  {"title":"음악으로 마음을 전하는 사람들", "html":"<p><b>마르타 아르헤리치</b>는 아르헨티나 부에노스아이레스에서 태어난 피아니스트예요. 독주뿐 아니라 다른 음악가들과 함께하는 연주로도 만날 수 있어요.<sup class='source-ref'>[5]</sup></p><p><b>조성진</b>은 서울에서 태어나 여섯 살에 피아노를 배우기 시작했고, <b>2015년 쇼팽 국제 피아노 콩쿠르에서 우승</b>했어요. 쇼팽·슈베르트 등 여러 작곡가의 작품을 음반으로 남겼어요.<sup class='source-ref'>[6]</sup></p><p>코코의 질문: 같은 곡을 다른 연주자가 연주하면 어떤 느낌이 달라질까요? ‘누가 더 잘하나’보다 ‘어떤 이야기가 들리나’를 말해 보세요.</p>"}
+ ],
+ "sources":[
+ {"title":"메트로폴리탄 미술관 · 피아노의 발명과 역사","url":"https://www.metmuseum.org/essays/the-piano-the-pianofortes-of-bartolomeo-cristofori-1655-1731"},
+ {"title":"메트로폴리탄 미술관 · 크리스토포리의 1720년 피아노","url":"https://www.metmuseum.org/art/collection/search/501788"},
+ {"title":"야마하 · 피아노의 액션과 페달, 소리의 원리","url":"https://hub.yamaha.com/pianos/p-acoustic/how-does-a-piano-work/"},
+ {"title":"야마하 악기 가이드 · 88건반과 현의 구조","url":"https://www.yamaha.com/en/musical_instrument_guide/piano/mechanism/mechanism004.html"},
+ {"title":"카네기홀 플러스 · 마르타 아르헤리치 소개와 연주 프로그램","url":"https://www.carnegiehallplus.com/artists/martha-argerich"},
+ {"title":"조성진 공식 홈페이지 · 약력과 음반","url":"https://seongjin-cho.com/biography/"}
+ ]
+}

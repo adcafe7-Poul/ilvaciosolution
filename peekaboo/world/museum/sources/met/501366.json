@@ -1,0 +1,77 @@
+{
+  "objectID": 501366,
+  "isHighlight": false,
+  "accessionNumber": "89.4.751",
+  "accessionYear": "1889",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/midp89.4.751_1.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/midp89.4.751_1.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/mi/original/midp89.4.751_2.jpg"
+  ],
+  "constituents": null,
+  "department": "Musical Instruments",
+  "objectName": "'Uli'Uli (rattle)",
+  "title": "'Uli'Uli  (rattle)",
+  "culture": "Hawai'i",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "19th century",
+  "objectBeginDate": 1801,
+  "objectEndDate": 1900,
+  "medium": "Gourd, feathers",
+  "dimensions": "Height: 10 in. (25.4 cm)\r\nDiameter (Of gourd): 4 1/2 in. (11.4 cm)\r\nDiameter (Circular top): 11 in. (27.9 cm)",
+  "measurements": [
+    {
+      "elementName": "Diameter",
+      "elementDescription": "Circular top",
+      "elementMeasurements": {
+        "Diameter": 27.9
+      }
+    },
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Diameter": 11.4,
+        "Height": 25.4
+      }
+    }
+  ],
+  "creditLine": "The Crosby Brown Collection of Musical Instruments, 1889",
+  "geographyType": "",
+  "city": "",
+  "state": "Hawai'i",
+  "county": "",
+  "country": "United States",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Idiophone-Shaken-rattle",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2024-07-18T04:54:18.34Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/501366",
+  "tags": null,
+  "objectWikidata_URL": "",
+  "isTimelineWork": false,
+  "GalleryNumber": ""
+}
