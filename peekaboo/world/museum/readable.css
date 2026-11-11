@@ -89,3 +89,27 @@ html[data-paw-embedded] [data-source],
 html[data-paw-embedded] .sources {
   display: none !important;
 }
+
+/* 월드 길잡이 */
+.world-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  padding: 14px 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.world-nav a {
+  color: #426f65;
+  text-decoration: none;
+}
+.world-nav a:hover {
+  text-decoration: underline;
+}
+body > header.wrap {
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+body > header.wrap .world-nav {
+  flex-basis: 100%;
+}
