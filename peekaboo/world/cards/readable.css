@@ -446,3 +446,6 @@ body {
 .pitch b {
   font-size: calc(var(--u) * 19);
 }
+
+/* 소리 안내(sound-help.js) — 피아노 인사 상자 밑 작은 단추 줄 끝 */
+.small-actions .sound-help-link { color: var(--label, #6b7663); text-decoration: underline; text-underline-offset: 3px; }
