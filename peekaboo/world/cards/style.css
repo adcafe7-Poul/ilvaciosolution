@@ -7,3 +7,17 @@
 .world{width:calc(100% + 12px);text-align:left}.world b{flex-shrink:0}.world-strip{display:none}.world.current{font-weight:600}.world.current small{font-weight:400}.world-note{margin-bottom:20px}.sidebar{padding-top:30px}.sidebar h2{margin-bottom:18px}.sidebar .world{padding-block:10px}.sidebar .season{margin-top:12px}.collection-label strong{white-space:nowrap}
 @media(max-width:980px){.world-strip{display:flex;gap:7px;overflow-x:auto;margin:7px 0 13px;padding:6px 0 10px;scrollbar-width:thin;scrollbar-color:#c8d2ba transparent}.world-strip button{flex-shrink:0;white-space:nowrap;border:1px solid #dfe4d2;border-radius:20px;padding:7px 10px;background:#fffef7;font-size:9px;color:#849577}.world-strip button small{font-size:8px;color:#a3ac94;margin-left:3px}.world-strip button.current{border-color:#b9cbaa;background:#e8efdd;color:#557451}}
 @media(max-width:640px){.world-strip{margin-top:0}.filter-row{display:block}.filter-row>span{display:block;text-align:right;margin-top:7px}.collection-label strong{font-size:20px}}
+
+/* v1.0.1: use the planned harmony, without a restrictive circular badge. */
+.front .face-name{gap:calc(var(--u)*8)}
+.front .face-name>div:first-child{min-width:0;flex:1}
+.pitch{width:calc(var(--u)*110);max-width:46%;height:auto;min-height:calc(var(--u)*52);padding:calc(var(--u)*5) calc(var(--u)*4);border-radius:calc(var(--u)*8);box-shadow:none;gap:calc(var(--u)*3);text-align:center;line-height:1.2;overflow-wrap:anywhere}
+.pitch b{font-family:Georgia,serif;font-size:calc(var(--u)*20);font-weight:600;letter-spacing:-.03em;white-space:nowrap}
+.pitch span{font-size:calc(var(--u)*8);margin:0}
+.pitch small{font-size:calc(var(--u)*7);line-height:1.4;letter-spacing:0;display:block}
+.tile-number{max-width:95%;overflow-wrap:anywhere}
+.tile-scale{display:block;font-size:9px;line-height:1.5;color:#6c805f;margin-top:4px}
+/* Center the icon geometrically rather than relying on font glyph metrics. */
+.dialog-head>button[data-close]{width:34px;height:34px;min-width:34px;min-height:34px;padding:0;margin:0;display:grid;place-items:center;line-height:1;box-sizing:border-box;align-self:flex-start}
+.dialog-head>button[data-close] svg{display:block;width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;pointer-events:none}
+@media(max-width:640px){.tile-scale{font-size:8px}}
