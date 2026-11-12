@@ -1,3 +1,9 @@
 html[data-paw-embedded] body>header,html[data-paw-embedded] .hero,html[data-paw-embedded] footer{display:none}html[data-paw-embedded] .tabs{margin-top:12px}html[data-paw-embedded] .wrap{max-width:1600px}.audio-controls{position:sticky;top:70px;z-index:6;display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:12px;padding:10px 14px;border:1px solid #c7d8c5;border-radius:14px;background:#eaf2e6f5;color:#355b48;font-size:13px;box-shadow:0 5px 20px #193f3010}.audio-controls[hidden]{display:none}.audio-controls button{flex:none;padding:6px 10px}.card button[data-audition]{background:#f5edd8;color:#81652d}.audio-active{border-color:#c6a25b!important;box-shadow:0 0 0 2px #e9d6aa}html[data-paw-embedded] .summary{margin-top:10px}.signature-error{color:#944e39}@media(max-width:780px){.audio-controls{top:118px;font-size:12px;padding:8px 10px}.audio-controls button{font-size:12px}html[data-paw-embedded] .bar{gap:7px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
 .photo-card-link{display:inline-flex;align-items:center;justify-content:center;background:#fff8e5;color:#667956;border:1px solid #dedfc5;border-radius:9px;padding:9px 11px;text-decoration:none;font-size:11px}.actions{flex-wrap:wrap}
+
+/* Complete museum imagery: keep photos and new educational art distinguishable. */
+.museum-art{width:100%;border:0;border-radius:0;font-weight:400;text-align:initial}
+.museum-art:hover{background:#eae7dc}.museum-art:focus-visible{outline-offset:-4px}
+.illustration-tag{background:#fcf1dceF;color:#80632f;border:1px solid #ead4a8}
+.detailart img{width:100%}.stats{flex-wrap:wrap}.stats b{white-space:nowrap}
